@@ -1,2551 +1,307 @@
-id_jugador,nombre,edad,horas_semanales,gasto_mensual_usd,plataforma,genero_juego
-1,Ana García,24,13.7,23.39,PC ,rpg
-2,Elena Martín,23,46.29,145.81,pc,Battle Royale
-3,Carmen Vega,19,37.24,117.11,Play Station 5,MOBA
-4,Lucía Ramos,23,71.17,62.7,steam,MOBA
-5,Miguel Torres,24,60.04,312.9,XBOX,sports
-6,Natalia Vargas,16,65.19,28.45,steam,sports
-7,David Ortega,40,54.99,396.46,pc,RPG
-8,David Ortega,37,59.24,22.96,XBOX,sports
-9,Luis Fernández,25,72.54,77.38,movil,shootER
-10,Luis Fernández,34,30.07,242.25,steam,MOBA
-11,David Ortega,28,5.76,33.1,XBOX,MOBA
-12,Miguel Torres,31,79.33,399.93,xbox,RPG
-13,Carlos Ruiz,34,24.46,43.28,movil,RPG
-14,,31,16.15,15.42,movil,puzzle
-15,Lucía Ramos,25,87.69,77.98,PC ,RPG
-16,David Ortega,15,87.51,5.8,movil,Battle Royale
-17,Luis Fernández,34,19.32,41.19,Switch,puZZle
-18,Pedro Sánchez,35,40.07,77.24,PS5,puzzle
-19,Lucía Ramos,30,11.92,60.59,mobile,puZZle
-20,Luis Fernández,19,72.71,61.11,Play Station 5,puzzle
-21,María López,25,28.56,59.68,Switch,Sports
-22,David Ortega,23,54.73,155.78,Play Station 5,AVENTURA
-23,Miguel Torres,,99.17,5.57,XBOX,Sports
-24,Laura Gil,40,38.19,14.71,playstation,AVENTURA
-25,Elena Martín,19,36.63,,movil,Sports
-26,Ana García,25,23.39,55.65,Switch,puzzle
-27,Miguel Torres,28,56.42,7.6,Play Station 5,MOBA
-28,David Ortega,40,85.35,31.85,pc,Sports
-29,Jorge Díaz,37,15.24,1.99,Switch,AVENTURA
-30,Carmen Vega,34,73.78,182.38,steam,puZZle
-31,Lucía Ramos,39,54.04,204.21,PS5,rpg
-32,Elena Martín,26,51.37,275.5,XBOX,sports
-33,Sofía Herrera,31,46.12,57.08,Steam,MOBA
-34,María López,35,48.25,53.75,nintendo switch,puzzle
-35,María López,31,57.54,179.19,movil,AVENTURA
-36,Pedro Sánchez,22,20.09,150.05,Switch,Sports
-37,Laura Gil,20,37.17,135.62,xbox,shootER
-38,Andrés Molina,,56.62,348.05,steam,Sports
-39,David Ortega,20,28.96,91.21,xbox,Battle Royale
-40,Natalia Vargas,18,49.07,96.18,movil,AVENTURA
-41,Pedro Sánchez,31,31.11,161.77,nintendo switch,sports
-42,María López,24,54.05,156.66,xbox,Shooter
-43,Elena Martín,50,15.12,75.91,steam,sports
-44,Elena Martín,42,45.12,102.6,PS5,puzzle
-45,Sofía Herrera,33,67.18,57.7,Switch,rpg
-46,Carlos Ruiz,26,58.7,103.04,playstation,puzzle
-47,Miguel Torres,40,25.53,87.23,mobile,Battle Royale
-48,Miguel Torres,43,27.49,56.21,Switch,puzzle
-49,,17,41.35,326.05,XBOX,RPG
-50,Luis Fernández,36,41.38,198.5,nintendo switch,AVENTURA
-51,Lucía Ramos,44,54.77,194.81,Play Station 5,puzzle
-52,Jorge Díaz,46,45.58,102.87,pc,shootER
-53,Luis Fernández,32,9.91,16.81,PC ,MOBA
-54,María López,30,33.08,26.52,nintendo switch,RPG
-55,Luis Fernández,18,73.38,19.03,pc,rpg
-56,Lucía Ramos,35,49.28,151.92,XBOX,Shooter
-57,Carlos Ruiz,25,22.54,7.8,Switch,RPG
-58,David Ortega,37,95.19,265.03,movil,Shooter
-59,Carmen Vega,32,22.73,1.25,Steam,Shooter
-60,Elena Martín,25,30.48,14.9,xbox,RPG
-61,Carlos Ruiz,34,88.62,3.24,Play Station 5,sports
-62,Natalia Vargas,34,26.2,11.43,Play Station 5,Battle Royale
-63,María López,32,109.57,134.66,xbox,AVENTURA
-64,Elena Martín,47,90.1,103.95,nintendo switch,shootER
-65,Laura Gil,33,50.84,126.32,pc,puzzle
-66,David Ortega,32,81.44,50.95,mobile,RPG
-67,María López,,64.55,272.63,Switch,Sports
-68,Elena Martín,34,87.65,263.41,xbox,RPG
-69,Sofía Herrera,16,40.56,51.8,nintendo switch,Shooter
-70,María López,37,34.41,34.08,XBOX,AVENTURA
-71,Andrés Molina,28,30.22,20.93,movil,rpg
-72,Laura Gil,40,8.84,77.4,PS5,RPG
-73,Lucía Ramos,21,9.51,112.86,Steam,MOBA
-74,Luis Fernández,38,99.5,22.55,PS5,RPG
-75,Natalia Vargas,51,53.47,179.36,movil,puzzle
-76,Miguel Torres,22,31.04,46.9,Switch,AVENTURA
-77,David Ortega,41,41.1,188.2,PS5,RPG
-78,Lucía Ramos,28,70.19,97.06,PC ,rpg
-79,Lucía Ramos,17,15.65,45.64,pc,Battle Royale
-80,Jorge Díaz,44,13.14,134.28,mobile,shootER
-81,Carmen Vega,40,68.43,22.89,nintendo switch,RPG
-82,Sofía Herrera,36,52.23,168.66,PS5,sports
-83,David Ortega,22,89.74,117.77,Switch,Sports
-84,Luis Fernández,27,52.1,53.38,XBOX,shootER
-85,Andrés Molina,41,41.24,174.17,Play Station 5,AVENTURA
-86,Laura Gil,25,39.09,313.18,PS5,Battle Royale
-87,,42,58.57,48.75,Switch,Sports
-88,Carlos Ruiz,38,24.75,103.98,nintendo switch,sports
-89,Laura Gil,22,19.27,56.63,mobile,puzzle
-90,,48,70.09,20.88,mobile,RPG
-91,Jorge Díaz,21,47.32,39.73,PS5,puzzle
-92,Miguel Torres,39,39.02,227.79,mobile,MOBA
-93,Andrés Molina,26,23.66,64.42,nintendo switch,AVENTURA
-94,Lucía Ramos,23,34.55,11.24,movil,MOBA
-95,Lucía Ramos,37,46.48,633.8,PC ,Battle Royale
-96,Andrés Molina,50,29.8,39.0,nintendo switch,puzzle
-97,María López,33,49.31,107.64,Switch,RPG
-98,María López,29,28.85,14.51,xbox,puzzle
-99,Carmen Vega,37,77.33,93.68,pc,sports
-100,Ana García,30,46.12,36.55,PC ,RPG
-101,Jorge Díaz,,28.2,72.41,xbox,rpg
-102,Elena Martín,51,27.77,107.74,Steam,puZZle
-103,Ana García,27,66.81,486.58,mobile,Sports
-104,Andrés Molina,39,31.23,131.04,PS5,puzzle
-105,Carmen Vega,35,60.03,41.27,playstation,AVENTURA
-106,Carlos Ruiz,41,25.73,135.41,XBOX,AVENTURA
-107,Elena Martín,44,18.06,129.56,PS5,sports
-108,Jorge Díaz,50,49.65,40.36,XBOX,sports
-109,Lucía Ramos,37,34.46,63.5,pc,puzzle
-110,,,45.38,65.46,xbox,sports
-111,Ana García,24,58.39,19.07,Steam,MOBA
-112,David Ortega,51,41.52,27.75,PC ,AVENTURA
-113,David Ortega,31,23.63,155.89,nintendo switch,AVENTURA
-114,David Ortega,43,57.6,192.33,nintendo switch,Shooter
-115,Elena Martín,,31.03,29.34,steam,Shooter
-116,Lucía Ramos,27,67.84,173.64,PC ,MOBA
-117,Carmen Vega,43,90.91,22.7,Steam,puZZle
-118,Andrés Molina,28,45.6,77.32,XBOX,moba
-119,Sofía Herrera,24,60.29,11.3,XBOX,MOBA
-120,Carlos Ruiz,38,34.54,142.5,xbox,puZZle
-121,Ana García,26,43.29,75.13,nintendo switch,puZZle
-122,Elena Martín,29,61.7,39.07,XBOX,moba
-123,Ana García,20,73.65,139.33,Play Station 5,Shooter
-124,,22,43.74,49.03,xbox,puzzle
-125,Sofía Herrera,32,31.18,85.2,xbox,Shooter
-126,María López,27,21.8,37.92,PC ,shootER
-127,David Ortega,31,60.98,13.52,movil,shootER
-128,Carlos Ruiz,24,48.76,158.47,PC ,shootER
-129,David Ortega,28,24.81,139.29,xbox,rpg
-130,Miguel Torres,31,22.22,155.65,Switch,Shooter
-131,Andrés Molina,33,24.84,49.78,pc,puZZle
-132,Lucía Ramos,26,19.62,40.83,PS5,puzzle
-133,Ana García,38,,49.79,playstation,puZZle
-134,Luis Fernández,20,36.21,239.33,Steam,Shooter
-135,Carmen Vega,25,98.41,120.89,Steam,RPG
-136,María López,32,48.34,19.98,Switch,MOBA
-137,Andrés Molina,37,15.39,21.04,nintendo switch,Shooter
-138,Lucía Ramos,29,35.15,50.2,Steam,rpg
-139,Sofía Herrera,37,71.57,,steam,puZZle
-140,,26,63.24,31.39,Switch,RPG
-141,Natalia Vargas,29,67.88,125.61,mobile,puzzle
-142,Elena Martín,44,31.17,5.52,playstation,MOBA
-143,Natalia Vargas,26,22.71,,xbox,moba
-144,Miguel Torres,47,0.62,103.54,pc,Battle Royale
-145,Laura Gil,27,70.02,137.97,PS5,moba
-146,Luis Fernández,23,96.92,41.98,mobile,puZZle
-146,Luis Fernández,23,96.92,41.98,mobile,puZZle
-147,Luis Fernández,25,19.05,52.85,movil,rpg
-148,Ana García,50,23.0,164.1,movil,moba
-149,Jorge Díaz,45,42.64,54.16,xbox,shootER
-150,Pedro Sánchez,27,75.22,4.01,PS5,Shooter
-151,Ana García,23,11.27,114.17,movil,Shooter
-152,David Ortega,22,19.61,129.76,movil,shootER
-153,María López,20,26.63,,nintendo switch,puZZle
-154,Carmen Vega,30,28.52,35.87,mobile,sports
-155,Laura Gil,26,68.75,149.85,Switch,Sports
-156,Jorge Díaz,37,45.43,182.13,PC ,Battle Royale
-157,Miguel Torres,22,48.65,,playstation,RPG
-158,María López,22,9.88,147.64,xbox,puZZle
-159,Natalia Vargas,24,77.36,35.26,playstation,Shooter
-160,Laura Gil,20,53.97,166.9,xbox,Shooter
-161,Andrés Molina,19,53.86,113.92,Steam,AVENTURA
-162,Sofía Herrera,34,43.33,319.26,PC ,puZZle
-163,Natalia Vargas,20,18.55,11.27,nintendo switch,Sports
-164,María López,21,100.09,7.99,playstation,shootER
-165,Lucía Ramos,42,21.14,93.48,PC ,sports
-166,Carlos Ruiz,29,31.69,8.03,xbox,Shooter
-167,Carlos Ruiz,23,44.1,191.14,Switch,Shooter
-168,David Ortega,37,,46.12,Play Station 5,moba
-169,Luis Fernández,34,12.91,193.23,playstation,puzzle
-170,Laura Gil,22,87.97,169.65,nintendo switch,puZZle
-171,David Ortega,36,17.14,41.33,movil,sports
-172,María López,43,78.36,305.83,XBOX,AVENTURA
-173,David Ortega,30,63.82,40.12,movil,RPG
-174,Sofía Herrera,27,11.0,86.99,Play Station 5,sports
-175,María López,18,52.67,13.22,movil,sports
-176,Andrés Molina,34,71.05,19.1,nintendo switch,puZZle
-177,David Ortega,30,40.6,366.72,PC ,puzzle
-178,Carlos Ruiz,34,20.48,25.38,playstation,moba
-179,Elena Martín,20,75.91,123.87,Play Station 5,puzzle
-180,María López,35,21.49,200.28,Switch,puZZle
-181,María López,29,51.31,242.08,mobile,AVENTURA
-182,Lucía Ramos,27,74.13,296.07,Steam,sports
-183,Sofía Herrera,19,75.26,27.52,xbox,AVENTURA
-184,Jorge Díaz,26,12.05,17.21,PS5,moba
-185,Carmen Vega,30,15.92,87.14,Switch,Sports
-186,Laura Gil,34,88.67,61.13,PS5,sports
-186,Laura Gil,34,88.67,61.13,PS5,sports
-187,Sofía Herrera,44,30.47,10.59,xbox,puzzle
-188,Luis Fernández,24,27.77,53.21,xbox,MOBA
-189,Sofía Herrera,30,5.38,26.14,XBOX,RPG
-190,Lucía Ramos,41,86.07,14.61,playstation,AVENTURA
-191,Carmen Vega,28,19.95,109.37,playstation,rpg
-192,David Ortega,25,89.94,189.82,steam,sports
-193,Natalia Vargas,30,21.01,18.26,PS5,shootER
-194,Lucía Ramos,33,32.52,8.67,movil,sports
-195,Lucía Ramos,34,77.73,210.38,pc,RPG
-196,,31,68.33,79.38,nintendo switch,Battle Royale
-197,Carlos Ruiz,29,27.75,77.77,playstation,puzzle
-198,Carmen Vega,33,11.3,9.5,steam,rpg
-199,Andrés Molina,22,12.58,130.99,Switch,AVENTURA
-200,Andrés Molina,22,38.49,153.52,PS5,rpg
-201,Elena Martín,28,34.71,190.17,PC ,sports
-202,David Ortega,27,52.08,255.77,XBOX,sports
-203,Sofía Herrera,16,19.06,80.74,Steam,Battle Royale
-203,Sofía Herrera,16,19.06,80.74,Steam,Battle Royale
-204,Natalia Vargas,26,86.93,116.52,Switch,Shooter
-205,Lucía Ramos,19,42.47,98.88,Switch,AVENTURA
-206,Elena Martín,29,68.45,13.14,playstation,rpg
-207,Sofía Herrera,31,4.53,38.44,playstation,rpg
-208,Elena Martín,32,12.56,10.22,pc,shootER
-209,Laura Gil,40,67.67,34.6,steam,MOBA
-210,Luis Fernández,19,54.35,28.29,xbox,Shooter
-211,Andrés Molina,34,53.09,200.4,XBOX,puZZle
-212,Carlos Ruiz,27,27.23,5.13,mobile,Sports
-213,,22,27.94,16.46,steam,RPG
-214,Carmen Vega,34,96.48,83.86,Steam,shootER
-215,Andrés Molina,,21.21,22.07,XBOX,AVENTURA
-216,Carmen Vega,28,83.16,126.72,PS5,RPG
-217,María López,26,38.56,50.15,nintendo switch,MOBA
-218,Carmen Vega,24,60.45,110.3,XBOX,moba
-219,Ana García,26,23.49,45.75,nintendo switch,rpg
-220,Lucía Ramos,20,33.14,28.75,playstation,MOBA
-221,Andrés Molina,20,31.45,21.67,nintendo switch,Sports
-222,Natalia Vargas,38,37.25,57.15,Switch,Sports
-223,David Ortega,19,29.41,32.0,PC ,rpg
-224,Lucía Ramos,36,78.58,145.91,steam,Battle Royale
-225,,44,85.14,130.06,XBOX,sports
-226,Carlos Ruiz,26,30.84,,PS5,AVENTURA
-227,Natalia Vargas,24,99.73,203.18,steam,MOBA
-228,Jorge Díaz,24,55.8,27.96,playstation,shootER
-229,Jorge Díaz,17,26.45,114.58,Steam,puZZle
-230,Luis Fernández,37,50.64,174.5,Steam,moba
-231,David Ortega,49,80.86,49.21,PS5,puzzle
-232,Elena Martín,35,17.55,34.75,XBOX,puZZle
-233,Pedro Sánchez,29,63.1,252.4,xbox,Shooter
-234,Laura Gil,,100.05,99.27,Switch,moba
-235,Natalia Vargas,18,60.03,4.03,PS5,puZZle
-236,,30,101.63,26.77,xbox,puZZle
-237,Miguel Torres,33,29.8,34.59,PS5,moba
-238,Lucía Ramos,36,74.88,74.51,xbox,rpg
-239,Pedro Sánchez,,30.86,77.95,nintendo switch,AVENTURA
-240,Miguel Torres,29,36.41,316.22,movil,AVENTURA
-241,David Ortega,16,85.4,51.15,Steam,Shooter
-242,Sofía Herrera,25,43.29,59.49,xbox,Sports
-242,Sofía Herrera,25,43.29,59.49,xbox,Sports
-243,Natalia Vargas,19,63.58,132.08,PC ,AVENTURA
-244,Elena Martín,36,22.21,26.42,Steam,AVENTURA
-245,Carmen Vega,29,96.74,176.18,pc,Battle Royale
-246,Laura Gil,23,67.62,,Steam,sports
-247,Jorge Díaz,22,30.78,75.38,playstation,AVENTURA
-248,Laura Gil,21,57.79,83.69,Switch,rpg
-249,Lucía Ramos,41,32.33,45.59,Play Station 5,MOBA
-250,Laura Gil,33,66.62,45.99,steam,sports
-251,Jorge Díaz,26,,22.44,nintendo switch,shootER
-252,David Ortega,24,29.49,70.16,xbox,RPG
-253,David Ortega,42,33.07,10.6,mobile,sports
-254,Jorge Díaz,28,62.23,79.33,mobile,puzzle
-255,Carmen Vega,36,12.58,95.2,Switch,rpg
-256,María López,35,28.68,34.01,PC ,Sports
-257,Luis Fernández,34,37.79,215.87,steam,puzzle
-258,Lucía Ramos,32,55.22,11.18,xbox,Shooter
-259,Miguel Torres,18,51.74,163.32,nintendo switch,Sports
-260,Miguel Torres,29,,10.12,Play Station 5,Battle Royale
-261,Natalia Vargas,23,74.63,88.59,PS5,puzzle
-262,Jorge Díaz,33,55.14,162.09,Switch,moba
-263,Laura Gil,19,26.13,34.4,playstation,Shooter
-264,Laura Gil,28,21.4,44.86,mobile,sports
-265,Elena Martín,42,69.4,131.71,PC ,RPG
-266,Lucía Ramos,17,89.94,50.48,xbox,sports
-267,Natalia Vargas,25,27.61,57.53,Play Station 5,Shooter
-268,Andrés Molina,33,72.6,473.98,movil,puZZle
-269,Jorge Díaz,33,80.45,68.06,PS5,Sports
-270,Natalia Vargas,39,58.35,252.68,movil,moba
-271,Luis Fernández,34,63.81,86.58,PC ,RPG
-272,María López,43,19.72,22.34,Play Station 5,puZZle
-273,Elena Martín,31,35.38,257.36,Play Station 5,sports
-274,María López,22,,96.54,Play Station 5,shootER
-275,Miguel Torres,27,21.78,20.37,PS5,Battle Royale
-276,Andrés Molina,26,88.21,60.1,Switch,RPG
-277,Natalia Vargas,25,6.84,69.46,mobile,MOBA
-278,Andrés Molina,33,45.42,15.97,playstation,MOBA
-279,,22,57.97,135.76,XBOX,Shooter
-280,Luis Fernández,36,31.36,64.72,Switch,puZZle
-281,Pedro Sánchez,42,4.87,52.18,nintendo switch,AVENTURA
-282,Lucía Ramos,22,82.5,62.2,Steam,Sports
-283,Miguel Torres,19,41.03,45.18,movil,moba
-284,Carmen Vega,38,75.65,105.77,Switch,RPG
-285,Miguel Torres,17,,9.91,XBOX,Shooter
-286,Miguel Torres,38,51.68,136.35,PS5,RPG
-287,Carmen Vega,33,30.09,40.28,XBOX,Shooter
-288,Natalia Vargas,29,26.26,48.42,Steam,RPG
-289,,34,87.25,84.21,Steam,RPG
-290,Sofía Herrera,40,96.22,67.94,movil,Shooter
-291,Elena Martín,28,,65.99,movil,shootER
-292,Luis Fernández,24,64.62,152.4,Steam,RPG
-293,Carlos Ruiz,41,62.73,31.15,movil,shootER
-294,,45,23.55,148.2,movil,RPG
-295,Carlos Ruiz,27,53.17,66.73,PS5,rpg
-296,,24,19.52,23.18,xbox,AVENTURA
-297,David Ortega,41,27.65,34.24,XBOX,puZZle
-298,Ana García,27,106.06,156.94,PC ,shootER
-299,María López,41,29.56,151.14,nintendo switch,sports
-300,Luis Fernández,19,119.06,111.64,Steam,rpg
-301,Luis Fernández,33,43.26,132.58,playstation,shootER
-302,Carmen Vega,35,49.2,132.77,Play Station 5,shootER
-303,Ana García,19,34.13,144.35,XBOX,moba
-304,Carmen Vega,21,26.93,21.12,pc,Battle Royale
-305,Andrés Molina,24,62.03,148.88,PS5,rpg
-306,,49,36.08,40.94,playstation,Battle Royale
-307,David Ortega,26,51.68,17.32,PC ,puzzle
-308,María López,28,38.38,253.87,nintendo switch,Sports
-309,Luis Fernández,51,56.35,103.86,playstation,Sports
-310,Natalia Vargas,23,27.28,22.6,XBOX,RPG
-311,Elena Martín,31,73.17,29.76,pc,sports
-312,Lucía Ramos,20,44.61,49.38,xbox,MOBA
-313,Jorge Díaz,44,21.9,62.61,steam,Battle Royale
-314,Pedro Sánchez,21,42.0,114.84,Steam,rpg
-315,Sofía Herrera,38,29.14,80.43,pc,rpg
-316,Pedro Sánchez,26,15.36,31.48,mobile,RPG
-317,Laura Gil,35,40.31,86.72,movil,moba
-318,Natalia Vargas,19,49.29,141.5,PS5,rpg
-319,,34,31.74,89.96,Play Station 5,RPG
-320,Sofía Herrera,24,80.45,97.43,pc,RPG
-321,Jorge Díaz,46,4.2,19.18,XBOX,shootER
-322,Lucía Ramos,29,48.79,5.81,movil,MOBA
-323,María López,21,95.5,155.38,PS5,MOBA
-324,Ana García,21,33.85,121.22,pc,puZZle
-325,Pedro Sánchez,22,42.33,68.12,mobile,puzzle
-326,Jorge Díaz,37,41.96,155.94,Play Station 5,AVENTURA
-327,Carlos Ruiz,31,51.43,34.26,xbox,shootER
-328,Natalia Vargas,16,61.08,154.63,xbox,AVENTURA
-329,María López,37,77.56,137.97,PC ,AVENTURA
-330,Pedro Sánchez,31,87.35,51.64,PC ,Battle Royale
-331,Carlos Ruiz,25,5.4,56.46,xbox,MOBA
-332,Carlos Ruiz,21,40.5,60.13,PS5,sports
-333,Lucía Ramos,24,56.31,2.16,Switch,RPG
-334,Luis Fernández,27,23.18,33.57,Play Station 5,moba
-335,Laura Gil,20,49.21,137.37,Steam,puzzle
-336,Andrés Molina,22,30.61,152.2,Switch,Sports
-337,Carmen Vega,19,43.5,181.42,nintendo switch,MOBA
-338,Elena Martín,31,3.06,137.51,mobile,shootER
-339,Sofía Herrera,32,68.1,27.93,mobile,Shooter
-340,Miguel Torres,19,60.33,443.58,xbox,Battle Royale
-341,Pedro Sánchez,29,65.38,94.35,Play Station 5,rpg
-342,Jorge Díaz,21,106.03,131.95,mobile,sports
-343,Jorge Díaz,36,32.56,,movil,Sports
-344,Laura Gil,37,109.39,369.01,playstation,Sports
-345,Elena Martín,34,86.96,21.6,steam,Shooter
-346,Pedro Sánchez,47,12.88,45.94,playstation,Sports
-347,Carlos Ruiz,39,61.1,68.99,movil,shootER
-348,María López,25,26.31,57.51,PS5,MOBA
-349,Carmen Vega,20,82.59,146.01,mobile,Sports
-350,Lucía Ramos,30,17.12,65.57,mobile,puzzle
-351,Pedro Sánchez,21,18.23,101.23,steam,shootER
-352,Carlos Ruiz,21,67.02,178.42,mobile,Sports
-353,Natalia Vargas,17,29.7,111.27,XBOX,puZZle
-354,María López,22,51.28,98.35,Switch,puzzle
-355,Carmen Vega,48,16.51,26.73,PC ,moba
-356,Elena Martín,22,16.13,90.99,xbox,Sports
-357,Miguel Torres,46,60.6,283.92,mobile,MOBA
-358,Carmen Vega,36,20.69,41.62,xbox,rpg
-359,Elena Martín,27,43.65,11.82,movil,Battle Royale
-360,Natalia Vargas,19,53.4,176.89,Play Station 5,puzzle
-361,David Ortega,36,33.33,117.41,PC ,sports
-362,Miguel Torres,42,67.12,171.09,playstation,puZZle
-363,Natalia Vargas,18,45.15,36.72,Switch,puzzle
-364,Andrés Molina,25,57.74,17.15,pc,Battle Royale
-365,María López,28,33.86,43.85,steam,sports
-366,Miguel Torres,48,38.55,38.85,PS5,MOBA
-367,Ana García,21,29.71,18.3,nintendo switch,rpg
-368,Natalia Vargas,37,48.49,221.62,steam,puZZle
-369,,37,27.55,70.89,playstation,AVENTURA
-370,Miguel Torres,31,19.28,128.58,steam,MOBA
-371,María López,27,28.73,35.53,movil,Sports
-372,Jorge Díaz,29,,168.05,nintendo switch,Shooter
-373,David Ortega,23,45.42,40.19,pc,rpg
-374,Pedro Sánchez,23,25.92,28.16,mobile,rpg
-375,Ana García,15,52.59,69.12,movil,puZZle
-376,Carlos Ruiz,45,96.31,81.87,PS5,Battle Royale
-377,Laura Gil,32,2.62,79.97,mobile,RPG
-378,Laura Gil,23,69.28,168.6,Switch,Battle Royale
-379,Elena Martín,52,32.05,36.64,mobile,AVENTURA
-379,Elena Martín,52,32.05,36.64,mobile,AVENTURA
-380,Sofía Herrera,44,55.05,95.9,PS5,Battle Royale
-381,Natalia Vargas,46,57.02,15.54,xbox,Battle Royale
-382,Sofía Herrera,32,27.2,67.48,PC ,shootER
-383,Andrés Molina,20,38.61,181.24,Play Station 5,sports
-384,Carmen Vega,31,52.43,363.6,Steam,puzzle
-385,Carmen Vega,22,47.33,157.95,Switch,AVENTURA
-386,Jorge Díaz,23,78.8,17.31,Steam,puzzle
-387,Carmen Vega,49,37.41,102.64,Steam,MOBA
-388,Elena Martín,34,119.81,96.11,nintendo switch,Sports
-389,Natalia Vargas,21,38.48,130.08,movil,sports
-390,Natalia Vargas,25,28.56,39.87,Steam,Shooter
-391,Sofía Herrera,31,85.03,79.62,steam,shootER
-392,Lucía Ramos,43,30.38,40.85,playstation,MOBA
-393,Carmen Vega,24,,16.81,xbox,rpg
-394,Luis Fernández,37,30.95,86.71,Steam,shootER
-395,Natalia Vargas,,26.36,128.23,nintendo switch,Battle Royale
-396,Ana García,21,52.39,15.95,playstation,RPG
-397,Lucía Ramos,17,84.8,25.28,steam,RPG
-398,Sofía Herrera,19,21.03,74.95,PC ,rpg
-399,David Ortega,39,45.65,343.48,XBOX,Shooter
-400,María López,20,75.61,34.65,Steam,Shooter
-401,,35,20.72,99.05,steam,MOBA
-402,Miguel Torres,19,95.37,22.79,mobile,puzzle
-403,Sofía Herrera,28,62.55,6.75,PC ,Shooter
-404,David Ortega,31,22.85,54.28,XBOX,AVENTURA
-405,David Ortega,33,11.34,150.54,movil,puZZle
-406,María López,42,34.73,76.73,Steam,Battle Royale
-407,Laura Gil,23,75.48,57.44,PS5,puzzle
-408,Ana García,49,108.38,18.36,nintendo switch,Shooter
-409,María López,15,42.85,216.04,playstation,Sports
-410,Lucía Ramos,41,53.65,126.09,Play Station 5,RPG
-411,Laura Gil,30,58.41,125.51,PS5,shootER
-412,Sofía Herrera,48,31.83,6.43,playstation,puZZle
-413,Miguel Torres,35,80.95,67.13,Switch,rpg
-414,,33,53.54,49.73,mobile,RPG
-415,Andrés Molina,26,26.67,100.64,steam,sports
-416,Jorge Díaz,23,27.17,183.67,Steam,shootER
-417,Carmen Vega,19,,46.96,PS5,moba
-418,Elena Martín,26,15.09,99.62,Steam,moba
-419,Lucía Ramos,29,48.08,87.61,Switch,puZZle
-420,Miguel Torres,32,40.38,34.45,XBOX,RPG
-421,Natalia Vargas,23,101.64,11.92,steam,sports
-422,Jorge Díaz,35,71.39,91.1,movil,AVENTURA
-423,Carlos Ruiz,20,53.55,24.98,movil,moba
-424,Laura Gil,30,61.78,16.17,Switch,puZZle
-425,,29,41.23,52.91,XBOX,puZZle
-426,David Ortega,41,40.39,114.36,movil,Battle Royale
-427,Miguel Torres,34,54.73,153.36,PS5,shootER
-428,Ana García,30,57.27,24.74,movil,puzzle
-429,Carmen Vega,39,41.25,23.69,Switch,puZZle
-430,Andrés Molina,25,64.42,31.76,movil,puzzle
-431,Carmen Vega,34,19.35,135.83,xbox,rpg
-432,Lucía Ramos,,31.9,38.63,xbox,sports
-433,Carlos Ruiz,18,17.75,35.72,playstation,puzzle
-434,Miguel Torres,23,50.94,253.2,Play Station 5,Battle Royale
-435,Luis Fernández,21,41.06,343.16,mobile,MOBA
-436,Carmen Vega,30,62.24,60.43,nintendo switch,Shooter
-436,Carmen Vega,30,62.24,60.43,nintendo switch,Shooter
-437,María López,35,91.42,50.48,Play Station 5,sports
-437,María López,35,91.42,50.48,Play Station 5,sports
-437,María López,35,91.42,50.48,Play Station 5,sports
-438,Laura Gil,23,70.53,263.52,XBOX,Battle Royale
-439,Sofía Herrera,45,14.91,78.36,xbox,puzzle
-440,Andrés Molina,22,44.73,61.29,playstation,MOBA
-441,Pedro Sánchez,36,64.53,,mobile,rpg
-442,Ana García,29,26.72,34.66,steam,sports
-443,Carlos Ruiz,34,22.68,51.35,playstation,RPG
-444,Natalia Vargas,34,11.91,180.04,PS5,sports
-445,,18,79.35,76.42,mobile,sports
-446,Luis Fernández,32,85.32,280.31,PS5,Shooter
-447,Natalia Vargas,18,25.41,0.18,XBOX,moba
-448,Carlos Ruiz,16,61.32,265.15,steam,puzzle
-449,Carlos Ruiz,48,107.07,36.68,movil,sports
-449,Carlos Ruiz,48,107.07,36.68,movil,sports
-450,Laura Gil,33,18.41,51.88,Steam,puZZle
-451,Jorge Díaz,42,52.97,93.9,playstation,AVENTURA
-452,Pedro Sánchez,22,31.33,119.76,PS5,puzzle
-453,Elena Martín,46,26.21,1.22,movil,Sports
-454,Miguel Torres,46,25.64,34.09,mobile,puZZle
-455,María López,20,23.84,21.31,pc,puZZle
-456,Miguel Torres,16,9.0,104.3,movil,Sports
-457,David Ortega,25,91.63,91.52,pc,shootER
-457,David Ortega,25,91.63,91.52,pc,shootER
-458,Carlos Ruiz,47,38.68,61.81,nintendo switch,MOBA
-459,Carlos Ruiz,29,17.79,245.63,Play Station 5,puZZle
-460,Carlos Ruiz,21,72.98,118.07,xbox,sports
-461,Natalia Vargas,27,49.91,101.41,PS5,moba
-462,David Ortega,21,41.98,29.93,mobile,Shooter
-463,Miguel Torres,31,68.6,284.28,PC ,MOBA
-464,Ana García,17,121.17,282.43,xbox,Shooter
-465,María López,27,6.37,8.2,Play Station 5,AVENTURA
-465,María López,27,6.37,8.2,Play Station 5,AVENTURA
-466,Carlos Ruiz,32,64.49,51.65,nintendo switch,shootER
-466,Carlos Ruiz,32,64.49,51.65,nintendo switch,shootER
-467,,46,5.29,178.03,nintendo switch,Shooter
-468,David Ortega,24,15.06,121.32,Switch,sports
-469,Elena Martín,21,23.74,3.77,steam,MOBA
-470,Pedro Sánchez,26,14.04,32.9,PS5,MOBA
-471,David Ortega,34,37.09,31.35,xbox,Battle Royale
-472,Carlos Ruiz,22,45.45,289.87,Steam,Shooter
-473,Elena Martín,32,48.3,172.54,movil,puzzle
-474,Pedro Sánchez,19,17.79,89.31,PS5,MOBA
-475,Elena Martín,29,32.3,16.11,mobile,moba
-476,,45,32.1,31.72,nintendo switch,RPG
-477,,22,58.99,45.23,Play Station 5,Shooter
-478,David Ortega,30,37.78,48.06,pc,RPG
-479,Carlos Ruiz,16,68.0,178.95,XBOX,Shooter
-480,Lucía Ramos,36,5.6,10.22,Play Station 5,Battle Royale
-481,,26,73.37,42.89,xbox,rpg
-482,Carlos Ruiz,21,21.06,12.38,pc,Sports
-483,Miguel Torres,50,79.67,27.41,PC ,puzzle
-484,David Ortega,28,68.48,,pc,shootER
-485,Carlos Ruiz,27,54.88,,xbox,puZZle
-486,Carlos Ruiz,17,12.89,38.96,XBOX,AVENTURA
-487,Elena Martín,33,48.28,60.73,Steam,puZZle
-488,Laura Gil,32,55.76,85.04,Play Station 5,MOBA
-489,Laura Gil,48,55.4,,PS5,AVENTURA
-490,Carmen Vega,23,20.37,89.12,Switch,Shooter
-491,Elena Martín,18,60.16,,XBOX,MOBA
-492,Sofía Herrera,,59.36,71.88,playstation,puZZle
-493,Jorge Díaz,48,15.43,50.29,PC ,puZZle
-494,Pedro Sánchez,18,15.29,124.59,Play Station 5,puzzle
-495,Carlos Ruiz,23,58.37,21.28,pc,shootER
-496,Ana García,29,46.91,89.71,Play Station 5,shootER
-497,Natalia Vargas,27,9.66,34.37,xbox,shootER
-498,Carlos Ruiz,19,42.23,47.7,nintendo switch,MOBA
-499,Jorge Díaz,20,22.68,97.17,Steam,puZZle
-500,Miguel Torres,23,87.49,9.99,PS5,puzzle
-501,María López,28,,,Switch,MOBA
-502,Natalia Vargas,37,44.52,144.66,nintendo switch,shootER
-503,Lucía Ramos,33,31.55,3.4,pc,MOBA
-504,Lucía Ramos,44,28.32,18.58,nintendo switch,moba
-505,Ana García,35,36.9,,playstation,rpg
-506,Pedro Sánchez,29,22.26,8.09,pc,MOBA
-507,Andrés Molina,31,58.58,35.15,Play Station 5,RPG
-508,Jorge Díaz,29,72.19,127.26,movil,AVENTURA
-509,Elena Martín,30,38.72,0.84,pc,MOBA
-510,Miguel Torres,18,88.4,91.43,PC ,shootER
-511,Luis Fernández,14,87.4,70.3,Play Station 5,rpg
-512,María López,36,21.21,20.17,movil,RPG
-513,David Ortega,17,104.09,7.95,mobile,sports
-514,Carlos Ruiz,21,63.07,343.19,mobile,sports
-515,Natalia Vargas,35,50.2,11.58,mobile,AVENTURA
-516,Laura Gil,43,105.78,106.43,Switch,Sports
-517,Luis Fernández,28,50.85,31.12,xbox,RPG
-518,Lucía Ramos,44,38.86,22.46,pc,Sports
-519,Carmen Vega,20,45.39,114.31,xbox,Sports
-520,Sofía Herrera,30,95.08,169.78,PC ,AVENTURA
-521,Carmen Vega,43,108.07,384.79,Switch,moba
-522,Pedro Sánchez,42,71.8,155.7,xbox,rpg
-523,Carlos Ruiz,50,40.56,,mobile,AVENTURA
-524,Carlos Ruiz,28,27.42,8.56,Steam,shootER
-525,David Ortega,44,35.26,74.95,steam,sports
-526,Miguel Torres,21,109.53,214.47,pc,Battle Royale
-527,Andrés Molina,16,54.32,560.86,playstation,Sports
-528,Ana García,40,31.57,7.45,XBOX,Shooter
-529,Andrés Molina,24,75.73,134.96,steam,shootER
-530,Jorge Díaz,,7.18,42.11,playstation,MOBA
-531,Jorge Díaz,33,51.21,296.65,Switch,moba
-532,Ana García,26,13.73,57.64,PS5,Sports
-533,Elena Martín,43,48.81,35.82,mobile,moba
-534,Sofía Herrera,17,101.02,195.2,PC ,Sports
-535,Natalia Vargas,25,15.17,35.83,pc,moba
-535,Natalia Vargas,25,15.17,35.83,pc,moba
-536,Andrés Molina,38,38.89,76.97,steam,Sports
-537,Laura Gil,43,16.9,34.99,mobile,MOBA
-538,Laura Gil,25,27.87,83.14,mobile,Sports
-539,Laura Gil,21,2.6,30.26,xbox,Sports
-540,Laura Gil,25,55.98,115.42,XBOX,AVENTURA
-541,Pedro Sánchez,24,73.21,147.13,PC ,moba
-542,Andrés Molina,28,7.65,11.97,Switch,RPG
-543,Carmen Vega,38,67.62,64.31,xbox,puzzle
-544,Lucía Ramos,,27.89,69.04,Play Station 5,puZZle
-545,Sofía Herrera,23,21.06,53.2,movil,MOBA
-546,Jorge Díaz,34,23.21,127.89,Steam,Battle Royale
-547,Natalia Vargas,41,49.88,103.65,pc,Sports
-548,María López,16,98.69,272.17,xbox,Shooter
-549,Luis Fernández,22,,66.03,movil,Shooter
-550,María López,42,35.32,25.85,mobile,Battle Royale
-551,Jorge Díaz,24,73.45,155.26,Steam,Sports
-552,Sofía Herrera,28,56.28,41.1,XBOX,sports
-553,Andrés Molina,18,34.72,97.46,XBOX,puZZle
-554,Natalia Vargas,51,10.5,34.59,Play Station 5,shootER
-555,Carmen Vega,21,31.65,97.5,steam,rpg
-556,David Ortega,25,17.32,60.29,Steam,moba
-557,Laura Gil,24,51.66,132.51,Switch,Shooter
-558,Carmen Vega,32,74.09,239.29,XBOX,moba
-559,Carmen Vega,31,39.5,136.09,XBOX,puZZle
-560,Lucía Ramos,43,36.62,62.57,mobile,Battle Royale
-561,Elena Martín,15,39.3,64.27,XBOX,Sports
-562,Jorge Díaz,37,90.13,91.28,XBOX,puzzle
-563,Elena Martín,30,92.46,163.1,xbox,rpg
-564,Carlos Ruiz,18,61.59,61.73,pc,rpg
-565,María López,33,31.99,280.39,playstation,Battle Royale
-566,Pedro Sánchez,21,51.27,82.17,XBOX,puzzle
-567,María López,,39.87,84.4,pc,sports
-568,María López,28,27.88,10.93,PS5,MOBA
-569,Natalia Vargas,16,73.71,127.81,Play Station 5,Shooter
-570,Andrés Molina,17,26.08,11.28,pc,MOBA
-571,María López,28,27.48,12.41,mobile,AVENTURA
-572,Lucía Ramos,28,32.81,67.13,xbox,RPG
-573,Lucía Ramos,32,17.71,113.01,Switch,rpg
-574,Pedro Sánchez,34,51.4,187.86,Switch,shootER
-575,,34,45.36,438.99,Play Station 5,sports
-576,David Ortega,21,31.59,84.8,PS5,Battle Royale
-577,Lucía Ramos,27,110.24,77.31,xbox,RPG
-578,María López,28,23.68,103.51,steam,Sports
-579,Lucía Ramos,20,57.58,120.69,nintendo switch,MOBA
-580,Andrés Molina,41,33.48,46.32,steam,puzzle
-581,Ana García,16,53.93,117.85,Switch,Sports
-582,Sofía Herrera,31,20.02,32.35,XBOX,sports
-583,Carlos Ruiz,50,47.06,479.14,Steam,Shooter
-584,María López,46,28.99,112.49,Switch,RPG
-585,Lucía Ramos,37,38.77,76.26,steam,puzzle
-586,Sofía Herrera,27,89.21,81.12,Switch,shootER
-587,Elena Martín,,62.11,130.49,XBOX,AVENTURA
-588,Jorge Díaz,20,,2.47,Play Station 5,MOBA
-589,Natalia Vargas,38,108.3,32.11,pc,RPG
-590,Pedro Sánchez,31,83.35,64.4,movil,AVENTURA
-591,Elena Martín,28,71.22,38.81,XBOX,puZZle
-592,Pedro Sánchez,39,28.74,37.03,PS5,puzzle
-593,David Ortega,30,31.82,51.44,mobile,RPG
-594,Elena Martín,31,51.83,281.01,pc,Battle Royale
-595,Natalia Vargas,24,60.53,68.63,xbox,MOBA
-596,Luis Fernández,37,46.89,15.85,mobile,shootER
-597,Luis Fernández,33,86.47,192.08,xbox,MOBA
-598,Carlos Ruiz,46,69.01,100.9,movil,AVENTURA
-599,Natalia Vargas,37,36.9,90.42,mobile,MOBA
-600,Pedro Sánchez,41,40.54,147.97,PS5,puzzle
-601,Jorge Díaz,16,52.67,70.41,Steam,rpg
-602,Jorge Díaz,32,89.53,106.55,movil,puZZle
-603,María López,32,56.91,85.86,PS5,shootER
-604,Luis Fernández,29,35.87,9.23,xbox,moba
-605,,17,32.51,89.55,pc,Sports
-606,Andrés Molina,22,7.63,25.08,Play Station 5,Battle Royale
-607,Pedro Sánchez,,37.6,43.52,movil,rpg
-608,María López,30,43.46,275.16,PC ,rpg
-609,Jorge Díaz,46,21.31,119.65,Steam,RPG
-610,Miguel Torres,37,40.29,92.82,pc,Shooter
-611,Lucía Ramos,54,17.29,41.71,mobile,shootER
-612,Ana García,23,62.59,109.43,movil,rpg
-613,,27,32.66,2.12,steam,rpg
-614,Elena Martín,20,26.53,119.94,Switch,sports
-615,Andrés Molina,20,43.4,158.91,mobile,shootER
-616,Natalia Vargas,51,37.67,228.97,PC ,rpg
-617,David Ortega,22,34.99,56.18,PS5,rpg
-618,Carmen Vega,37,25.5,9.96,mobile,MOBA
-619,Elena Martín,28,94.8,106.1,PS5,rpg
-620,María López,41,19.77,132.34,xbox,Shooter
-621,Jorge Díaz,36,24.46,217.32,Steam,Shooter
-622,Lucía Ramos,32,41.94,74.05,PS5,Battle Royale
-623,Natalia Vargas,20,49.28,435.62,playstation,RPG
-624,Sofía Herrera,42,48.6,139.78,Switch,RPG
-625,Pedro Sánchez,36,,83.21,XBOX,sports
-626,Andrés Molina,30,38.79,50.37,mobile,Battle Royale
-627,Carmen Vega,28,28.68,19.89,playstation,moba
-628,Elena Martín,48,38.71,185.37,XBOX,RPG
-629,Andrés Molina,39,61.95,203.17,steam,moba
-630,,25,59.7,469.87,steam,puZZle
-631,Elena Martín,44,9.61,140.47,Steam,AVENTURA
-632,Jorge Díaz,23,19.76,38.88,Switch,Sports
-633,Sofía Herrera,35,13.97,89.6,movil,sports
-634,Natalia Vargas,39,43.9,119.68,xbox,shootER
-635,Ana García,29,48.23,3.97,playstation,moba
-636,Carmen Vega,46,,120.81,xbox,Shooter
-637,Miguel Torres,49,83.26,150.14,Play Station 5,MOBA
-638,María López,23,68.0,139.28,xbox,Battle Royale
-639,,17,103.8,14.51,steam,sports
-640,David Ortega,33,14.94,14.98,Play Station 5,shootER
-641,Lucía Ramos,26,41.97,128.52,PS5,rpg
-642,Luis Fernández,33,40.76,89.59,PC ,AVENTURA
-643,Pedro Sánchez,37,64.16,23.3,PC ,AVENTURA
-644,María López,35,,68.79,Steam,moba
-645,Sofía Herrera,21,26.07,15.39,Steam,shootER
-646,Ana García,27,55.26,17.46,Switch,puZZle
-647,Sofía Herrera,24,102.77,68.23,Play Station 5,Sports
-648,Miguel Torres,32,6.01,14.65,Switch,Battle Royale
-649,María López,29,33.6,56.64,pc,Shooter
-650,Ana García,22,30.26,244.47,pc,Battle Royale
-651,Laura Gil,31,44.47,132.6,Play Station 5,MOBA
-652,Elena Martín,28,36.48,156.96,XBOX,moba
-653,Lucía Ramos,36,40.1,156.91,playstation,Sports
-654,Luis Fernández,31,20.95,100.21,steam,puzzle
-655,Carmen Vega,21,24.19,91.72,PC ,moba
-656,Elena Martín,26,81.33,54.58,steam,rpg
-657,Carlos Ruiz,32,22.53,102.69,Play Station 5,shootER
-658,Ana García,51,,86.81,steam,rpg
-659,Lucía Ramos,21,72.71,23.85,steam,Battle Royale
-659,Lucía Ramos,21,72.71,23.85,steam,Battle Royale
-660,Miguel Torres,28,30.44,26.34,PC ,MOBA
-661,Laura Gil,27,71.92,48.08,xbox,RPG
-662,,37,60.23,163.33,XBOX,puzzle
-663,Carmen Vega,32,4.52,58.11,mobile,shootER
-664,María López,36,58.2,32.71,playstation,moba
-665,Natalia Vargas,,65.3,8.19,movil,moba
-666,Andrés Molina,19,31.78,98.86,PC ,puZZle
-667,Jorge Díaz,25,81.8,59.1,PS5,Battle Royale
-668,David Ortega,22,86.79,121.55,steam,shootER
-669,Ana García,20,55.38,62.49,PS5,puZZle
-670,Miguel Torres,26,61.14,129.21,Switch,Sports
-671,Luis Fernández,32,63.47,62.34,Steam,MOBA
-672,Elena Martín,18,35.93,41.81,Switch,AVENTURA
-673,Andrés Molina,25,11.61,93.37,movil,rpg
-674,Sofía Herrera,32,22.96,33.04,PS5,puZZle
-675,Ana García,33,51.28,12.7,xbox,Shooter
-676,Sofía Herrera,31,27.16,115.02,steam,sports
-677,Sofía Herrera,34,6.09,64.53,PS5,sports
-678,María López,21,2.75,32.55,Play Station 5,RPG
-679,Jorge Díaz,,55.38,3.33,nintendo switch,MOBA
-680,Ana García,23,,151.02,Play Station 5,Sports
-681,Laura Gil,31,27.08,34.05,PC ,moba
-682,Luis Fernández,36,31.26,122.32,XBOX,rpg
-683,,23,41.24,157.35,playstation,puZZle
-684,Carmen Vega,34,60.49,132.53,XBOX,sports
-685,Lucía Ramos,36,43.48,87.22,pc,Sports
-686,María López,26,87.83,82.97,movil,AVENTURA
-687,Sofía Herrera,27,80.37,16.55,Switch,Shooter
-688,Elena Martín,35,48.59,213.26,movil,Shooter
-689,Luis Fernández,20,51.74,78.99,XBOX,puzzle
-690,Ana García,49,62.02,373.04,PC ,Shooter
-691,,44,78.83,65.81,xbox,rpg
-692,Miguel Torres,39,65.29,26.99,XBOX,shootER
-693,Sofía Herrera,39,12.69,22.45,nintendo switch,Battle Royale
-694,Elena Martín,28,73.7,4.38,XBOX,Shooter
-695,Luis Fernández,42,16.53,,PC ,sports
-696,Carlos Ruiz,24,32.78,64.34,xbox,puzzle
-697,David Ortega,21,18.49,16.98,PS5,Shooter
-698,,45,21.53,56.39,nintendo switch,sports
-699,Carmen Vega,32,31.75,9.73,playstation,shootER
-700,Sofía Herrera,40,44.85,24.04,Switch,MOBA
-701,David Ortega,30,40.55,207.34,playstation,AVENTURA
-702,Elena Martín,31,24.71,14.52,movil,shootER
-703,Sofía Herrera,24,77.85,53.17,XBOX,Shooter
-704,Carlos Ruiz,21,99.95,31.98,nintendo switch,puZZle
-705,Sofía Herrera,23,72.61,335.31,Play Station 5,AVENTURA
-706,Andrés Molina,22,38.33,121.64,mobile,Shooter
-707,Carmen Vega,30,30.87,26.79,mobile,puzzle
-708,Carmen Vega,23,27.35,128.85,mobile,Battle Royale
-709,Elena Martín,16,46.48,46.49,PC ,Shooter
-710,Carmen Vega,35,20.1,45.78,Play Station 5,MOBA
-711,Carlos Ruiz,20,6.7,8.03,pc,RPG
-712,Carmen Vega,21,33.66,96.61,steam,rpg
-713,Andrés Molina,31,48.96,90.24,xbox,puZZle
-714,Natalia Vargas,33,45.11,68.5,PS5,MOBA
-715,Laura Gil,26,41.06,152.51,XBOX,moba
-716,Jorge Díaz,47,23.58,26.79,xbox,sports
-717,Laura Gil,41,,7.51,PS5,Sports
-718,Andrés Molina,26,48.72,118.5,Play Station 5,moba
-719,Jorge Díaz,33,32.52,23.58,pc,rpg
-720,Pedro Sánchez,38,43.61,219.53,nintendo switch,sports
-721,Laura Gil,25,52.04,148.43,mobile,Shooter
-722,,39,27.44,56.96,steam,Sports
-723,Laura Gil,38,44.62,105.4,Steam,Sports
-724,Elena Martín,25,,139.05,PC ,Battle Royale
-725,Ana García,50,22.71,2.6,Steam,rpg
-726,David Ortega,20,53.74,17.79,mobile,MOBA
-727,,34,72.89,191.07,steam,Battle Royale
-728,Andrés Molina,21,77.44,92.41,Switch,Battle Royale
-729,Sofía Herrera,19,12.21,87.4,PS5,Sports
-730,María López,,79.41,84.94,Play Station 5,Battle Royale
-731,Lucía Ramos,26,87.2,41.56,nintendo switch,AVENTURA
-732,Miguel Torres,28,64.92,77.87,nintendo switch,Sports
-733,Elena Martín,23,16.49,108.6,movil,MOBA
-734,Laura Gil,27,32.08,70.39,Play Station 5,sports
-735,María López,23,45.32,334.9,steam,RPG
-736,Ana García,19,86.87,58.38,movil,RPG
-737,Carlos Ruiz,27,17.23,45.02,Play Station 5,Shooter
-738,Natalia Vargas,27,22.89,115.25,PS5,AVENTURA
-739,Ana García,15,40.61,322.14,Switch,moba
-740,Natalia Vargas,25,54.9,31.71,playstation,Shooter
-741,,25,97.05,66.79,xbox,Sports
-742,Natalia Vargas,31,26.29,7.12,PS5,Shooter
-743,Pedro Sánchez,46,62.57,133.8,Steam,shootER
-744,Ana García,32,50.05,95.52,nintendo switch,shootER
-745,,32,65.79,76.25,PC ,puzzle
-746,Carlos Ruiz,16,31.06,55.86,Steam,Shooter
-747,David Ortega,46,,34.42,Play Station 5,Battle Royale
-748,Carmen Vega,32,38.43,,Steam,puzzle
-749,Luis Fernández,31,73.77,33.01,playstation,AVENTURA
-750,Lucía Ramos,41,43.26,26.74,Switch,Sports
-751,Elena Martín,29,59.59,56.75,PC ,AVENTURA
-752,Natalia Vargas,19,66.56,85.33,pc,moba
-753,Andrés Molina,39,68.08,111.6,PS5,RPG
-754,Andrés Molina,31,0.21,108.53,playstation,shootER
-755,Jorge Díaz,21,28.64,,PS5,Battle Royale
-756,Lucía Ramos,27,34.86,54.17,nintendo switch,moba
-757,María López,32,64.11,129.2,XBOX,RPG
-758,Carlos Ruiz,21,10.64,31.03,Steam,rpg
-759,Ana García,32,49.73,26.63,nintendo switch,shootER
-760,Miguel Torres,19,60.96,13.76,movil,puzzle
-761,Carlos Ruiz,29,47.83,164.72,pc,sports
-762,Andrés Molina,30,21.31,71.39,PC ,Battle Royale
-763,Ana García,42,69.19,20.59,playstation,rpg
-764,Sofía Herrera,31,10.7,94.54,xbox,rpg
-765,Ana García,18,,91.37,pc,rpg
-766,Andrés Molina,36,40.62,4.72,pc,MOBA
-767,Pedro Sánchez,42,25.51,35.95,PC ,puzzle
-768,Sofía Herrera,38,38.72,86.16,playstation,AVENTURA
-769,Luis Fernández,37,49.5,72.12,xbox,Battle Royale
-770,Luis Fernández,20,89.05,25.74,Play Station 5,RPG
-771,Natalia Vargas,38,121.31,3.31,mobile,Shooter
-772,Lucía Ramos,24,55.35,2.14,playstation,Sports
-773,Carlos Ruiz,33,65.93,38.24,playstation,moba
-774,Carlos Ruiz,45,77.14,227.63,Play Station 5,puZZle
-775,,20,30.78,35.15,Steam,MOBA
-776,Elena Martín,28,81.07,458.8,PC ,RPG
-777,Laura Gil,38,19.52,88.98,mobile,puZZle
-778,,29,11.2,33.21,Switch,Shooter
-779,Andrés Molina,42,52.84,162.67,nintendo switch,RPG
-780,Carmen Vega,25,77.52,13.45,xbox,Battle Royale
-781,Miguel Torres,,44.73,22.26,Switch,AVENTURA
-782,Natalia Vargas,43,42.07,265.84,PS5,sports
-783,Sofía Herrera,20,60.38,37.71,pc,MOBA
-784,Carmen Vega,30,36.22,42.87,nintendo switch,moba
-785,David Ortega,18,10.7,109.6,XBOX,puzzle
-786,María López,26,53.57,,movil,RPG
-787,Jorge Díaz,40,109.9,181.9,XBOX,sports
-788,Jorge Díaz,,104.32,206.02,Steam,shootER
-789,Lucía Ramos,25,77.61,4.63,xbox,RPG
-790,Laura Gil,38,85.13,60.84,XBOX,puZZle
-791,Jorge Díaz,27,78.29,,movil,puZZle
-792,Miguel Torres,27,26.32,17.41,steam,rpg
-793,Elena Martín,22,39.53,197.88,nintendo switch,sports
-794,Pedro Sánchez,33,29.28,135.15,mobile,Sports
-795,Pedro Sánchez,24,24.13,82.28,mobile,puzzle
-795,Pedro Sánchez,24,24.13,82.28,mobile,puzzle
-796,Elena Martín,23,52.23,25.05,Switch,shootER
-797,Natalia Vargas,30,25.18,42.52,Steam,moba
-798,,17,53.64,34.87,Play Station 5,shootER
-799,Luis Fernández,40,72.52,154.66,pc,moba
-800,Pedro Sánchez,34,42.35,52.34,movil,puzzle
-801,Luis Fernández,46,20.42,105.63,Steam,MOBA
-802,Carlos Ruiz,43,75.77,105.24,pc,moba
-803,Luis Fernández,36,23.17,120.3,mobile,puzzle
-804,Pedro Sánchez,38,9.26,18.39,XBOX,Battle Royale
-805,María López,30,57.56,172.14,xbox,shootER
-806,David Ortega,29,25.31,39.07,steam,MOBA
-806,David Ortega,29,25.31,39.07,steam,MOBA
-807,Laura Gil,19,,38.04,pc,moba
-808,Carlos Ruiz,25,39.42,285.94,mobile,shootER
-809,David Ortega,46,27.8,122.11,pc,sports
-810,David Ortega,30,98.11,37.06,playstation,shootER
-811,Miguel Torres,26,55.33,50.73,steam,Sports
-812,Elena Martín,20,64.08,153.54,steam,RPG
-813,Luis Fernández,38,59.03,64.04,Switch,Sports
-814,Pedro Sánchez,31,22.54,64.03,XBOX,puZZle
-815,Miguel Torres,29,31.63,0.51,XBOX,puZZle
-816,Jorge Díaz,39,15.29,90.99,XBOX,Sports
-817,Lucía Ramos,30,56.31,212.54,movil,Battle Royale
-818,Pedro Sánchez,23,35.82,85.52,pc,Battle Royale
-819,Lucía Ramos,38,77.22,94.48,Steam,puzzle
-820,Carlos Ruiz,20,29.24,140.26,Switch,RPG
-821,Sofía Herrera,21,16.82,79.39,nintendo switch,AVENTURA
-822,Elena Martín,16,18.37,,xbox,puzzle
-823,Natalia Vargas,25,5.34,85.87,Switch,Battle Royale
-824,Luis Fernández,31,32.42,25.94,xbox,moba
-825,Carmen Vega,23,3.27,76.62,mobile,puZZle
-826,Sofía Herrera,32,23.02,,mobile,puZZle
-827,Ana García,21,62.49,441.06,Steam,MOBA
-828,Carlos Ruiz,39,72.07,24.24,pc,shootER
-829,Natalia Vargas,16,19.49,75.51,PS5,RPG
-830,David Ortega,26,61.53,128.33,playstation,shootER
-831,,15,28.42,61.95,steam,puZZle
-832,Ana García,,50.82,121.02,xbox,sports
-833,Miguel Torres,35,61.67,415.18,XBOX,Shooter
-834,Natalia Vargas,33,54.99,111.23,playstation,Battle Royale
-835,Andrés Molina,23,37.12,243.46,steam,Shooter
-835,Andrés Molina,23,37.12,243.46,steam,Shooter
-836,Lucía Ramos,23,4.55,41.65,playstation,RPG
-837,Laura Gil,46,59.48,147.64,Play Station 5,MOBA
-838,María López,21,65.65,44.2,PS5,shootER
-839,David Ortega,40,34.28,81.23,Switch,shootER
-840,Ana García,32,24.51,79.55,xbox,sports
-841,Miguel Torres,20,77.62,276.84,PC ,MOBA
-842,Pedro Sánchez,28,24.78,76.82,nintendo switch,AVENTURA
-843,Sofía Herrera,29,82.9,64.45,movil,puZZle
-844,Lucía Ramos,32,51.76,49.64,PC ,rpg
-845,Pedro Sánchez,29,32.66,87.54,mobile,RPG
-846,María López,32,96.49,1.15,Steam,moba
-847,Laura Gil,26,24.03,76.73,pc,moba
-848,Pedro Sánchez,39,20.88,115.15,XBOX,RPG
-849,Miguel Torres,40,61.2,22.6,playstation,rpg
-850,Andrés Molina,18,88.51,86.62,PS5,Shooter
-851,Jorge Díaz,26,85.12,54.84,mobile,MOBA
-852,,25,95.97,46.73,XBOX,puZZle
-853,Pedro Sánchez,37,87.2,,XBOX,Sports
-854,Sofía Herrera,29,86.6,9.52,movil,MOBA
-855,Lucía Ramos,19,105.73,220.17,Switch,rpg
-856,Pedro Sánchez,22,14.08,108.94,playstation,puzzle
-857,Miguel Torres,22,49.81,359.43,mobile,rpg
-858,Ana García,40,32.75,1.05,mobile,puzzle
-859,Sofía Herrera,38,27.23,15.91,Play Station 5,shootER
-860,Pedro Sánchez,19,54.03,147.0,XBOX,Sports
-861,Jorge Díaz,31,3.39,32.04,movil,Sports
-862,Sofía Herrera,30,57.08,361.5,movil,RPG
-863,Andrés Molina,48,92.29,67.84,PC ,Shooter
-864,María López,31,44.7,21.8,xbox,puzzle
-865,David Ortega,39,57.61,105.95,PC ,shootER
-866,Carmen Vega,41,70.83,,movil,Shooter
-867,Ana García,39,44.36,141.88,Steam,MOBA
-868,,25,34.52,72.38,Play Station 5,sports
-869,Andrés Molina,22,54.8,183.69,movil,Sports
-870,Elena Martín,19,34.67,5.36,xbox,Sports
-871,David Ortega,16,6.0,39.9,movil,RPG
-872,Lucía Ramos,33,14.76,24.17,PC ,puZZle
-873,Laura Gil,36,65.43,269.6,XBOX,Battle Royale
-874,Ana García,18,46.98,348.06,playstation,Battle Royale
-875,,33,23.29,8.88,xbox,puzzle
-876,Ana García,31,108.53,25.26,PS5,puzzle
-877,,24,97.32,88.89,Play Station 5,moba
-878,Pedro Sánchez,29,38.4,48.16,PS5,Battle Royale
-879,Carmen Vega,32,27.88,157.41,xbox,Battle Royale
-880,Pedro Sánchez,28,64.94,38.09,Play Station 5,puzzle
-881,Pedro Sánchez,21,11.26,4.75,PC ,Sports
-882,,43,29.17,32.64,steam,moba
-883,Miguel Torres,34,7.87,122.8,XBOX,moba
-884,Laura Gil,42,13.46,42.32,Switch,Sports
-885,Lucía Ramos,26,45.66,139.74,PC ,Battle Royale
-886,Pedro Sánchez,33,5.84,23.12,Switch,Sports
-887,Luis Fernández,25,42.1,129.92,Play Station 5,Sports
-888,Laura Gil,31,14.8,168.11,Steam,puzzle
-889,David Ortega,31,56.34,60.0,steam,puzzle
-890,Miguel Torres,23,16.99,6.17,playstation,AVENTURA
-891,,20,,29.13,steam,Sports
-892,Carmen Vega,22,15.7,172.23,XBOX,shootER
-893,Miguel Torres,14,51.58,104.04,xbox,RPG
-894,Laura Gil,15,65.22,106.07,XBOX,rpg
-895,Carlos Ruiz,30,49.17,361.48,PC ,puzzle
-896,Natalia Vargas,36,66.61,122.47,mobile,sports
-897,Carlos Ruiz,47,,6.44,steam,puZZle
-898,Luis Fernández,22,36.76,168.96,Switch,Battle Royale
-899,Andrés Molina,34,109.49,7.44,xbox,MOBA
-900,Sofía Herrera,21,16.48,57.75,Steam,puZZle
-901,María López,30,49.83,78.23,Play Station 5,moba
-902,,26,65.46,32.13,PS5,puzzle
-903,Elena Martín,21,55.24,59.19,nintendo switch,Sports
-904,Pedro Sánchez,31,64.01,60.27,Steam,Battle Royale
-905,Luis Fernández,35,37.51,40.07,mobile,puZZle
-906,Pedro Sánchez,46,27.19,16.98,Play Station 5,AVENTURA
-907,María López,26,16.36,37.0,Play Station 5,MOBA
-908,María López,45,7.09,102.29,Switch,MOBA
-909,Andrés Molina,38,41.11,52.44,PC ,sports
-910,Miguel Torres,46,102.83,317.74,Play Station 5,sports
-911,Pedro Sánchez,34,13.04,12.35,PC ,puzzle
-912,David Ortega,28,49.47,319.08,Play Station 5,Battle Royale
-913,Luis Fernández,35,12.1,16.67,mobile,Battle Royale
-914,María López,33,72.83,181.24,XBOX,AVENTURA
-915,Luis Fernández,32,12.22,45.38,xbox,shootER
-916,,32,28.36,118.29,Steam,sports
-917,Lucía Ramos,35,42.11,101.16,steam,rpg
-918,Laura Gil,16,24.59,221.49,steam,rpg
-919,Elena Martín,26,70.57,223.99,Steam,Battle Royale
-920,Elena Martín,31,30.52,22.49,Play Station 5,AVENTURA
-921,Miguel Torres,26,16.31,16.04,PC ,Sports
-922,Carlos Ruiz,26,,12.26,steam,puZZle
-923,María López,46,57.16,156.3,pc,Sports
-924,María López,33,53.57,135.61,Switch,puZZle
-925,Lucía Ramos,23,18.08,40.89,PC ,Battle Royale
-926,Natalia Vargas,25,51.29,96.86,PS5,Battle Royale
-927,,25,23.63,68.63,Play Station 5,AVENTURA
-928,Ana García,32,75.97,130.86,nintendo switch,sports
-928,Ana García,32,75.97,130.86,nintendo switch,sports
-929,Carmen Vega,27,51.56,90.86,Steam,puZZle
-930,Pedro Sánchez,28,26.19,201.81,XBOX,puZZle
-931,Andrés Molina,30,,38.89,Steam,MOBA
-932,Carmen Vega,25,3.67,14.08,PS5,RPG
-933,Carlos Ruiz,41,41.82,50.51,Steam,RPG
-934,Elena Martín,22,82.52,105.92,mobile,rpg
-935,,25,47.52,178.11,xbox,puzzle
-936,Miguel Torres,31,25.03,8.39,steam,rpg
-937,Andrés Molina,27,43.28,47.35,pc,AVENTURA
-938,Ana García,23,60.82,128.81,PC ,rpg
-939,Elena Martín,19,80.64,263.18,movil,Sports
-940,Carmen Vega,37,29.38,66.86,mobile,RPG
-941,Jorge Díaz,35,61.01,202.98,Switch,rpg
-942,David Ortega,22,41.13,109.1,nintendo switch,RPG
-943,Carlos Ruiz,19,7.52,231.56,XBOX,MOBA
-944,Carmen Vega,23,15.68,101.27,Steam,sports
-945,María López,,13.36,98.6,nintendo switch,moba
-946,,39,3.04,12.78,mobile,rpg
-947,Lucía Ramos,22,93.5,219.13,steam,Sports
-948,Lucía Ramos,36,41.07,16.12,Switch,puZZle
-949,Lucía Ramos,40,74.69,111.13,playstation,Sports
-950,David Ortega,41,21.66,164.74,XBOX,Shooter
-951,Ana García,31,48.04,127.59,xbox,shootER
-952,Elena Martín,38,21.78,61.28,Play Station 5,rpg
-953,Luis Fernández,25,10.48,2.84,nintendo switch,shootER
-954,Carmen Vega,32,42.23,40.21,Play Station 5,AVENTURA
-955,Ana García,18,98.13,140.34,Steam,AVENTURA
-955,Ana García,18,98.13,140.34,Steam,AVENTURA
-956,Natalia Vargas,23,39.67,71.63,Play Station 5,shootER
-957,Sofía Herrera,48,28.19,14.61,steam,shootER
-958,Miguel Torres,30,24.79,100.26,playstation,AVENTURA
-959,Andrés Molina,32,33.07,146.24,Play Station 5,moba
-960,David Ortega,27,20.42,22.19,nintendo switch,MOBA
-961,Lucía Ramos,37,64.66,186.8,PC ,sports
-962,,28,60.35,63.12,XBOX,sports
-963,Elena Martín,36,46.04,3.71,PC ,rpg
-964,Jorge Díaz,,37.97,130.85,movil,Battle Royale
-965,Pedro Sánchez,30,28.88,27.64,Switch,moba
-966,Carmen Vega,20,98.52,14.11,playstation,Shooter
-967,Ana García,29,20.38,17.54,playstation,rpg
-968,Ana García,24,44.39,80.18,playstation,shootER
-969,Laura Gil,30,58.05,24.83,Steam,RPG
-970,David Ortega,32,39.93,39.25,PS5,sports
-971,María López,25,50.73,109.07,XBOX,shootER
-972,Jorge Díaz,26,34.49,187.3,XBOX,AVENTURA
-973,David Ortega,23,33.65,263.48,XBOX,sports
-974,María López,31,34.63,39.04,Play Station 5,moba
-975,Luis Fernández,36,45.61,20.94,steam,Sports
-976,Andrés Molina,50,47.05,69.38,PC ,puZZle
-977,,32,89.81,297.16,Play Station 5,MOBA
-978,Natalia Vargas,25,60.64,62.17,PS5,sports
-979,Natalia Vargas,40,11.89,56.96,XBOX,RPG
-980,Laura Gil,31,13.7,50.41,mobile,AVENTURA
-981,Luis Fernández,26,29.18,15.42,mobile,Sports
-982,María López,28,78.46,61.01,XBOX,puZZle
-983,,25,12.72,47.84,Steam,puZZle
-984,Andrés Molina,30,55.38,72.19,mobile,sports
-985,Sofía Herrera,21,50.9,97.22,Switch,AVENTURA
-986,Elena Martín,39,44.03,15.64,Steam,shootER
-987,Jorge Díaz,,24.47,148.34,Steam,moba
-988,David Ortega,25,,61.22,xbox,RPG
-989,Pedro Sánchez,28,45.06,231.79,mobile,Battle Royale
-990,María López,37,32.87,35.52,XBOX,RPG
-991,Laura Gil,33,39.01,185.59,pc,sports
-992,Natalia Vargas,33,26.93,,PC ,Sports
-993,Elena Martín,40,105.93,225.01,mobile,puzzle
-994,Jorge Díaz,24,60.64,72.83,Switch,rpg
-995,Pedro Sánchez,28,56.03,94.62,Switch,puzzle
-996,Sofía Herrera,30,69.26,302.28,steam,Battle Royale
-997,,38,46.27,4.5,PC ,Battle Royale
-998,Luis Fernández,20,72.5,5.13,playstation,moba
-999,Miguel Torres,36,102.76,5.83,steam,rpg
-1000,Carlos Ruiz,16,32.04,56.85,movil,shootER
-1001,Sofía Herrera,23,28.88,61.6,PS5,puZZle
-1002,Natalia Vargas,26,15.0,110.83,mobile,MOBA
-1003,Carmen Vega,27,25.0,14.72,Switch,sports
-1004,Andrés Molina,17,54.79,82.31,nintendo switch,puZZle
-1005,David Ortega,25,27.06,,pc,rpg
-1006,Miguel Torres,46,25.03,,xbox,sports
-1007,Carmen Vega,20,104.56,10.56,Switch,sports
-1008,Andrés Molina,36,54.99,89.03,nintendo switch,sports
-1009,Luis Fernández,20,34.05,63.68,PC ,AVENTURA
-1010,Carmen Vega,16,51.51,68.16,Play Station 5,shootER
-1011,Ana García,31,20.12,152.9,XBOX,MOBA
-1012,Laura Gil,23,32.47,127.41,pc,puzzle
-1013,Lucía Ramos,26,20.67,6.39,steam,AVENTURA
-1014,María López,51,30.93,2.17,mobile,MOBA
-1015,Miguel Torres,42,78.79,54.59,playstation,AVENTURA
-1016,Sofía Herrera,53,60.72,61.35,steam,rpg
-1017,Carlos Ruiz,33,25.02,27.49,PC ,Shooter
-1018,Carlos Ruiz,25,63.69,4.96,PS5,puzzle
-1019,Pedro Sánchez,37,25.32,95.61,steam,shootER
-1020,David Ortega,23,17.15,98.71,Play Station 5,Shooter
-1021,Carmen Vega,,104.22,240.87,pc,puZZle
-1022,David Ortega,18,10.19,144.76,playstation,shootER
-1023,Luis Fernández,35,72.2,98.83,xbox,MOBA
-1024,Lucía Ramos,49,25.24,8.62,XBOX,rpg
-1025,Lucía Ramos,28,52.32,34.16,steam,AVENTURA
-1026,Laura Gil,33,26.34,,mobile,puZZle
-1027,Carmen Vega,42,39.93,628.3,xbox,moba
-1028,Pedro Sánchez,29,30.99,12.83,PC ,puZZle
-1029,Sofía Herrera,40,25.6,56.61,PC ,MOBA
-1030,Miguel Torres,39,19.58,133.0,nintendo switch,moba
-1031,Natalia Vargas,15,76.43,36.93,pc,rpg
-1032,Carlos Ruiz,44,48.91,248.76,nintendo switch,shootER
-1033,Miguel Torres,21,60.32,183.58,PS5,Shooter
-1034,Carmen Vega,30,50.12,97.93,playstation,sports
-1035,Miguel Torres,22,13.86,85.16,Switch,Shooter
-1036,María López,19,39.18,41.72,PC ,MOBA
-1037,Laura Gil,27,51.76,239.78,PS5,Sports
-1038,Sofía Herrera,38,24.08,45.28,pc,Sports
-1039,Ana García,38,30.53,31.41,pc,shootER
-1040,Lucía Ramos,27,20.38,182.38,Steam,Battle Royale
-1041,Carlos Ruiz,47,1.46,3.27,XBOX,Battle Royale
-1042,Carmen Vega,27,,8.71,playstation,Shooter
-1043,David Ortega,39,23.49,80.69,xbox,moba
-1044,Andrés Molina,32,17.8,21.67,Play Station 5,Battle Royale
-1045,Sofía Herrera,28,62.46,,xbox,Shooter
-1046,Ana García,29,35.29,180.66,playstation,AVENTURA
-1047,Pedro Sánchez,31,,78.44,pc,Sports
-1048,Luis Fernández,24,115.57,264.71,steam,MOBA
-1049,Sofía Herrera,32,57.44,21.66,PS5,Sports
-1050,María López,20,43.41,74.81,PS5,Sports
-1051,Carlos Ruiz,22,73.46,49.0,PC ,Sports
-1052,Jorge Díaz,23,1.91,97.7,Steam,moba
-1053,Elena Martín,23,49.91,138.96,pc,sports
-1054,Miguel Torres,33,60.42,441.86,Steam,rpg
-1055,Natalia Vargas,20,107.28,182.35,mobile,sports
-1056,Carmen Vega,28,75.17,42.57,steam,sports
-1057,María López,15,11.75,19.4,PC ,RPG
-1058,María López,24,27.88,110.78,Play Station 5,Battle Royale
-1059,David Ortega,40,12.27,155.59,steam,rpg
-1060,David Ortega,19,80.24,49.04,steam,Shooter
-1061,Miguel Torres,46,6.66,8.28,Play Station 5,RPG
-1062,,32,34.06,18.17,XBOX,Shooter
-1063,Carmen Vega,,24.53,48.26,XBOX,Sports
-1064,Luis Fernández,35,8.68,52.07,Steam,sports
-1065,Andrés Molina,31,95.23,37.52,PC ,Sports
-1066,Natalia Vargas,33,45.15,24.48,pc,MOBA
-1067,Ana García,41,71.3,88.62,Play Station 5,MOBA
-1068,David Ortega,34,36.67,20.7,XBOX,shootER
-1069,María López,20,112.22,121.56,nintendo switch,sports
-1070,Ana García,33,59.75,232.0,movil,moba
-1071,Carmen Vega,27,89.62,162.53,PC ,puzzle
-1072,Andrés Molina,40,44.35,178.25,movil,rpg
-1073,Lucía Ramos,16,21.78,86.0,movil,AVENTURA
-1074,Luis Fernández,28,36.52,42.59,Switch,AVENTURA
-1075,Pedro Sánchez,33,72.63,67.9,xbox,rpg
-1076,Pedro Sánchez,44,51.54,189.43,Switch,Shooter
-1077,Pedro Sánchez,34,32.47,2.39,xbox,RPG
-1078,Luis Fernández,38,48.51,48.33,steam,Shooter
-1079,María López,27,30.51,92.83,nintendo switch,puzzle
-1080,Andrés Molina,27,19.77,87.52,steam,Shooter
-1081,Laura Gil,24,30.97,27.85,Switch,puzzle
-1082,María López,26,71.68,179.55,mobile,Battle Royale
-1083,Sofía Herrera,28,28.41,29.12,movil,MOBA
-1084,Luis Fernández,40,30.17,68.11,Play Station 5,rpg
-1085,María López,17,27.38,33.14,steam,puZZle
-1086,,32,,57.53,PS5,Shooter
-1087,Andrés Molina,46,79.28,151.7,PC ,sports
-1088,Carmen Vega,32,24.98,112.02,Play Station 5,rpg
-1089,Miguel Torres,19,66.24,225.79,xbox,shootER
-1090,Andrés Molina,28,44.6,356.34,Steam,moba
-1091,Ana García,29,27.36,6.39,PC ,shootER
-1092,Sofía Herrera,30,77.44,209.21,Steam,RPG
-1092,Sofía Herrera,30,77.44,209.21,Steam,RPG
-1093,Jorge Díaz,25,40.52,9.25,PS5,Sports
-1094,Andrés Molina,19,37.92,19.62,XBOX,puZZle
-1095,Sofía Herrera,38,19.62,32.91,nintendo switch,moba
-1096,Elena Martín,48,,30.73,playstation,MOBA
-1097,Andrés Molina,26,61.66,1.15,PC ,AVENTURA
-1098,Carmen Vega,21,10.85,10.61,xbox,Shooter
-1099,Pedro Sánchez,35,5.96,71.0,steam,AVENTURA
-1100,,50,32.52,237.15,PC ,Sports
-1101,Lucía Ramos,32,44.44,197.19,xbox,moba
-1102,Elena Martín,27,21.01,55.7,XBOX,MOBA
-1103,Pedro Sánchez,36,35.35,22.45,movil,shootER
-1104,Sofía Herrera,27,26.01,49.96,XBOX,Battle Royale
-1105,Sofía Herrera,18,39.94,26.91,Steam,Sports
-1106,,22,29.48,11.21,pc,Sports
-1106,,22,29.48,11.21,pc,Sports
-1107,María López,18,99.93,25.59,PS5,AVENTURA
-1108,Carlos Ruiz,33,21.4,59.8,steam,Sports
-1109,Elena Martín,29,52.06,41.44,Play Station 5,Shooter
-1110,,39,41.06,0.8,Play Station 5,Battle Royale
-1111,Jorge Díaz,26,35.87,223.16,XBOX,Sports
-1112,,21,55.36,168.58,nintendo switch,shootER
-1113,Lucía Ramos,27,14.35,270.36,PC ,Sports
-1114,Jorge Díaz,22,73.24,81.5,Play Station 5,shootER
-1115,David Ortega,22,32.63,97.88,PC ,RPG
-1116,Luis Fernández,38,66.86,126.16,mobile,moba
-1117,Sofía Herrera,45,29.9,125.06,mobile,rpg
-1118,Jorge Díaz,28,7.96,46.86,PS5,Sports
-1119,Andrés Molina,25,38.63,150.38,Play Station 5,rpg
-1120,,35,15.12,122.94,XBOX,puzzle
-1120,,35,15.12,122.94,XBOX,puzzle
-1121,Carlos Ruiz,23,44.81,190.64,PS5,moba
-1122,,35,66.1,17.75,xbox,puzzle
-1123,David Ortega,25,24.09,70.86,Switch,rpg
-1124,Miguel Torres,29,32.68,11.38,playstation,RPG
-1125,Ana García,19,83.57,97.29,XBOX,Sports
-1126,Carmen Vega,22,124.47,51.52,Play Station 5,Shooter
-1127,Carlos Ruiz,26,33.75,110.95,steam,MOBA
-1128,Pedro Sánchez,,14.14,26.64,PS5,RPG
-1129,Laura Gil,25,,129.3,PS5,shootER
-1130,Miguel Torres,16,42.6,9.44,movil,MOBA
-1131,Luis Fernández,31,91.2,122.83,PS5,Shooter
-1132,Natalia Vargas,,50.1,367.49,Steam,Sports
-1133,Ana García,32,,201.06,xbox,Sports
-1134,María López,24,16.76,40.0,xbox,Shooter
-1135,Laura Gil,36,17.02,159.81,movil,AVENTURA
-1136,Laura Gil,36,27.73,28.39,steam,Sports
-1137,Lucía Ramos,19,6.04,59.56,xbox,Sports
-1138,Laura Gil,21,29.79,53.04,movil,Shooter
-1139,Pedro Sánchez,35,48.58,62.31,Steam,shootER
-1140,Elena Martín,25,67.69,206.4,Steam,sports
-1141,,16,61.58,15.57,xbox,sports
-1142,David Ortega,37,31.76,115.06,xbox,rpg
-1143,Andrés Molina,23,41.5,111.98,XBOX,shootER
-1144,Carlos Ruiz,40,91.59,170.5,nintendo switch,Sports
-1145,Miguel Torres,24,31.94,10.06,Steam,Shooter
-1146,Jorge Díaz,33,37.97,77.12,playstation,puzzle
-1147,Sofía Herrera,24,35.4,46.66,PS5,shootER
-1148,María López,35,41.14,152.35,playstation,puzzle
-1149,David Ortega,22,19.22,182.53,playstation,Shooter
-1150,Carlos Ruiz,33,68.38,46.14,playstation,RPG
-1151,Carmen Vega,24,84.42,48.24,Switch,puzzle
-1152,Luis Fernández,17,17.31,69.42,Play Station 5,Shooter
-1153,Carlos Ruiz,26,74.61,91.33,Steam,MOBA
-1154,Natalia Vargas,,59.4,43.02,Steam,moba
-1155,Pedro Sánchez,44,82.19,429.29,PS5,Sports
-1156,Lucía Ramos,35,23.97,10.33,mobile,moba
-1157,Miguel Torres,23,86.87,195.37,playstation,moba
-1158,Miguel Torres,19,95.16,57.78,PC ,Sports
-1159,Luis Fernández,33,81.6,202.76,xbox,Shooter
-1160,Carlos Ruiz,16,35.87,125.68,Play Station 5,Sports
-1161,Luis Fernández,36,28.87,10.17,steam,rpg
-1162,Carlos Ruiz,38,24.58,168.35,Steam,puZZle
-1163,María López,21,14.07,83.1,playstation,sports
-1164,Luis Fernández,22,58.51,53.82,Steam,MOBA
-1164,Luis Fernández,22,58.51,53.82,Steam,MOBA
-1165,Sofía Herrera,39,55.89,127.39,Steam,MOBA
-1166,Natalia Vargas,26,65.98,87.11,steam,moba
-1167,David Ortega,18,19.28,21.3,mobile,puZZle
-1168,María López,42,39.97,170.72,Switch,puZZle
-1169,Luis Fernández,31,25.27,50.74,pc,Shooter
-1170,David Ortega,46,9.04,8.14,mobile,rpg
-1171,Carmen Vega,,17.68,139.52,Play Station 5,AVENTURA
-1172,Pedro Sánchez,28,13.22,67.57,Steam,Sports
-1173,María López,32,89.27,47.11,pc,Sports
-1174,Lucía Ramos,,81.39,59.75,Steam,Sports
-1175,Miguel Torres,37,20.42,72.81,nintendo switch,sports
-1176,Pedro Sánchez,19,11.38,31.92,PC ,Battle Royale
-1177,Lucía Ramos,22,31.68,88.92,mobile,moba
-1178,Pedro Sánchez,52,28.46,199.32,XBOX,RPG
-1179,Laura Gil,29,18.72,18.95,XBOX,puZZle
-1180,Laura Gil,48,46.19,184.91,playstation,rpg
-1180,Laura Gil,48,46.19,184.91,playstation,rpg
-1181,María López,24,24.81,114.45,Switch,shootER
-1182,Laura Gil,21,23.49,73.81,nintendo switch,MOBA
-1183,Andrés Molina,18,32.11,49.4,XBOX,puzzle
-1184,Jorge Díaz,27,79.53,196.99,PC ,Shooter
-1185,Sofía Herrera,24,127.2,303.47,Play Station 5,rpg
-1186,Miguel Torres,26,43.4,46.98,PC ,Battle Royale
-1187,Ana García,31,60.06,27.41,steam,rpg
-1188,Natalia Vargas,45,4.91,54.72,pc,Battle Royale
-1189,Carlos Ruiz,44,78.38,26.11,PC ,rpg
-1190,Natalia Vargas,45,18.22,61.32,Switch,rpg
-1191,David Ortega,36,,123.88,Play Station 5,Sports
-1192,Andrés Molina,35,,54.53,pc,Shooter
-1193,Jorge Díaz,45,52.15,87.29,playstation,MOBA
-1193,Jorge Díaz,45,52.15,87.29,playstation,MOBA
-1194,David Ortega,44,52.33,66.08,Play Station 5,Sports
-1195,Natalia Vargas,28,120.6,85.3,PS5,rpg
-1196,David Ortega,33,91.44,47.4,steam,Sports
-1197,María López,,29.83,20.64,pc,AVENTURA
-1198,Natalia Vargas,30,32.61,38.12,PC ,rpg
-1199,Lucía Ramos,20,24.44,63.05,steam,AVENTURA
-1200,,26,40.5,,mobile,RPG
-1201,Carmen Vega,34,14.27,33.17,xbox,RPG
-1202,Lucía Ramos,31,65.45,83.57,Steam,puzzle
-1203,Natalia Vargas,21,50.67,80.28,movil,AVENTURA
-1204,Natalia Vargas,35,115.91,79.09,xbox,puZZle
-1205,Jorge Díaz,23,59.44,89.85,Play Station 5,shootER
-1206,Laura Gil,43,21.22,32.59,movil,Shooter
-1207,Sofía Herrera,28,51.32,320.22,PS5,Shooter
-1208,Elena Martín,21,46.34,222.47,steam,Sports
-1209,Sofía Herrera,34,27.42,107.01,XBOX,sports
-1210,María López,22,48.73,257.66,movil,sports
-1211,Ana García,51,124.07,170.05,XBOX,puzzle
-1212,Ana García,30,65.77,48.2,pc,AVENTURA
-1213,Andrés Molina,42,101.39,12.84,mobile,sports
-1214,Carmen Vega,17,39.13,115.65,pc,MOBA
-1215,Luis Fernández,28,78.13,121.64,nintendo switch,Battle Royale
-1216,Jorge Díaz,34,31.46,115.44,xbox,Shooter
-1217,Andrés Molina,40,28.31,16.33,PS5,AVENTURA
-1218,Andrés Molina,37,54.31,285.0,movil,AVENTURA
-1219,,26,35.44,165.01,PS5,MOBA
-1220,Luis Fernández,,24.91,49.07,XBOX,shootER
-1221,Miguel Torres,20,13.95,62.33,playstation,rpg
-1222,Lucía Ramos,23,48.22,28.22,PS5,puZZle
-1223,Elena Martín,27,38.93,237.69,movil,shootER
-1224,Miguel Torres,40,,4.33,XBOX,puzzle
-1225,Carlos Ruiz,25,15.1,63.52,PS5,shootER
-1226,Andrés Molina,24,25.06,161.44,Steam,RPG
-1227,Jorge Díaz,39,45.87,101.27,steam,Battle Royale
-1228,Lucía Ramos,25,80.85,122.64,Switch,puZZle
-1229,Luis Fernández,27,55.22,14.51,movil,MOBA
-1230,Natalia Vargas,22,69.3,74.35,playstation,puZZle
-1231,Jorge Díaz,20,71.06,45.62,playstation,shootER
-1232,David Ortega,36,16.98,104.42,steam,puzzle
-1233,Luis Fernández,27,65.84,12.28,xbox,sports
-1234,Lucía Ramos,19,84.23,198.99,Play Station 5,moba
-1235,Natalia Vargas,32,52.11,59.17,PC ,sports
-1236,Laura Gil,47,23.39,84.83,nintendo switch,AVENTURA
-1237,David Ortega,47,94.39,16.93,XBOX,sports
-1238,Jorge Díaz,28,17.93,53.05,playstation,rpg
-1239,Ana García,33,56.43,96.52,steam,MOBA
-1240,Laura Gil,35,17.92,162.27,movil,MOBA
-1241,Lucía Ramos,26,40.77,65.91,PS5,sports
-1242,Miguel Torres,29,50.11,235.61,playstation,sports
-1243,María López,,69.33,35.07,mobile,Shooter
-1244,Miguel Torres,30,24.02,,XBOX,AVENTURA
-1245,Laura Gil,32,33.18,41.1,pc,Shooter
-1246,Natalia Vargas,20,15.88,52.08,Switch,puzzle
-1247,Luis Fernández,33,21.3,64.87,xbox,moba
-1248,Natalia Vargas,35,25.3,105.58,PS5,moba
-1249,Luis Fernández,35,74.67,147.97,Play Station 5,MOBA
-1250,María López,17,33.85,22.16,Steam,Sports
-1251,Carlos Ruiz,29,8.42,111.66,steam,AVENTURA
-1252,Luis Fernández,30,63.16,304.65,Switch,rpg
-1253,Carmen Vega,20,19.6,78.38,xbox,puZZle
-1253,Carmen Vega,20,19.6,78.38,xbox,puZZle
-1254,Pedro Sánchez,42,31.26,53.52,pc,puzzle
-1255,Andrés Molina,43,24.19,13.37,pc,moba
-1256,Lucía Ramos,38,16.0,127.06,PC ,rpg
-1257,,26,25.12,28.02,playstation,Battle Royale
-1258,Miguel Torres,24,72.54,318.15,pc,Battle Royale
-1259,Elena Martín,24,47.85,73.64,Switch,Shooter
-1260,Miguel Torres,27,39.37,153.67,Play Station 5,shootER
-1261,Ana García,,13.63,70.36,steam,AVENTURA
-1262,Natalia Vargas,37,11.49,28.8,steam,shootER
-1263,Carlos Ruiz,28,48.17,11.64,Steam,Battle Royale
-1264,Jorge Díaz,20,52.26,164.22,Play Station 5,Shooter
-1265,Sofía Herrera,23,64.63,137.64,Steam,Shooter
-1266,Ana García,27,43.72,4.11,Switch,Sports
-1267,Luis Fernández,23,78.74,116.11,PC ,Shooter
-1268,Lucía Ramos,20,50.26,22.77,Switch,shootER
-1269,Miguel Torres,36,62.1,76.08,mobile,RPG
-1270,Natalia Vargas,52,8.23,48.35,XBOX,moba
-1271,Jorge Díaz,36,73.48,28.32,steam,puZZle
-1272,,33,102.63,15.16,nintendo switch,Battle Royale
-1273,Ana García,32,20.79,129.82,nintendo switch,sports
-1274,Carlos Ruiz,41,69.1,32.06,Switch,puZZle
-1274,Carlos Ruiz,41,69.1,32.06,Switch,puZZle
-1275,Laura Gil,24,67.88,76.82,xbox,MOBA
-1276,Carlos Ruiz,23,4.84,56.12,Switch,MOBA
-1277,Carmen Vega,28,103.83,36.49,XBOX,AVENTURA
-1278,Jorge Díaz,,55.28,41.55,movil,puZZle
-1279,Carmen Vega,34,,26.36,Steam,moba
-1280,,28,66.3,350.23,XBOX,moba
-1281,Natalia Vargas,19,43.03,226.96,XBOX,Shooter
-1282,Sofía Herrera,46,62.92,204.63,Switch,Battle Royale
-1283,Carmen Vega,38,22.38,23.66,XBOX,moba
-1284,Miguel Torres,28,56.38,63.92,PS5,Battle Royale
-1285,Luis Fernández,40,46.63,95.76,PS5,AVENTURA
-1286,Carlos Ruiz,29,59.12,11.5,playstation,MOBA
-1287,Andrés Molina,34,51.47,389.63,pc,MOBA
-1288,Laura Gil,17,86.19,56.88,xbox,Shooter
-1289,Lucía Ramos,29,23.42,,playstation,moba
-1290,Ana García,38,26.86,4.68,pc,shootER
-1291,Natalia Vargas,43,27.35,95.06,Play Station 5,AVENTURA
-1292,Pedro Sánchez,37,80.05,19.75,Switch,AVENTURA
-1293,,44,89.44,23.37,Switch,Sports
-1294,Natalia Vargas,26,98.22,33.9,Steam,RPG
-1295,Pedro Sánchez,26,36.04,111.34,Steam,MOBA
-1296,Miguel Torres,32,31.89,,XBOX,Shooter
-1297,Carlos Ruiz,28,32.09,85.29,PS5,puZZle
-1298,Luis Fernández,36,29.22,11.14,Switch,puzzle
-1299,David Ortega,24,5.16,25.54,pc,sports
-1300,Laura Gil,23,39.38,146.59,Play Station 5,sports
-1301,Miguel Torres,36,75.64,133.47,Play Station 5,MOBA
-1302,Elena Martín,29,45.24,126.31,Steam,AVENTURA
-1303,David Ortega,28,84.17,19.49,movil,sports
-1304,Luis Fernández,51,39.96,129.31,steam,moba
-1305,Luis Fernández,46,26.09,60.77,nintendo switch,sports
-1306,Laura Gil,49,94.59,163.18,nintendo switch,AVENTURA
-1307,Carmen Vega,20,83.48,142.85,movil,Battle Royale
-1308,Miguel Torres,22,54.02,18.31,Switch,puZZle
-1309,Ana García,43,50.97,102.41,steam,Sports
-1310,María López,32,16.06,,movil,puZZle
-1311,Lucía Ramos,34,22.28,16.02,Play Station 5,rpg
-1312,,24,62.28,408.38,steam,Battle Royale
-1313,,28,76.83,37.19,xbox,puzzle
-1314,,44,108.57,23.94,Play Station 5,Shooter
-1315,Pedro Sánchez,20,46.44,130.1,Play Station 5,puzzle
-1316,Laura Gil,32,71.21,1.88,nintendo switch,Sports
-1317,,23,26.42,28.61,nintendo switch,puZZle
-1318,,25,23.2,44.16,Play Station 5,shootER
-1319,,41,64.25,312.66,steam,puZZle
-1320,Ana García,20,40.06,91.87,xbox,Battle Royale
-1321,Sofía Herrera,39,18.72,105.84,mobile,moba
-1322,María López,35,48.86,7.98,mobile,puzzle
-1323,Andrés Molina,27,39.43,71.06,movil,Battle Royale
-1324,Luis Fernández,29,27.3,88.72,xbox,puZZle
-1325,Carmen Vega,22,35.6,12.31,PS5,AVENTURA
-1326,Luis Fernández,42,40.59,159.13,XBOX,MOBA
-1327,David Ortega,33,16.43,82.45,Play Station 5,shootER
-1328,Laura Gil,39,13.9,52.96,xbox,rpg
-1329,María López,27,30.24,134.93,pc,Sports
-1330,Jorge Díaz,26,29.18,162.04,Steam,sports
-1331,Elena Martín,29,49.18,153.43,Play Station 5,sports
-1332,Jorge Díaz,41,59.51,55.38,playstation,shootER
-1333,Luis Fernández,32,17.9,73.15,XBOX,MOBA
-1334,Natalia Vargas,33,55.29,104.9,PS5,shootER
-1335,Pedro Sánchez,26,52.87,87.95,Switch,MOBA
-1336,Pedro Sánchez,,14.36,14.05,mobile,AVENTURA
-1337,Carlos Ruiz,35,52.36,157.68,Switch,Battle Royale
-1338,Ana García,28,7.75,50.07,Play Station 5,puZZle
-1339,Miguel Torres,31,57.1,144.02,PC ,shootER
-1340,Natalia Vargas,24,8.78,75.93,XBOX,puzzle
-1341,Andrés Molina,27,63.51,305.36,PC ,puzzle
-1342,,36,80.98,64.24,nintendo switch,MOBA
-1343,Carmen Vega,42,73.86,90.08,XBOX,puzzle
-1344,Carmen Vega,40,84.14,36.1,pc,RPG
-1345,Carmen Vega,30,92.82,27.1,XBOX,puZZle
-1346,Pedro Sánchez,30,83.55,91.5,XBOX,rpg
-1347,Laura Gil,22,53.83,13.39,XBOX,Shooter
-1348,Miguel Torres,33,41.47,71.93,Switch,rpg
-1349,Pedro Sánchez,38,38.33,5.1,nintendo switch,puZZle
-1350,Jorge Díaz,23,16.7,11.26,nintendo switch,Shooter
-1351,Ana García,22,5.47,80.15,movil,MOBA
-1352,María López,45,32.73,29.4,movil,moba
-1353,Jorge Díaz,44,29.92,15.16,Switch,Sports
-1354,Andrés Molina,45,31.18,13.16,pc,rpg
-1354,Andrés Molina,45,31.18,13.16,pc,rpg
-1355,Laura Gil,15,14.7,98.23,XBOX,shootER
-1356,Sofía Herrera,15,23.02,185.68,PC ,AVENTURA
-1357,Pedro Sánchez,27,90.26,125.92,movil,AVENTURA
-1358,Natalia Vargas,26,8.6,69.98,XBOX,Shooter
-1359,Carlos Ruiz,29,43.25,70.17,nintendo switch,Battle Royale
-1360,Pedro Sánchez,26,126.93,148.32,XBOX,shootER
-1361,Jorge Díaz,34,58.33,61.39,PS5,RPG
-1362,Andrés Molina,22,97.23,343.7,Play Station 5,Battle Royale
-1363,David Ortega,17,80.2,293.65,PS5,AVENTURA
-1364,David Ortega,38,59.22,31.71,playstation,rpg
-1365,Ana García,49,26.43,140.34,Steam,RPG
-1365,Ana García,49,26.43,140.34,Steam,RPG
-1366,Ana García,20,25.0,110.0,xbox,shootER
-1367,Carmen Vega,24,26.08,12.81,xbox,sports
-1368,,,52.92,44.3,XBOX,moba
-1369,Pedro Sánchez,24,51.9,240.19,mobile,Shooter
-1370,,37,88.52,104.51,movil,RPG
-1371,Elena Martín,32,56.37,45.07,PC ,Sports
-1372,Carlos Ruiz,18,84.05,82.29,PS5,sports
-1373,Lucía Ramos,44,74.5,78.61,XBOX,AVENTURA
-1374,María López,26,21.51,42.04,Switch,Shooter
-1375,Jorge Díaz,42,38.05,77.82,mobile,MOBA
-1376,Natalia Vargas,33,77.77,310.1,nintendo switch,MOBA
-1377,,35,72.73,99.33,mobile,MOBA
-1378,Lucía Ramos,44,79.25,113.52,nintendo switch,Battle Royale
-1379,Lucía Ramos,24,25.45,38.76,Switch,Shooter
-1380,Jorge Díaz,38,25.36,,mobile,AVENTURA
-1381,Andrés Molina,,25.25,9.57,playstation,puzzle
-1382,Miguel Torres,22,29.07,11.66,Steam,puzzle
-1383,Andrés Molina,,22.64,94.29,Steam,Battle Royale
-1384,Luis Fernández,24,12.1,71.55,XBOX,rpg
-1385,,18,24.04,19.47,mobile,Battle Royale
-1386,María López,39,68.8,33.68,nintendo switch,RPG
-1387,David Ortega,49,55.61,186.36,movil,AVENTURA
-1388,Natalia Vargas,21,17.67,18.68,mobile,Shooter
-1389,María López,,86.61,207.03,Play Station 5,Battle Royale
-1390,Natalia Vargas,37,81.46,297.77,Steam,sports
-1391,Sofía Herrera,29,48.93,189.74,steam,puZZle
-1392,David Ortega,,49.36,33.58,mobile,Battle Royale
-1393,Luis Fernández,27,30.53,41.46,XBOX,MOBA
-1394,Sofía Herrera,30,41.73,77.87,movil,RPG
-1395,Laura Gil,28,42.57,354.88,movil,rpg
-1396,Carlos Ruiz,31,41.55,49.75,mobile,puZZle
-1397,,44,83.26,88.21,Switch,Battle Royale
-1398,,24,,94.19,PS5,MOBA
-1399,Sofía Herrera,32,63.19,53.75,PC ,moba
-1400,Jorge Díaz,41,12.82,49.88,pc,rpg
-1401,María López,31,66.47,61.77,movil,MOBA
-1402,María López,30,53.72,306.39,nintendo switch,AVENTURA
-1403,Sofía Herrera,,5.5,53.59,Play Station 5,puzzle
-1404,María López,36,27.64,7.76,Switch,RPG
-1405,Elena Martín,35,50.27,74.04,pc,MOBA
-1406,Natalia Vargas,23,68.96,131.48,playstation,MOBA
-1407,Andrés Molina,48,59.72,,Play Station 5,Battle Royale
-1408,Sofía Herrera,28,22.62,5.12,PS5,AVENTURA
-1409,Sofía Herrera,16,30.4,48.32,Switch,AVENTURA
-1410,Carlos Ruiz,,27.66,27.66,XBOX,sports
-1411,Laura Gil,28,34.07,7.41,XBOX,MOBA
-1412,Luis Fernández,30,68.83,55.63,movil,Battle Royale
-1413,Miguel Torres,31,46.46,523.48,xbox,shootER
-1414,María López,22,79.0,91.96,Steam,MOBA
-1415,Carmen Vega,37,65.93,116.08,Steam,Sports
-1416,Andrés Molina,20,,26.32,Play Station 5,Shooter
-1417,Andrés Molina,26,15.07,104.75,PC ,RPG
-1418,Sofía Herrera,19,69.32,106.8,xbox,rpg
-1419,Luis Fernández,25,47.4,226.37,XBOX,puzzle
-1420,Sofía Herrera,46,12.56,55.89,Play Station 5,RPG
-1421,Lucía Ramos,23,11.45,111.61,PC ,AVENTURA
-1422,Carmen Vega,19,74.67,102.64,nintendo switch,AVENTURA
-1423,Pedro Sánchez,33,46.54,424.45,Play Station 5,MOBA
-1424,,17,61.17,24.29,PC ,rpg
-1425,Andrés Molina,21,72.88,168.34,nintendo switch,shootER
-1426,Luis Fernández,48,89.76,28.38,XBOX,Battle Royale
-1427,Natalia Vargas,47,61.0,23.85,xbox,rpg
-1428,Luis Fernández,40,10.74,39.57,playstation,sports
-1429,María López,,54.99,179.44,nintendo switch,puZZle
-1429,María López,,54.99,179.44,nintendo switch,puZZle
-1430,Elena Martín,34,13.21,27.72,Play Station 5,Battle Royale
-1431,María López,25,31.6,23.51,Play Station 5,Sports
-1432,Natalia Vargas,,44.55,49.4,playstation,MOBA
-1433,Ana García,28,73.82,179.54,steam,sports
-1434,,20,90.51,242.57,mobile,moba
-1435,Miguel Torres,22,63.72,161.45,Switch,AVENTURA
-1436,Ana García,19,65.79,14.46,movil,sports
-1437,Natalia Vargas,,48.97,85.61,XBOX,shootER
-1438,David Ortega,34,55.5,473.93,xbox,Sports
-1439,David Ortega,30,52.94,62.24,Switch,puZZle
-1440,Lucía Ramos,31,65.63,65.36,XBOX,Sports
-1441,David Ortega,28,47.58,121.48,xbox,Sports
-1442,Natalia Vargas,30,64.07,49.45,PS5,shootER
-1443,Lucía Ramos,42,30.07,34.71,movil,puZZle
-1444,Elena Martín,44,32.43,15.25,xbox,moba
-1445,Carmen Vega,34,35.84,257.39,pc,puzzle
-1446,Luis Fernández,17,56.15,39.5,nintendo switch,moba
-1447,Natalia Vargas,37,51.67,193.75,steam,MOBA
-1448,Ana García,48,58.41,280.85,PC ,Shooter
-1449,Pedro Sánchez,27,21.41,36.58,movil,Battle Royale
-1450,Elena Martín,,31.31,52.49,PS5,moba
-1451,Elena Martín,18,42.09,34.62,PC ,sports
-1452,Miguel Torres,27,35.5,20.59,PC ,Shooter
-1453,Laura Gil,44,20.74,92.92,Steam,puzzle
-1454,Lucía Ramos,32,44.93,226.03,Play Station 5,Battle Royale
-1454,Lucía Ramos,32,44.93,226.03,Play Station 5,Battle Royale
-1455,Laura Gil,42,51.32,17.64,PC ,Shooter
-1456,María López,30,26.49,71.39,PC ,Sports
-1457,Miguel Torres,33,93.73,,PC ,puZZle
-1458,Pedro Sánchez,29,39.16,145.15,Switch,puZZle
-1459,Lucía Ramos,24,20.11,50.03,playstation,shootER
-1460,Andrés Molina,33,32.93,132.29,nintendo switch,RPG
-1461,Natalia Vargas,31,38.75,278.65,XBOX,MOBA
-1462,,27,54.46,360.71,PC ,moba
-1463,,24,36.47,111.77,mobile,shootER
-1463,,24,36.47,111.77,mobile,shootER
-1464,Pedro Sánchez,22,16.07,15.43,movil,puzzle
-1465,Carlos Ruiz,52,14.53,29.11,PC ,sports
-1466,Jorge Díaz,39,85.95,403.28,movil,moba
-1467,María López,18,45.03,55.23,mobile,Battle Royale
-1468,Natalia Vargas,35,15.09,101.42,nintendo switch,Shooter
-1469,Lucía Ramos,39,36.73,3.63,steam,Sports
-1470,Laura Gil,45,45.6,164.34,XBOX,RPG
-1471,Natalia Vargas,34,15.19,36.79,nintendo switch,shootER
-1472,Natalia Vargas,46,34.36,0.28,PC ,puZZle
-1473,Andrés Molina,35,48.01,56.99,pc,moba
-1474,Carmen Vega,35,37.21,10.82,PC ,rpg
-1475,Jorge Díaz,25,31.08,79.73,pc,rpg
-1476,Luis Fernández,16,34.57,38.16,Steam,moba
-1477,Miguel Torres,19,104.06,301.27,movil,MOBA
-1478,Natalia Vargas,52,85.5,53.83,steam,AVENTURA
-1479,Laura Gil,,85.91,64.62,xbox,shootER
-1480,Ana García,21,50.68,207.77,Switch,puZZle
-1481,Luis Fernández,27,12.88,144.63,steam,shootER
-1482,Lucía Ramos,21,34.16,226.71,playstation,Shooter
-1483,Miguel Torres,34,83.66,86.52,movil,moba
-1484,Ana García,48,62.66,183.26,PS5,moba
-1485,Laura Gil,17,84.36,,xbox,Sports
-1486,Ana García,46,15.7,36.89,Steam,moba
-1487,Andrés Molina,43,95.75,60.9,steam,sports
-1488,Carlos Ruiz,45,32.21,117.85,PS5,moba
-1489,Luis Fernández,27,55.71,200.45,Switch,sports
-1490,Natalia Vargas,37,21.25,12.89,movil,AVENTURA
-1491,,21,106.35,284.12,xbox,Battle Royale
-1492,David Ortega,26,36.21,87.03,movil,MOBA
-1493,Miguel Torres,24,84.0,144.61,steam,Sports
-1494,Miguel Torres,29,29.53,63.08,playstation,moba
-1495,Carlos Ruiz,20,52.95,38.15,Play Station 5,shootER
-1496,,45,86.89,103.75,playstation,MOBA
-1497,Sofía Herrera,,46.03,98.31,Play Station 5,Battle Royale
-1498,Lucía Ramos,33,76.48,38.32,PC ,Battle Royale
-1499,Andrés Molina,44,91.82,35.47,PC ,Sports
-1500,Laura Gil,34,73.32,55.09,XBOX,moba
-1501,Ana García,29,25.93,95.36,nintendo switch,Shooter
-1502,Luis Fernández,30,24.46,119.77,Steam,sports
-1503,,23,37.53,103.94,steam,Sports
-1504,Sofía Herrera,,20.55,85.97,pc,RPG
-1505,Sofía Herrera,25,58.2,121.88,movil,AVENTURA
-1506,Carlos Ruiz,39,19.31,61.22,pc,Sports
-1507,Lucía Ramos,21,68.6,205.29,Switch,Battle Royale
-1508,Elena Martín,33,11.11,56.78,playstation,Battle Royale
-1509,David Ortega,24,73.21,161.79,playstation,Sports
-1510,Sofía Herrera,25,66.16,25.29,mobile,RPG
-1511,Jorge Díaz,25,43.25,65.78,mobile,RPG
-1512,Lucía Ramos,18,34.56,100.17,movil,Sports
-1513,Pedro Sánchez,44,15.51,72.1,Switch,sports
-1514,Miguel Torres,27,73.87,111.24,xbox,sports
-1515,Miguel Torres,19,51.14,143.29,pc,Sports
-1516,Luis Fernández,31,27.21,15.28,PS5,puZZle
-1517,Jorge Díaz,34,84.68,93.64,nintendo switch,Sports
-1518,Sofía Herrera,27,7.58,183.2,steam,RPG
-1519,Ana García,22,115.67,12.68,PC ,shootER
-1520,Carmen Vega,17,24.44,39.61,PS5,Battle Royale
-1521,Carmen Vega,41,48.44,156.56,Steam,MOBA
-1522,María López,19,37.49,20.14,XBOX,AVENTURA
-1523,Andrés Molina,37,88.84,177.32,PC ,puZZle
-1524,David Ortega,23,61.8,279.23,movil,sports
-1525,María López,40,98.88,,mobile,Sports
-1526,Lucía Ramos,45,13.3,57.2,PS5,puzzle
-1527,Natalia Vargas,16,40.31,51.91,Play Station 5,MOBA
-1528,Miguel Torres,25,35.87,38.63,nintendo switch,Shooter
-1529,Elena Martín,24,48.21,30.73,PS5,RPG
-1530,Miguel Torres,,37.88,89.44,pc,MOBA
-1531,Andrés Molina,28,14.31,32.07,Play Station 5,AVENTURA
-1532,Jorge Díaz,31,75.57,229.55,XBOX,AVENTURA
-1533,,41,95.9,358.44,playstation,Sports
-1534,Carlos Ruiz,27,73.61,258.05,XBOX,sports
-1535,Lucía Ramos,34,42.0,30.49,mobile,puzzle
-1536,Lucía Ramos,20,19.22,47.07,xbox,Battle Royale
-1537,Carmen Vega,35,55.5,10.16,XBOX,MOBA
-1538,Pedro Sánchez,32,56.94,140.33,Play Station 5,Sports
-1539,María López,23,36.2,98.36,Play Station 5,Sports
-1540,Sofía Herrera,,47.85,137.04,pc,moba
-1541,,36,21.81,66.47,xbox,Shooter
-1542,Lucía Ramos,20,18.46,,PC ,RPG
-1543,Pedro Sánchez,41,18.64,132.8,nintendo switch,Shooter
-1543,Pedro Sánchez,41,18.64,132.8,nintendo switch,Shooter
-1544,Carlos Ruiz,38,45.13,44.35,movil,moba
-1545,,35,75.81,71.8,XBOX,shootER
-1546,Natalia Vargas,21,49.38,215.78,PC ,Shooter
-1547,David Ortega,19,53.35,177.23,PS5,moba
-1548,Miguel Torres,29,69.69,144.62,nintendo switch,puZZle
-1549,Carlos Ruiz,27,59.22,48.97,playstation,puZZle
-1550,Sofía Herrera,42,65.3,280.45,Play Station 5,Battle Royale
-1551,Carmen Vega,25,46.07,58.23,Switch,Sports
-1552,Pedro Sánchez,28,61.5,110.71,Play Station 5,MOBA
-1553,Natalia Vargas,27,34.68,198.95,movil,puZZle
-1554,Sofía Herrera,,43.99,124.05,mobile,shootER
-1554,Sofía Herrera,,43.99,124.05,mobile,shootER
-1555,Pedro Sánchez,19,27.91,36.5,xbox,Sports
-1556,Sofía Herrera,28,,66.04,xbox,MOBA
-1557,Sofía Herrera,,73.94,102.57,Steam,puZZle
-1558,David Ortega,35,12.88,20.76,mobile,MOBA
-1559,,45,57.89,284.51,xbox,Sports
-1560,Sofía Herrera,34,19.91,88.35,PS5,MOBA
-1561,María López,25,36.1,23.62,XBOX,Shooter
-1562,Sofía Herrera,35,39.21,338.84,nintendo switch,AVENTURA
-1563,Carmen Vega,21,53.11,120.45,Steam,RPG
-1564,Andrés Molina,20,28.02,239.09,PC ,Battle Royale
-1565,Carmen Vega,23,38.8,372.93,mobile,rpg
-1566,Andrés Molina,29,51.4,17.63,xbox,Battle Royale
-1567,Jorge Díaz,,23.61,177.08,Play Station 5,Shooter
-1568,Carmen Vega,16,39.23,182.06,xbox,rpg
-1569,Carmen Vega,28,58.87,68.96,playstation,sports
-1570,Luis Fernández,23,47.34,23.53,playstation,rpg
-1571,David Ortega,23,49.0,67.47,xbox,puzzle
-1572,Andrés Molina,22,43.01,228.04,PS5,Sports
-1573,Carmen Vega,19,81.68,192.77,XBOX,Shooter
-1574,David Ortega,,69.7,,PC ,puZZle
-1575,Sofía Herrera,45,89.06,44.49,PC ,Shooter
-1576,Andrés Molina,34,83.33,290.69,movil,Shooter
-1577,Jorge Díaz,43,32.48,42.86,pc,shootER
-1578,Luis Fernández,22,78.72,71.52,nintendo switch,shootER
-1579,Elena Martín,50,28.53,28.17,movil,moba
-1580,Carmen Vega,24,25.11,87.43,mobile,AVENTURA
-1581,Jorge Díaz,41,67.89,134.59,PC ,AVENTURA
-1582,David Ortega,31,62.49,111.59,mobile,sports
-1583,,39,12.81,138.46,Steam,sports
-1583,,39,12.81,138.46,Steam,sports
-1584,Andrés Molina,23,42.42,330.64,movil,Sports
-1585,Pedro Sánchez,32,58.33,80.8,playstation,Sports
-1586,Jorge Díaz,29,81.76,122.99,movil,moba
-1587,Carmen Vega,22,28.78,109.62,steam,Sports
-1588,Laura Gil,45,27.31,14.06,XBOX,Battle Royale
-1589,Miguel Torres,49,89.0,246.27,Switch,MOBA
-1590,Miguel Torres,48,50.9,173.11,pc,shootER
-1591,David Ortega,38,89.63,66.6,nintendo switch,moba
-1592,Andrés Molina,23,25.2,236.13,PS5,rpg
-1593,Laura Gil,43,49.63,18.71,pc,moba
-1594,Carmen Vega,39,86.38,,steam,AVENTURA
-1595,Natalia Vargas,17,122.16,203.53,xbox,puZZle
-1596,David Ortega,33,61.76,81.09,nintendo switch,moba
-1597,Carlos Ruiz,22,29.2,50.68,mobile,sports
-1598,Carlos Ruiz,26,79.54,152.96,PS5,Battle Royale
-1599,David Ortega,45,27.7,27.89,nintendo switch,rpg
-1600,Laura Gil,21,60.92,217.81,nintendo switch,MOBA
-1601,Pedro Sánchez,36,33.81,21.86,PS5,Battle Royale
-1602,Carmen Vega,28,65.0,52.8,mobile,puzzle
-1603,Carlos Ruiz,45,29.21,67.39,Switch,AVENTURA
-1604,Carmen Vega,34,69.98,0.61,PS5,moba
-1605,Natalia Vargas,22,53.41,33.67,xbox,moba
-1606,Ana García,17,55.63,120.03,nintendo switch,Shooter
-1607,Andrés Molina,44,59.28,32.42,Play Station 5,Shooter
-1608,Laura Gil,40,53.71,119.78,XBOX,puzzle
-1609,Carmen Vega,22,52.1,66.25,XBOX,puzzle
-1610,Laura Gil,27,52.81,121.63,movil,Sports
-1610,Laura Gil,27,52.81,121.63,movil,Sports
-1611,David Ortega,31,34.21,66.41,steam,MOBA
-1612,Jorge Díaz,43,27.62,12.26,PS5,shootER
-1613,Ana García,38,22.06,51.17,Switch,Battle Royale
-1614,,19,60.85,292.18,Play Station 5,RPG
-1615,Sofía Herrera,42,13.2,87.29,PC ,moba
-1616,Lucía Ramos,23,46.45,235.17,playstation,rpg
-1617,Natalia Vargas,27,35.71,33.64,Play Station 5,moba
-1618,Ana García,21,4.95,7.23,mobile,moba
-1619,Ana García,16,67.86,22.45,pc,rpg
-1620,Sofía Herrera,41,47.65,226.64,steam,Battle Royale
-1620,Sofía Herrera,41,47.65,226.64,steam,Battle Royale
-1621,Sofía Herrera,29,7.69,53.87,mobile,sports
-1622,Sofía Herrera,35,36.4,263.65,PS5,shootER
-1623,Laura Gil,25,19.69,25.12,steam,puZZle
-1624,,38,28.74,45.93,playstation,AVENTURA
-1625,David Ortega,31,55.88,201.5,nintendo switch,rpg
-1626,Lucía Ramos,23,15.32,109.27,PS5,Battle Royale
-1627,Carlos Ruiz,36,34.3,6.76,Play Station 5,MOBA
-1628,Ana García,35,34.15,38.77,PS5,shootER
-1628,Ana García,35,34.15,38.77,PS5,shootER
-1629,,46,35.26,209.28,PC ,rpg
-1630,David Ortega,26,96.32,0.64,PC ,Battle Royale
-1631,María López,27,63.83,14.42,Switch,puzzle
-1632,Andrés Molina,25,12.75,54.27,PS5,RPG
-1633,Elena Martín,41,53.71,242.21,xbox,Shooter
-1634,Luis Fernández,21,13.47,82.16,xbox,AVENTURA
-1635,Andrés Molina,29,11.9,14.2,nintendo switch,Shooter
-1636,Andrés Molina,26,97.06,85.16,Steam,AVENTURA
-1637,Elena Martín,35,15.86,63.42,pc,shootER
-1638,María López,21,28.12,0.91,movil,puzzle
-1639,Elena Martín,29,44.24,42.93,mobile,moba
-1640,Ana García,21,44.1,151.22,PC ,sports
-1641,Elena Martín,,38.04,84.11,nintendo switch,rpg
-1642,Ana García,30,10.67,46.51,PS5,AVENTURA
-1643,Carmen Vega,33,16.37,51.61,steam,MOBA
-1644,Elena Martín,24,34.38,165.98,pc,shootER
-1645,Pedro Sánchez,27,77.8,57.52,movil,moba
-1646,Luis Fernández,19,81.02,56.72,xbox,puZZle
-1647,Elena Martín,22,70.75,36.8,mobile,shootER
-1648,Andrés Molina,25,90.4,21.47,playstation,RPG
-1649,Carmen Vega,39,58.5,75.96,nintendo switch,sports
-1650,Miguel Torres,32,53.64,22.16,Switch,moba
-1651,Carlos Ruiz,25,53.75,168.85,PS5,Shooter
-1652,Natalia Vargas,43,,9.66,XBOX,RPG
-1653,Carmen Vega,52,53.78,9.36,Switch,Sports
-1654,Jorge Díaz,44,43.44,166.17,PC ,AVENTURA
-1655,Miguel Torres,,119.79,66.75,mobile,puzzle
-1655,Miguel Torres,,119.79,66.75,mobile,puzzle
-1656,Andrés Molina,32,33.54,26.19,steam,sports
-1657,Laura Gil,22,40.94,12.86,nintendo switch,moba
-1658,Carlos Ruiz,36,53.18,66.04,mobile,sports
-1659,Carmen Vega,31,43.28,109.49,PS5,RPG
-1660,David Ortega,24,57.66,26.52,pc,Sports
-1661,Lucía Ramos,20,99.76,39.21,pc,shootER
-1662,Laura Gil,21,14.59,42.27,Switch,rpg
-1663,David Ortega,21,68.69,80.26,steam,shootER
-1664,Andrés Molina,37,83.28,72.17,movil,moba
-1665,Andrés Molina,34,4.21,111.91,playstation,Shooter
-1666,Lucía Ramos,30,80.59,279.46,playstation,rpg
-1667,Sofía Herrera,42,33.81,35.9,Switch,puzzle
-1668,Luis Fernández,26,73.2,94.88,XBOX,shootER
-1669,Miguel Torres,26,13.04,97.95,PS5,RPG
-1670,Elena Martín,29,15.67,182.87,playstation,puZZle
-1671,Luis Fernández,38,45.06,159.49,nintendo switch,AVENTURA
-1672,Andrés Molina,19,63.46,76.99,PS5,moba
-1673,Elena Martín,37,29.58,103.23,steam,puzzle
-1674,Miguel Torres,49,11.48,151.54,pc,RPG
-1675,Pedro Sánchez,35,29.17,90.84,steam,MOBA
-1676,Jorge Díaz,24,79.71,42.47,PC ,shootER
-1677,Pedro Sánchez,34,66.68,350.25,XBOX,shootER
-1678,Laura Gil,45,55.25,63.14,Steam,RPG
-1679,Laura Gil,26,63.19,6.57,movil,puZZle
-1680,Sofía Herrera,20,87.72,156.65,pc,AVENTURA
-1681,Lucía Ramos,18,14.87,14.76,xbox,MOBA
-1682,Elena Martín,21,56.73,236.56,movil,moba
-1683,María López,21,57.52,221.1,Switch,puZZle
-1684,Elena Martín,22,91.07,9.38,playstation,rpg
-1685,Pedro Sánchez,29,32.24,66.35,playstation,sports
-1686,Miguel Torres,26,39.12,469.74,PS5,MOBA
-1687,Elena Martín,32,26.36,60.41,playstation,AVENTURA
-1688,Sofía Herrera,23,52.86,195.15,XBOX,sports
-1688,Sofía Herrera,23,52.86,195.15,XBOX,sports
-1689,María López,23,13.41,53.6,xbox,RPG
-1690,Miguel Torres,20,52.45,277.54,nintendo switch,AVENTURA
-1691,Lucía Ramos,29,9.51,109.77,PC ,moba
-1692,,42,33.26,140.11,steam,shootER
-1693,Laura Gil,29,45.46,230.28,pc,moba
-1694,Ana García,14,56.87,84.22,XBOX,RPG
-1695,Elena Martín,20,6.62,48.04,Steam,RPG
-1696,Andrés Molina,22,107.05,148.5,PC ,Sports
-1697,,17,36.35,182.3,Steam,AVENTURA
-1698,Elena Martín,44,46.83,22.5,nintendo switch,MOBA
-1699,Jorge Díaz,22,9.63,126.49,playstation,moba
-1700,,44,26.01,36.22,Switch,moba
-1701,Lucía Ramos,24,58.56,497.39,XBOX,sports
-1702,Natalia Vargas,35,30.84,29.07,Switch,Shooter
-1703,María López,24,23.36,103.05,Switch,Sports
-1704,María López,24,,8.42,PS5,Shooter
-1705,María López,43,6.64,105.13,nintendo switch,moba
-1706,Carlos Ruiz,21,37.91,247.55,Steam,Battle Royale
-1707,Laura Gil,39,66.24,122.02,Play Station 5,RPG
-1708,Carmen Vega,42,22.32,38.34,xbox,puZZle
-1709,María López,44,61.98,112.81,Steam,puzzle
-1710,Carlos Ruiz,32,65.95,24.23,pc,moba
-1711,Ana García,,53.46,273.74,XBOX,puzzle
-1712,Sofía Herrera,,19.6,75.74,Switch,shootER
-1713,Sofía Herrera,39,42.62,96.55,steam,RPG
-1714,Ana García,33,44.28,103.25,mobile,Battle Royale
-1715,Andrés Molina,40,37.92,9.12,pc,MOBA
-1716,Luis Fernández,35,51.61,7.24,playstation,moba
-1717,Sofía Herrera,19,18.0,100.55,Steam,puzzle
-1718,Carmen Vega,35,40.07,197.22,nintendo switch,puZZle
-1719,Carlos Ruiz,44,46.14,143.22,pc,shootER
-1720,Jorge Díaz,29,68.29,247.09,xbox,puzzle
-1721,Carlos Ruiz,21,39.54,21.0,Steam,puZZle
-1722,María López,34,23.36,76.6,xbox,MOBA
-1723,Elena Martín,24,4.32,,movil,AVENTURA
-1724,Laura Gil,28,24.03,110.24,XBOX,moba
-1725,Luis Fernández,25,47.33,103.55,Switch,RPG
-1726,Pedro Sánchez,23,47.6,38.53,pc,rpg
-1727,Andrés Molina,23,21.53,19.93,Switch,rpg
-1728,Ana García,35,,34.1,Steam,rpg
-1729,Andrés Molina,27,11.59,165.87,XBOX,sports
-1730,,43,106.56,1.31,mobile,Shooter
-1730,,43,106.56,1.31,mobile,Shooter
-1731,Jorge Díaz,42,35.06,223.27,PS5,puzzle
-1732,Carmen Vega,41,35.21,162.29,xbox,moba
-1733,Miguel Torres,29,42.04,343.24,PS5,rpg
-1734,David Ortega,24,56.39,49.48,Steam,Battle Royale
-1735,David Ortega,30,42.64,163.81,PC ,RPG
-1736,Lucía Ramos,45,49.95,240.17,playstation,shootER
-1737,Lucía Ramos,18,42.51,68.55,movil,puzzle
-1738,Andrés Molina,22,61.37,123.49,xbox,puZZle
-1739,María López,18,83.61,344.65,Play Station 5,sports
-1740,Natalia Vargas,27,68.05,84.68,Switch,Sports
-1741,Natalia Vargas,33,48.76,70.58,playstation,shootER
-1742,Carlos Ruiz,33,68.46,280.06,steam,AVENTURA
-1743,Elena Martín,19,28.35,7.89,Play Station 5,shootER
-1744,David Ortega,33,40.38,3.82,XBOX,Shooter
-1745,David Ortega,23,47.53,34.37,Switch,Battle Royale
-1746,Miguel Torres,16,66.28,90.06,nintendo switch,puzzle
-1747,David Ortega,20,28.85,50.69,PC ,rpg
-1748,Carlos Ruiz,28,34.79,7.28,XBOX,puZZle
-1749,Miguel Torres,32,37.32,12.6,PS5,AVENTURA
-1750,Ana García,34,32.44,35.54,XBOX,shootER
-1751,Carmen Vega,24,32.45,22.31,XBOX,rpg
-1752,Jorge Díaz,50,26.57,151.0,Steam,MOBA
-1753,,41,44.11,216.62,pc,shootER
-1754,,30,49.91,4.45,playstation,puzzle
-1755,Lucía Ramos,24,84.72,119.44,PC ,RPG
-1756,Andrés Molina,20,85.04,105.78,Steam,puZZle
-1757,Andrés Molina,33,73.99,47.77,PS5,puZZle
-1758,Lucía Ramos,22,67.21,33.41,Switch,moba
-1759,Luis Fernández,31,56.97,57.42,pc,Shooter
-1760,Luis Fernández,18,57.11,183.95,xbox,Shooter
-1761,Luis Fernández,28,37.35,609.37,playstation,MOBA
-1762,Elena Martín,24,73.15,43.07,movil,shootER
-1763,María López,34,16.21,49.64,movil,RPG
-1764,David Ortega,,58.62,49.95,xbox,rpg
-1765,Miguel Torres,19,29.8,73.1,Play Station 5,Shooter
-1766,Andrés Molina,36,32.75,20.58,XBOX,Sports
-1767,Lucía Ramos,,66.38,11.22,Play Station 5,sports
-1768,Lucía Ramos,45,28.29,19.12,Switch,shootER
-1769,Pedro Sánchez,45,73.52,2.74,PS5,puZZle
-1770,David Ortega,28,37.15,184.38,Switch,Sports
-1771,David Ortega,27,32.07,24.31,Steam,moba
-1772,Sofía Herrera,42,43.09,71.14,PC ,shootER
-1773,Carlos Ruiz,19,17.79,43.0,Play Station 5,moba
-1774,María López,33,33.83,25.05,Steam,shootER
-1775,Pedro Sánchez,37,52.64,433.98,steam,shootER
-1776,Lucía Ramos,33,75.65,75.3,playstation,RPG
-1777,Miguel Torres,21,26.28,124.09,steam,Sports
-1778,Carlos Ruiz,36,42.36,110.46,nintendo switch,AVENTURA
-1779,Miguel Torres,24,67.45,12.03,Switch,Shooter
-1780,,16,73.84,540.26,Play Station 5,shootER
-1781,Carmen Vega,23,43.3,75.55,movil,puZZle
-1782,Carlos Ruiz,21,65.27,187.36,Switch,puZZle
-1782,Carlos Ruiz,21,65.27,187.36,Switch,puZZle
-1783,Pedro Sánchez,30,36.88,113.94,playstation,sports
-1784,María López,45,55.1,126.99,PS5,rpg
-1785,María López,38,47.89,78.25,nintendo switch,moba
-1786,Sofía Herrera,25,43.24,,playstation,RPG
-1787,María López,22,87.3,22.1,Switch,MOBA
-1788,Ana García,32,95.33,50.2,Switch,shootER
-1789,Miguel Torres,18,42.24,146.3,Switch,rpg
-1790,Miguel Torres,42,71.8,152.82,pc,moba
-1791,Jorge Díaz,25,110.86,427.28,PS5,moba
-1792,Sofía Herrera,44,29.66,69.56,Switch,puZZle
-1793,Andrés Molina,36,25.52,19.91,Steam,Battle Royale
-1794,Jorge Díaz,24,16.97,44.97,pc,shootER
-1795,Carlos Ruiz,20,95.42,245.61,mobile,moba
-1796,Elena Martín,36,29.11,217.9,mobile,shootER
-1797,Miguel Torres,23,64.48,130.39,Switch,RPG
-1798,Luis Fernández,48,113.73,10.19,Steam,Shooter
-1799,Andrés Molina,22,15.36,17.03,Steam,shootER
-1800,Elena Martín,23,93.0,77.7,mobile,AVENTURA
-1801,,28,24.26,11.75,xbox,AVENTURA
-1802,Laura Gil,15,80.15,76.18,steam,sports
-1803,María López,35,54.12,142.84,Steam,puzzle
-1804,David Ortega,41,78.56,124.66,nintendo switch,RPG
-1805,Andrés Molina,27,36.01,145.5,xbox,shootER
-1806,Laura Gil,14,8.79,48.13,Play Station 5,AVENTURA
-1807,Ana García,28,46.55,65.37,Steam,Sports
-1808,Jorge Díaz,,44.95,89.88,movil,moba
-1809,Natalia Vargas,21,34.6,98.57,XBOX,puZZle
-1810,,,46.74,81.36,PC ,sports
-1811,Carlos Ruiz,31,34.06,34.51,nintendo switch,puzzle
-1812,,32,42.55,47.23,Switch,Shooter
-1813,Sofía Herrera,17,37.4,51.55,Steam,rpg
-1814,Andrés Molina,33,75.98,36.01,XBOX,sports
-1815,Elena Martín,28,38.94,311.1,movil,rpg
-1816,David Ortega,,41.84,136.67,XBOX,RPG
-1817,Sofía Herrera,40,53.04,78.54,steam,moba
-1818,Sofía Herrera,46,82.53,13.2,XBOX,Shooter
-1819,Sofía Herrera,17,26.6,124.49,PS5,sports
-1820,Ana García,33,77.34,505.05,XBOX,Battle Royale
-1821,Elena Martín,42,,34.01,Switch,sports
-1822,Sofía Herrera,35,71.02,23.18,Switch,sports
-1823,Pedro Sánchez,37,75.81,182.08,xbox,puZZle
-1824,,53,31.05,19.87,Steam,RPG
-1825,Ana García,23,62.87,88.49,movil,sports
-1826,Sofía Herrera,20,24.95,82.18,Play Station 5,Battle Royale
-1827,Natalia Vargas,46,24.54,103.57,pc,shootER
-1828,Sofía Herrera,21,33.1,35.29,Steam,MOBA
-1829,Miguel Torres,53,23.24,71.97,pc,MOBA
-1830,Natalia Vargas,28,35.06,140.34,PC ,puZZle
-1831,Ana García,27,4.53,74.02,Steam,rpg
-1832,Sofía Herrera,42,,138.39,PS5,puzzle
-1833,Ana García,28,23.83,20.21,movil,sports
-1834,Pedro Sánchez,31,35.23,48.46,XBOX,Shooter
-1835,Carlos Ruiz,22,41.52,426.27,nintendo switch,Shooter
-1836,Carmen Vega,31,89.61,182.93,movil,moba
-1837,Ana García,50,31.65,25.66,Switch,sports
-1838,Lucía Ramos,32,19.0,50.71,XBOX,RPG
-1839,Pedro Sánchez,16,28.86,31.43,Play Station 5,Shooter
-1840,Ana García,23,49.24,138.66,nintendo switch,puzzle
-1841,Pedro Sánchez,24,61.09,165.44,pc,Shooter
-1842,Jorge Díaz,28,19.34,53.53,Steam,Battle Royale
-1843,Andrés Molina,26,44.69,216.99,pc,MOBA
-1844,Andrés Molina,36,32.98,77.52,Play Station 5,shootER
-1845,Andrés Molina,39,35.83,340.4,mobile,Sports
-1846,Ana García,37,25.38,124.89,pc,puzzle
-1847,Carmen Vega,34,81.33,121.9,xbox,puZZle
-1848,Laura Gil,46,30.22,49.88,xbox,moba
-1849,María López,47,59.57,227.27,XBOX,Battle Royale
-1850,Carlos Ruiz,33,63.07,327.99,movil,Battle Royale
-1851,Andrés Molina,32,37.17,110.53,pc,puzzle
-1852,Jorge Díaz,39,49.88,104.63,Switch,shootER
-1853,Laura Gil,35,18.02,3.7,pc,shootER
-1854,Luis Fernández,24,78.86,89.17,steam,shootER
-1855,Miguel Torres,29,23.42,82.63,Play Station 5,rpg
-1856,María López,28,29.63,40.86,playstation,Shooter
-1857,Laura Gil,50,8.31,56.96,nintendo switch,shootER
-1857,Laura Gil,50,8.31,56.96,nintendo switch,shootER
-1858,David Ortega,38,49.93,266.83,Steam,moba
-1859,María López,29,40.15,16.74,xbox,puzzle
-1860,Pedro Sánchez,40,37.41,133.4,xbox,Shooter
-1861,Laura Gil,24,10.32,48.24,PS5,puzzle
-1862,Elena Martín,39,77.83,159.3,playstation,moba
-1863,Ana García,33,75.65,39.74,steam,rpg
-1864,Carmen Vega,42,,40.2,playstation,Battle Royale
-1865,Natalia Vargas,48,18.44,76.4,mobile,Battle Royale
-1866,Ana García,30,65.02,302.25,nintendo switch,Sports
-1867,,20,31.26,80.99,Switch,puZZle
-1868,Andrés Molina,22,29.59,62.01,Play Station 5,puzzle
-1869,Miguel Torres,21,23.98,26.49,Play Station 5,MOBA
-1870,Sofía Herrera,18,29.69,17.25,xbox,shootER
-1871,Carlos Ruiz,27,68.31,164.89,steam,puzzle
-1872,Natalia Vargas,31,26.71,59.96,steam,AVENTURA
-1873,Luis Fernández,22,60.53,295.95,steam,sports
-1874,,29,12.87,36.47,Switch,MOBA
-1875,Andrés Molina,36,17.81,125.25,playstation,shootER
-1876,Lucía Ramos,18,67.13,98.93,Switch,AVENTURA
-1877,Laura Gil,24,29.43,17.68,PC ,rpg
-1878,Lucía Ramos,30,45.34,123.42,playstation,rpg
-1879,Ana García,38,24.37,54.98,mobile,AVENTURA
-1880,María López,23,71.11,227.69,Switch,RPG
-1881,Carmen Vega,38,11.0,26.3,xbox,moba
-1882,María López,33,57.69,154.97,nintendo switch,shootER
-1883,Andrés Molina,29,99.94,39.6,pc,MOBA
-1884,Carmen Vega,18,57.43,3.3,Switch,MOBA
-1885,Miguel Torres,47,67.39,407.43,playstation,AVENTURA
-1886,Luis Fernández,46,35.93,22.83,PC ,MOBA
-1887,Andrés Molina,20,2.73,226.66,movil,shootER
-1888,Pedro Sánchez,38,65.83,79.3,Play Station 5,Sports
-1889,María López,25,49.59,172.38,Play Station 5,MOBA
-1890,Sofía Herrera,48,30.06,68.02,XBOX,moba
-1891,Pedro Sánchez,31,106.45,94.27,XBOX,puZZle
-1892,Carmen Vega,33,87.72,73.77,Switch,puzzle
-1893,Sofía Herrera,22,67.74,149.49,nintendo switch,Shooter
-1894,Andrés Molina,25,44.82,9.89,Steam,shootER
-1895,Sofía Herrera,,11.66,124.33,pc,puZZle
-1896,Carmen Vega,19,49.66,21.92,Play Station 5,AVENTURA
-1897,,37,72.74,28.47,Switch,Shooter
-1898,María López,34,50.29,697.5,PC ,sports
-1899,Laura Gil,25,54.23,12.86,playstation,MOBA
-1900,Carlos Ruiz,28,55.92,40.15,XBOX,Sports
-1901,María López,41,86.64,87.35,steam,RPG
-1902,Ana García,33,32.39,83.54,Steam,Shooter
-1903,Andrés Molina,36,31.58,49.03,Switch,puzzle
-1904,Lucía Ramos,28,24.51,82.87,playstation,AVENTURA
-1905,María López,23,36.29,47.75,PC ,moba
-1906,Elena Martín,36,40.41,81.64,XBOX,RPG
-1907,Luis Fernández,24,17.66,56.75,movil,puzzle
-1908,Jorge Díaz,41,21.26,32.85,Play Station 5,Shooter
-1909,,31,21.19,124.67,nintendo switch,puZZle
-1910,Carmen Vega,35,8.96,37.57,nintendo switch,MOBA
-1911,Miguel Torres,29,21.01,149.19,xbox,shootER
-1912,Natalia Vargas,25,33.43,59.91,nintendo switch,moba
-1913,,35,93.29,54.43,nintendo switch,sports
-1914,Carlos Ruiz,47,71.02,52.87,movil,sports
-1915,Sofía Herrera,23,43.76,82.5,PS5,puZZle
-1916,Lucía Ramos,29,71.26,136.92,XBOX,rpg
-1917,Jorge Díaz,37,87.29,38.88,pc,RPG
-1918,Elena Martín,48,54.85,105.0,XBOX,Battle Royale
-1919,Laura Gil,34,72.47,197.98,playstation,shootER
-1920,María López,25,49.13,84.3,movil,Sports
-1921,Miguel Torres,35,48.63,,nintendo switch,Shooter
-1922,Jorge Díaz,31,42.84,142.73,playstation,moba
-1923,Sofía Herrera,21,71.59,42.61,playstation,shootER
-1924,Ana García,33,62.75,27.08,playstation,MOBA
-1925,Laura Gil,17,35.47,55.0,pc,puzzle
-1926,Andrés Molina,20,27.87,68.89,PS5,puZZle
-1927,Laura Gil,29,41.92,120.85,xbox,AVENTURA
-1928,Sofía Herrera,40,46.69,60.81,PS5,Shooter
-1929,Natalia Vargas,30,33.19,13.29,Steam,rpg
-1930,María López,23,46.57,90.66,playstation,Sports
-1931,Carmen Vega,27,57.13,66.15,Steam,RPG
-1932,Laura Gil,38,67.19,261.96,xbox,Battle Royale
-1933,Sofía Herrera,39,20.43,16.96,playstation,puzzle
-1934,Andrés Molina,44,23.27,9.83,playstation,Shooter
-1935,,44,71.82,221.06,movil,AVENTURA
-1936,Sofía Herrera,18,16.89,44.23,nintendo switch,Sports
-1937,Elena Martín,47,56.92,195.76,Steam,Battle Royale
-1938,Jorge Díaz,24,97.23,119.53,Switch,shootER
-1939,Miguel Torres,30,23.95,12.19,Switch,AVENTURA
-1940,David Ortega,29,64.99,156.03,movil,Shooter
-1941,Sofía Herrera,40,34.01,3.24,XBOX,Battle Royale
-1942,Ana García,20,72.79,,PC ,RPG
-1943,Ana García,32,38.17,91.86,Play Station 5,Shooter
-1944,Luis Fernández,26,95.59,81.65,nintendo switch,puzzle
-1945,Elena Martín,,55.46,53.29,XBOX,Shooter
-1946,María López,23,23.01,2.78,Steam,moba
-1947,Jorge Díaz,19,33.93,13.94,steam,Shooter
-1948,Elena Martín,46,30.03,10.03,pc,RPG
-1949,María López,20,40.79,52.88,pc,Sports
-1950,Ana García,27,42.91,56.93,XBOX,Battle Royale
-1951,Luis Fernández,17,26.16,158.0,playstation,Battle Royale
-1952,,34,107.53,82.98,pc,MOBA
-1953,Jorge Díaz,24,51.83,61.21,playstation,Shooter
-1954,,46,48.55,103.64,PS5,AVENTURA
-1955,Luis Fernández,28,22.31,8.39,Play Station 5,puZZle
-1956,Luis Fernández,37,3.83,29.63,xbox,sports
-1957,Ana García,35,45.35,87.0,XBOX,Battle Royale
-1958,Sofía Herrera,26,15.86,,mobile,RPG
-1959,Andrés Molina,31,31.97,50.46,Play Station 5,Shooter
-1960,Sofía Herrera,36,78.52,25.17,steam,puZZle
-1961,Lucía Ramos,32,36.11,10.48,steam,AVENTURA
-1962,Carlos Ruiz,27,29.96,135.94,pc,AVENTURA
-1963,María López,35,19.46,60.15,nintendo switch,AVENTURA
-1964,Pedro Sánchez,33,38.49,120.36,PC ,Sports
-1965,Miguel Torres,34,52.46,93.1,nintendo switch,rpg
-1966,Elena Martín,34,78.01,34.85,xbox,MOBA
-1967,Laura Gil,23,68.36,213.98,pc,AVENTURA
-1968,Natalia Vargas,31,43.93,24.69,pc,Sports
-1969,Laura Gil,30,28.17,1.23,movil,AVENTURA
-1970,Lucía Ramos,24,29.24,32.91,Steam,MOBA
-1971,Carlos Ruiz,38,13.27,70.85,XBOX,RPG
-1972,Sofía Herrera,20,104.46,5.02,movil,AVENTURA
-1973,Andrés Molina,19,71.39,130.11,movil,AVENTURA
-1974,Lucía Ramos,17,,12.2,mobile,MOBA
-1975,Sofía Herrera,45,18.12,54.73,steam,Battle Royale
-1976,María López,37,7.9,71.55,mobile,MOBA
-1977,Sofía Herrera,35,46.06,105.62,Switch,moba
-1978,Carmen Vega,15,49.18,80.39,PC ,moba
-1979,Natalia Vargas,33,28.56,21.88,movil,AVENTURA
-1980,Natalia Vargas,26,62.03,19.79,xbox,RPG
-1981,Laura Gil,39,42.55,141.86,playstation,RPG
-1982,Lucía Ramos,46,35.14,350.08,Steam,RPG
-1983,Sofía Herrera,22,36.94,118.4,Switch,sports
-1984,Natalia Vargas,19,22.57,22.19,mobile,puZZle
-1985,Andrés Molina,41,115.97,499.22,movil,sports
-1986,Ana García,29,23.54,66.77,nintendo switch,RPG
-1987,Jorge Díaz,21,53.71,209.65,steam,moba
-1988,Lucía Ramos,20,25.12,31.45,Switch,Shooter
-1989,Luis Fernández,36,65.24,109.4,mobile,Battle Royale
-1990,Elena Martín,24,37.19,235.69,playstation,puZZle
-1991,Elena Martín,25,28.41,29.21,PS5,AVENTURA
-1992,Lucía Ramos,29,83.25,269.35,steam,puZZle
-1993,Sofía Herrera,17,35.65,53.68,Play Station 5,RPG
-1994,Luis Fernández,42,69.85,100.8,Switch,shootER
-1995,Elena Martín,26,20.22,114.84,mobile,MOBA
-1996,Andrés Molina,,33.78,61.05,pc,puZZle
-1997,Andrés Molina,44,46.02,24.81,PC ,AVENTURA
-1998,Andrés Molina,37,3.74,148.11,Switch,AVENTURA
-1999,Elena Martín,34,25.4,49.34,movil,RPG
-2000,Andrés Molina,19,18.55,35.46,xbox,puZZle
-2001,Miguel Torres,42,67.22,163.4,PC ,shootER
-2002,David Ortega,22,24.96,25.99,playstation,Battle Royale
-2003,Miguel Torres,28,70.84,113.43,pc,puzzle
-2004,Laura Gil,25,18.67,17.53,pc,shootER
-2005,Ana García,53,2.26,37.98,playstation,Sports
-2006,María López,39,,46.23,Switch,moba
-2007,Pedro Sánchez,30,9.99,347.77,mobile,RPG
-2008,Elena Martín,44,63.19,450.83,Play Station 5,Battle Royale
-2009,Pedro Sánchez,40,36.23,61.09,movil,puZZle
-2010,Elena Martín,42,44.35,22.6,XBOX,puZZle
-2011,David Ortega,43,57.28,95.86,PS5,Battle Royale
-2012,David Ortega,28,34.15,179.83,nintendo switch,puzzle
-2013,Pedro Sánchez,44,2.17,6.91,Play Station 5,Shooter
-2014,Lucía Ramos,24,96.39,4.74,steam,sports
-2014,Lucía Ramos,24,96.39,4.74,steam,sports
-2015,Elena Martín,28,50.76,113.85,Steam,Battle Royale
-2016,Andrés Molina,20,14.75,23.12,xbox,puzzle
-2017,María López,18,37.14,222.52,movil,rpg
-2018,Luis Fernández,36,16.48,5.5,PS5,Sports
-2019,Laura Gil,25,27.82,152.29,Play Station 5,sports
-2020,Laura Gil,18,28.69,56.8,xbox,shootER
-2021,David Ortega,44,87.32,2.69,nintendo switch,AVENTURA
-2022,Carmen Vega,,26.92,0.22,playstation,Sports
-2023,Lucía Ramos,26,85.43,173.13,PS5,RPG
-2024,Ana García,37,72.52,,playstation,rpg
-2025,Ana García,30,50.56,3.34,XBOX,sports
-2026,Lucía Ramos,38,8.15,24.03,playstation,RPG
-2027,Miguel Torres,15,34.75,16.46,XBOX,Sports
-2028,Andrés Molina,34,56.27,48.59,Steam,Sports
-2029,Andrés Molina,33,46.81,70.98,PS5,puZZle
-2030,Carmen Vega,47,98.37,23.93,xbox,Sports
-2031,Sofía Herrera,23,14.86,138.54,Play Station 5,Shooter
-2032,Pedro Sánchez,39,46.52,77.63,Steam,sports
-2033,,30,29.46,20.36,xbox,puzzle
-2034,Carmen Vega,43,71.38,132.58,xbox,puzzle
-2035,Carlos Ruiz,22,52.3,149.1,PC ,AVENTURA
-2036,Natalia Vargas,23,25.82,1.5,Play Station 5,moba
-2037,Laura Gil,44,80.02,134.81,Switch,puzzle
-2038,Lucía Ramos,,46.22,120.5,XBOX,Battle Royale
-2039,Laura Gil,38,28.57,121.95,playstation,puZZle
-2040,Luis Fernández,29,43.24,27.0,playstation,Battle Royale
-2041,Elena Martín,25,55.12,104.04,steam,Sports
-2042,Jorge Díaz,50,83.65,54.11,Steam,Sports
-2043,Luis Fernández,34,80.2,268.35,Switch,sports
-2044,,23,72.08,24.74,Play Station 5,Shooter
-2045,David Ortega,40,67.38,194.03,PC ,RPG
-2046,Natalia Vargas,41,19.4,359.0,PS5,puzzle
-2047,Andrés Molina,43,101.53,29.64,Switch,puzzle
-2048,Laura Gil,20,71.41,77.92,Switch,MOBA
-2049,Sofía Herrera,44,99.58,192.54,mobile,shootER
-2050,Andrés Molina,31,49.37,,Switch,AVENTURA
-2051,María López,29,48.69,81.21,XBOX,shootER
-2052,Lucía Ramos,27,50.82,53.22,Switch,RPG
-2053,,28,27.6,19.98,movil,Battle Royale
-2054,David Ortega,24,55.53,343.08,Switch,rpg
-2055,Luis Fernández,44,32.11,74.02,XBOX,sports
-2056,Lucía Ramos,41,76.27,16.67,Switch,sports
-2057,Pedro Sánchez,29,37.15,67.26,Play Station 5,rpg
-2058,Miguel Torres,37,34.12,43.83,xbox,shootER
-2059,Elena Martín,48,26.52,209.57,xbox,moba
-2060,Miguel Torres,21,24.81,152.4,mobile,shootER
-2061,Elena Martín,36,15.27,30.8,PC ,rpg
-2062,Ana García,38,29.73,156.86,Switch,Shooter
-2063,Andrés Molina,25,12.18,133.98,movil,Shooter
-2064,María López,30,89.28,487.01,nintendo switch,AVENTURA
-2065,Pedro Sánchez,25,48.7,18.28,XBOX,puzzle
-2066,Elena Martín,45,71.71,278.5,pc,puzzle
-2067,Jorge Díaz,16,48.18,63.99,PC ,RPG
-2068,,34,45.45,486.79,XBOX,shootER
-2069,Carlos Ruiz,25,94.68,151.62,Play Station 5,moba
-2070,David Ortega,23,,35.26,nintendo switch,puzzle
-2071,Elena Martín,29,78.46,13.59,Switch,AVENTURA
-2072,Andrés Molina,27,9.8,,Switch,shootER
-2073,Pedro Sánchez,28,52.36,114.84,mobile,AVENTURA
-2074,,17,,135.82,PS5,Shooter
-2075,Miguel Torres,19,5.43,43.47,movil,moba
-2076,,33,52.37,94.2,PS5,RPG
-2077,Carlos Ruiz,26,67.55,79.78,nintendo switch,MOBA
-2078,Jorge Díaz,42,41.52,73.11,pc,Shooter
-2079,Sofía Herrera,27,12.47,58.38,Switch,Sports
-2080,Elena Martín,22,15.74,96.44,pc,Sports
-2081,David Ortega,29,54.32,69.63,mobile,shootER
-2082,,25,85.17,48.08,Play Station 5,Sports
-2083,Carlos Ruiz,26,66.52,73.69,mobile,AVENTURA
-2084,Luis Fernández,21,50.24,94.93,mobile,moba
-2085,Miguel Torres,53,28.5,95.83,mobile,puZZle
-2086,Carmen Vega,37,58.02,96.31,Play Station 5,shootER
-2087,Ana García,26,86.96,138.41,xbox,sports
-2088,Sofía Herrera,29,,5.35,pc,rpg
-2089,Lucía Ramos,23,42.65,66.62,Play Station 5,rpg
-2090,María López,,52.44,17.01,Play Station 5,Battle Royale
-2091,Sofía Herrera,38,31.31,8.76,steam,shootER
-2092,Miguel Torres,39,61.73,42.31,Play Station 5,Sports
-2093,María López,22,40.69,155.64,steam,AVENTURA
-2094,Ana García,49,57.72,58.49,Play Station 5,puZZle
-2095,Jorge Díaz,23,47.65,11.12,xbox,RPG
-2096,Ana García,30,92.44,19.3,Steam,RPG
-2097,Jorge Díaz,28,58.49,121.19,pc,Shooter
-2098,David Ortega,42,31.91,88.37,PC ,RPG
-2099,Jorge Díaz,22,80.94,74.26,XBOX,rpg
-2100,,26,61.81,60.58,PC ,MOBA
-2101,Andrés Molina,46,24.04,34.02,movil,rpg
-2102,Ana García,20,68.08,118.79,PC ,sports
-2103,Sofía Herrera,26,46.65,152.74,mobile,puZZle
-2104,Sofía Herrera,24,42.96,41.95,PC ,Shooter
-2105,David Ortega,41,23.06,47.0,Steam,puZZle
-2106,Sofía Herrera,30,47.79,0.35,movil,puzzle
-2107,Pedro Sánchez,37,28.14,51.23,PS5,moba
-2108,,18,65.02,79.65,nintendo switch,MOBA
-2109,Lucía Ramos,47,95.42,190.47,steam,rpg
-2110,Elena Martín,44,76.53,126.4,pc,shootER
-2111,Luis Fernández,41,37.97,38.0,playstation,Shooter
-2112,Sofía Herrera,54,23.74,10.54,playstation,AVENTURA
-2113,David Ortega,31,69.16,187.57,PS5,puzzle
-2114,Ana García,46,46.71,86.42,xbox,AVENTURA
-2115,Carmen Vega,18,67.83,23.25,mobile,Battle Royale
-2116,David Ortega,20,26.04,7.4,playstation,AVENTURA
-2117,Miguel Torres,25,81.2,138.88,movil,Battle Royale
-2118,David Ortega,19,32.24,42.11,Steam,rpg
-2119,Carmen Vega,27,27.71,215.19,mobile,puzzle
-2120,Luis Fernández,19,46.19,17.58,Play Station 5,rpg
-2121,,28,62.5,67.12,PS5,Sports
-2122,Sofía Herrera,33,4.68,123.34,pc,Shooter
-2123,Sofía Herrera,,40.6,101.81,steam,Shooter
-2124,Luis Fernández,26,47.64,42.2,playstation,moba
-2125,,38,76.68,47.32,Steam,puZZle
-2126,María López,22,43.64,20.74,Play Station 5,Battle Royale
-2127,Luis Fernández,19,70.45,,mobile,Battle Royale
-2128,Carlos Ruiz,30,33.18,105.38,xbox,rpg
-2129,Carmen Vega,28,37.51,95.32,Switch,RPG
-2130,Carmen Vega,40,75.11,109.37,movil,Shooter
-2131,Natalia Vargas,29,42.65,256.45,Steam,Sports
-2132,Lucía Ramos,19,33.83,45.04,Steam,puzzle
-2133,Miguel Torres,26,73.92,192.14,movil,sports
-2134,Luis Fernández,25,106.08,51.47,nintendo switch,moba
-2135,Andrés Molina,44,71.13,230.62,xbox,puZZle
-2136,Elena Martín,16,35.67,1.2,steam,Sports
-2137,María López,38,62.43,78.0,Play Station 5,Battle Royale
-2138,Elena Martín,29,90.02,152.62,PS5,AVENTURA
-2139,Jorge Díaz,16,53.06,268.41,XBOX,moba
-2140,Elena Martín,38,26.36,18.0,Play Station 5,Sports
-2141,Miguel Torres,35,74.09,247.65,pc,rpg
-2142,Sofía Herrera,31,62.1,11.73,Steam,MOBA
-2143,Miguel Torres,40,65.45,253.54,Switch,moba
-2144,Carmen Vega,20,14.47,60.18,nintendo switch,Shooter
-2145,Jorge Díaz,27,30.29,26.12,nintendo switch,MOBA
-2146,Luis Fernández,27,33.36,40.36,pc,MOBA
-2147,Miguel Torres,32,83.07,64.25,pc,Battle Royale
-2148,Pedro Sánchez,33,91.06,328.72,Steam,moba
-2149,Andrés Molina,20,61.03,60.78,XBOX,Sports
-2150,Jorge Díaz,25,78.79,111.56,pc,Shooter
-2151,Carmen Vega,31,36.86,102.54,PC ,moba
-2152,Pedro Sánchez,47,26.49,30.2,mobile,rpg
-2153,Andrés Molina,24,22.99,31.4,Steam,AVENTURA
-2154,Laura Gil,39,1.53,28.65,pc,puzzle
-2155,Jorge Díaz,44,99.91,49.88,mobile,moba
-2156,,19,57.18,166.23,Play Station 5,moba
-2157,Laura Gil,28,7.3,34.57,movil,sports
-2158,Miguel Torres,43,27.85,221.74,mobile,puzzle
-2159,,30,25.12,137.4,Switch,MOBA
-2160,,45,81.47,10.97,XBOX,AVENTURA
-2161,María López,38,37.46,,nintendo switch,rpg
-2162,Miguel Torres,20,50.53,4.95,Play Station 5,rpg
-2163,,26,72.89,85.72,nintendo switch,Sports
-2164,Luis Fernández,31,36.2,51.68,XBOX,rpg
-2165,David Ortega,32,29.05,99.84,PC ,shootER
-2166,Elena Martín,22,49.89,179.03,PC ,puzzle
-2167,Jorge Díaz,50,18.76,30.81,movil,MOBA
-2167,Jorge Díaz,50,18.76,30.81,movil,MOBA
-2168,Carmen Vega,34,28.4,27.33,Play Station 5,RPG
-2169,Carmen Vega,27,38.07,191.72,Play Station 5,RPG
-2170,Natalia Vargas,20,53.84,5.46,PC ,MOBA
-2171,David Ortega,20,59.44,105.08,PC ,shootER
-2172,Andrés Molina,,42.11,263.26,Switch,Shooter
-2173,Natalia Vargas,28,19.05,104.34,pc,Battle Royale
-2174,Carmen Vega,32,92.79,37.12,PC ,MOBA
-2175,Natalia Vargas,38,22.17,20.98,PS5,RPG
-2176,David Ortega,39,37.44,84.5,mobile,MOBA
-2177,David Ortega,51,4.63,12.59,movil,shootER
-2178,María López,21,34.73,92.14,PS5,rpg
-2179,Jorge Díaz,34,70.37,137.37,PS5,AVENTURA
-2180,Pedro Sánchez,26,39.34,229.29,Play Station 5,Battle Royale
-2181,María López,33,106.44,144.43,Steam,rpg
-2181,María López,33,106.44,144.43,Steam,rpg
-2182,Lucía Ramos,44,23.48,55.46,playstation,RPG
-2183,Laura Gil,34,74.86,113.21,PS5,RPG
-2184,Luis Fernández,23,61.88,56.78,playstation,RPG
-2185,Jorge Díaz,20,66.29,72.1,steam,Sports
-2186,Carlos Ruiz,22,21.72,60.54,Play Station 5,AVENTURA
-2187,Pedro Sánchez,33,32.74,10.65,XBOX,moba
-2188,Carlos Ruiz,35,25.98,106.06,PS5,puZZle
-2189,Ana García,27,78.85,22.02,steam,MOBA
-2190,Pedro Sánchez,39,28.86,59.92,Switch,Sports
-2191,Ana García,25,69.76,221.65,PC ,puzzle
-2192,Jorge Díaz,21,72.31,319.45,PC ,puzzle
-2193,Carmen Vega,42,73.02,50.63,playstation,moba
-2194,Sofía Herrera,31,28.0,15.63,PS5,AVENTURA
-2195,María López,27,72.47,106.68,Steam,puZZle
-2196,Sofía Herrera,27,21.84,70.68,mobile,rpg
-2197,María López,35,53.75,253.2,XBOX,puzzle
-2198,Andrés Molina,32,6.93,70.4,Steam,MOBA
-2199,Luis Fernández,39,20.91,42.08,movil,puzzle
-2200,Laura Gil,19,37.3,112.79,xbox,RPG
-2201,Natalia Vargas,47,58.04,46.04,PC ,shootER
-2202,Ana García,31,80.15,68.72,mobile,moba
-2203,Sofía Herrera,35,46.06,385.19,playstation,shootER
-2204,Ana García,44,20.78,47.13,mobile,shootER
-2205,David Ortega,29,11.13,151.94,PC ,puZZle
-2206,Sofía Herrera,33,44.9,48.11,movil,Shooter
-2207,Carmen Vega,22,56.23,74.89,playstation,sports
-2208,María López,25,26.24,27.56,xbox,MOBA
-2209,Ana García,20,75.21,146.52,PS5,puzzle
-2210,Elena Martín,22,44.67,437.26,mobile,shootER
-2211,David Ortega,18,106.08,19.27,mobile,sports
-2212,Luis Fernández,27,30.29,25.57,pc,Sports
-2213,Elena Martín,19,50.41,103.03,movil,sports
-2214,Pedro Sánchez,33,53.66,32.45,xbox,puZZle
-2214,Pedro Sánchez,33,53.66,32.45,xbox,puZZle
-2215,Elena Martín,25,15.57,28.7,pc,RPG
-2216,María López,28,99.01,191.09,mobile,RPG
-2217,,38,103.13,326.9,Switch,shootER
-2218,,21,67.62,33.24,PS5,Battle Royale
-2219,Miguel Torres,25,31.53,112.84,Steam,Battle Royale
-2220,Laura Gil,20,35.88,15.35,Steam,moba
-2221,Elena Martín,30,39.53,323.88,Steam,AVENTURA
-2222,Ana García,49,50.28,135.77,movil,Sports
-2223,Miguel Torres,,44.87,216.48,nintendo switch,RPG
-2224,David Ortega,31,19.07,21.78,steam,rpg
-2225,Natalia Vargas,41,1.2,37.28,PC ,Battle Royale
-2226,María López,46,38.51,124.89,PS5,Shooter
-2227,Jorge Díaz,22,30.45,39.35,PS5,AVENTURA
-2227,Jorge Díaz,22,30.45,39.35,PS5,AVENTURA
-2228,Laura Gil,31,0.37,84.05,steam,Shooter
-2229,Miguel Torres,38,53.55,102.92,steam,rpg
-2230,María López,41,51.06,42.98,nintendo switch,puZZle
-2231,David Ortega,42,75.97,50.58,nintendo switch,puZZle
-2232,David Ortega,26,23.78,105.68,movil,puZZle
-2233,David Ortega,35,39.51,13.44,steam,moba
-2234,Jorge Díaz,22,69.46,89.07,PS5,rpg
-2235,Carlos Ruiz,24,31.54,143.67,mobile,puzzle
-2236,Carmen Vega,26,33.42,23.63,nintendo switch,Shooter
-2237,Ana García,27,45.75,79.94,Switch,AVENTURA
-2238,Elena Martín,40,23.66,82.0,mobile,Shooter
-2239,Jorge Díaz,31,10.02,75.06,playstation,sports
-2240,Elena Martín,33,56.24,11.91,movil,MOBA
-2241,María López,24,10.34,15.81,PC ,Shooter
-2242,Carmen Vega,48,63.06,23.59,Switch,rpg
-2243,Carmen Vega,27,33.09,17.46,PS5,Battle Royale
-2244,Miguel Torres,22,50.46,285.3,movil,Battle Royale
-2245,Sofía Herrera,21,57.69,356.45,Switch,sports
-2246,David Ortega,33,86.12,25.05,Switch,AVENTURA
-2247,Elena Martín,21,42.96,115.85,nintendo switch,puzzle
-2248,Miguel Torres,21,36.42,144.81,nintendo switch,AVENTURA
-2249,Carlos Ruiz,41,51.44,173.07,movil,moba
-2250,Lucía Ramos,33,67.99,5.65,XBOX,Shooter
-2251,Luis Fernández,16,45.5,38.33,PC ,moba
-2252,Ana García,18,22.37,126.82,playstation,MOBA
-2253,Andrés Molina,24,20.64,59.33,mobile,MOBA
-2254,Natalia Vargas,29,20.89,92.98,mobile,puzzle
-2255,Pedro Sánchez,29,62.51,28.45,Steam,Shooter
-2256,Natalia Vargas,41,24.41,45.1,steam,Battle Royale
-2257,Ana García,35,36.41,,XBOX,moba
-2258,Natalia Vargas,38,25.05,111.88,mobile,rpg
-2259,Miguel Torres,28,55.28,36.65,steam,RPG
-2260,Andrés Molina,30,50.85,134.95,playstation,sports
-2261,Carlos Ruiz,25,16.26,23.77,Steam,puzzle
-2262,Miguel Torres,16,26.11,26.95,steam,RPG
-2263,Sofía Herrera,36,84.77,97.34,nintendo switch,AVENTURA
-2264,Elena Martín,33,,16.39,Play Station 5,Shooter
-2265,Ana García,53,24.0,,PC ,shootER
-2266,Carmen Vega,32,64.44,561.92,steam,Sports
-2267,Andrés Molina,36,35.76,111.34,xbox,rpg
-2268,,26,43.74,291.98,Switch,puzzle
-2269,Sofía Herrera,33,55.75,15.87,playstation,sports
-2270,Carmen Vega,22,69.87,120.94,playstation,Shooter
-2271,,24,48.14,66.22,Steam,puzzle
-2271,,24,48.14,66.22,Steam,puzzle
-2272,Natalia Vargas,29,27.99,18.47,Play Station 5,moba
-2273,Luis Fernández,26,43.43,102.39,PS5,moba
-2274,Lucía Ramos,46,63.62,78.37,PC ,RPG
-2275,Miguel Torres,27,40.52,295.85,movil,MOBA
-2276,María López,33,77.77,428.28,movil,Battle Royale
-2277,Sofía Herrera,27,55.02,126.01,pc,RPG
-2278,Natalia Vargas,29,35.34,50.54,Play Station 5,Shooter
-2279,Miguel Torres,22,63.38,250.63,xbox,Shooter
-2280,Lucía Ramos,27,42.29,49.72,PC ,Battle Royale
-2281,Luis Fernández,19,46.46,117.27,PC ,Shooter
-2282,Lucía Ramos,34,37.85,155.41,steam,puZZle
-2283,Carlos Ruiz,46,48.44,94.79,PS5,Shooter
-2284,Miguel Torres,31,33.33,25.17,xbox,puzzle
-2285,Luis Fernández,28,52.15,52.88,movil,Battle Royale
-2286,David Ortega,25,71.73,161.37,PC ,AVENTURA
-2287,Miguel Torres,29,49.48,387.98,Steam,Battle Royale
-2288,David Ortega,,26.8,36.55,XBOX,Sports
-2289,Carlos Ruiz,40,97.18,257.52,movil,Shooter
-2290,,17,64.08,54.91,nintendo switch,Shooter
-2291,,22,37.56,135.2,xbox,Battle Royale
-2292,Pedro Sánchez,29,36.1,164.23,movil,MOBA
-2293,Laura Gil,23,28.66,108.46,Play Station 5,sports
-2294,Ana García,52,110.92,389.47,xbox,AVENTURA
-2295,David Ortega,18,47.32,77.58,XBOX,sports
-2296,Luis Fernández,17,83.48,247.09,PC ,MOBA
-2297,Elena Martín,34,52.96,88.72,steam,moba
-2298,Sofía Herrera,24,52.74,10.17,XBOX,Shooter
-2299,Carlos Ruiz,25,28.49,169.57,Steam,puZZle
-2300,,31,33.05,20.57,playstation,RPG
-2301,Pedro Sánchez,43,15.63,,mobile,Sports
-2302,Andrés Molina,44,76.45,51.26,PC ,moba
-2303,Laura Gil,26,44.08,101.08,PS5,rpg
-2304,Jorge Díaz,31,20.74,110.97,movil,RPG
-2305,Luis Fernández,21,33.95,56.93,Steam,Battle Royale
-2306,,19,61.34,83.94,mobile,rpg
-2307,Jorge Díaz,,47.08,170.42,XBOX,puZZle
-2308,Pedro Sánchez,26,25.6,7.32,movil,shootER
-2309,Ana García,21,45.18,329.53,Switch,shootER
-2310,Pedro Sánchez,27,75.13,90.03,XBOX,RPG
-2311,Elena Martín,30,8.72,72.62,Switch,sports
-2312,David Ortega,,50.92,191.38,nintendo switch,MOBA
-2313,Pedro Sánchez,28,52.27,211.04,nintendo switch,Shooter
-2314,Natalia Vargas,26,13.98,8.16,playstation,RPG
-2315,Carmen Vega,33,53.59,151.26,pc,puzzle
-2316,Lucía Ramos,26,71.96,99.55,steam,puzzle
-2317,Laura Gil,42,49.97,123.25,playstation,sports
-2318,Ana García,28,68.75,26.06,nintendo switch,Shooter
-2319,Carlos Ruiz,37,48.12,176.34,nintendo switch,Shooter
-2320,Miguel Torres,,22.37,14.98,movil,rpg
-2321,Sofía Herrera,,83.34,254.77,steam,rpg
-2322,Jorge Díaz,45,55.14,102.64,xbox,sports
-2323,,39,6.16,68.51,Steam,puzzle
-2324,Pedro Sánchez,32,64.58,295.43,XBOX,Battle Royale
-2325,Laura Gil,34,7.68,17.14,PC ,MOBA
-2326,Jorge Díaz,22,80.38,14.27,movil,Shooter
-2327,,43,33.17,116.65,XBOX,sports
-2328,María López,35,57.76,70.66,movil,shootER
-2329,Sofía Herrera,27,53.27,158.26,Switch,MOBA
-2330,,39,28.42,113.53,xbox,Battle Royale
-2331,Elena Martín,23,,17.73,Steam,shootER
-2332,Pedro Sánchez,20,76.27,159.77,Play Station 5,puZZle
-2333,Andrés Molina,36,25.97,48.81,Switch,Shooter
-2334,Lucía Ramos,32,42.96,105.5,PS5,Sports
-2335,Sofía Herrera,38,64.95,246.16,nintendo switch,shootER
-2336,Carlos Ruiz,34,23.8,78.99,mobile,moba
-2337,Elena Martín,33,72.3,229.02,movil,RPG
-2338,Jorge Díaz,42,53.37,167.51,movil,moba
-2339,David Ortega,28,4.9,17.44,steam,puzzle
-2340,Lucía Ramos,36,41.93,157.85,xbox,moba
-2341,,23,55.82,46.94,pc,Shooter
-2342,Carmen Vega,26,50.85,17.83,xbox,Sports
-2343,Miguel Torres,17,64.94,10.38,steam,moba
-2344,Andrés Molina,20,36.33,87.85,pc,Shooter
-2345,Elena Martín,23,53.59,81.17,steam,RPG
-2346,Natalia Vargas,32,91.29,74.55,pc,Sports
-2347,Carlos Ruiz,43,54.26,55.42,playstation,Shooter
-2348,Sofía Herrera,35,45.45,112.75,steam,moba
-2349,Carmen Vega,26,56.64,18.94,playstation,AVENTURA
-2350,Natalia Vargas,34,51.41,17.97,Steam,shootER
-2351,Luis Fernández,22,30.7,162.86,PC ,Shooter
-2352,Natalia Vargas,29,58.78,119.83,nintendo switch,AVENTURA
-2353,Carmen Vega,44,10.69,17.07,steam,sports
-2354,Elena Martín,17,12.52,63.98,Play Station 5,AVENTURA
-2355,,48,103.76,320.4,pc,moba
-2356,Pedro Sánchez,36,44.25,160.66,playstation,shootER
-2357,Lucía Ramos,28,66.08,103.82,xbox,MOBA
-2358,David Ortega,22,38.7,97.05,PC ,Shooter
-2359,Carmen Vega,41,45.17,126.41,movil,puZZle
-2360,Laura Gil,31,106.68,146.36,Play Station 5,shootER
-2361,Lucía Ramos,34,58.83,206.15,PS5,shootER
-2362,Elena Martín,26,26.11,65.72,playstation,Battle Royale
-2363,Luis Fernández,24,93.56,5.61,PS5,AVENTURA
-2364,Lucía Ramos,42,10.78,99.76,steam,puZZle
-2365,Sofía Herrera,32,62.3,0.32,XBOX,Sports
-2366,Jorge Díaz,26,,37.51,PC ,rpg
-2367,Pedro Sánchez,33,43.15,311.57,PS5,RPG
-2368,Luis Fernández,33,33.06,27.19,steam,RPG
-2369,Jorge Díaz,22,44.83,141.3,nintendo switch,puZZle
-2370,David Ortega,37,33.88,65.18,playstation,sports
-2371,Sofía Herrera,52,42.9,231.67,Switch,Battle Royale
-2372,María López,40,50.98,48.21,mobile,puzzle
-2373,Natalia Vargas,39,17.16,234.79,Steam,sports
-2374,,34,36.3,85.87,steam,puzzle
-2375,Elena Martín,37,27.68,43.1,PS5,AVENTURA
-2376,Laura Gil,33,63.55,14.42,nintendo switch,shootER
-2377,Carlos Ruiz,24,60.64,340.66,pc,Sports
-2378,Laura Gil,24,6.27,41.41,mobile,MOBA
-2379,Lucía Ramos,25,14.28,66.45,PC ,Sports
-2380,Elena Martín,37,80.57,26.6,xbox,MOBA
-2381,Natalia Vargas,41,39.97,110.87,PS5,Shooter
-2382,Lucía Ramos,32,41.45,40.96,nintendo switch,RPG
-2383,Carmen Vega,35,52.4,45.53,mobile,sports
-2384,Ana García,30,36.03,59.35,Steam,rpg
-2385,Lucía Ramos,16,75.37,107.74,steam,rpg
-2386,David Ortega,21,37.77,38.68,playstation,rpg
-2387,Elena Martín,32,4.16,92.94,Switch,RPG
-2388,Jorge Díaz,23,3.53,30.05,PS5,sports
-2389,Sofía Herrera,37,13.32,90.06,Switch,Battle Royale
-2390,Ana García,46,50.65,61.15,mobile,moba
-2391,,20,35.65,121.87,playstation,puZZle
-2392,María López,28,49.73,106.38,playstation,Shooter
-2393,David Ortega,24,42.24,,xbox,Sports
-2394,Ana García,50,68.82,44.44,XBOX,shootER
-2395,María López,52,84.56,36.51,playstation,shootER
-2396,Luis Fernández,41,33.16,33.11,XBOX,shootER
-2397,Elena Martín,51,70.21,138.41,movil,moba
-2398,Miguel Torres,30,61.05,20.35,Steam,MOBA
-2399,Lucía Ramos,,12.57,36.93,steam,puzzle
-2400,,45,73.57,456.19,pc,Shooter
-2401,María López,23,51.55,49.84,XBOX,Sports
-2402,Andrés Molina,32,7.24,162.85,Play Station 5,Sports
-2403,David Ortega,21,16.11,25.79,PC ,rpg
-2404,Sofía Herrera,34,34.59,16.5,movil,shootER
-2405,Luis Fernández,41,29.1,6.22,Play Station 5,AVENTURA
-2406,Jorge Díaz,25,13.73,64.04,PS5,Battle Royale
-2407,Jorge Díaz,31,19.56,185.94,nintendo switch,Battle Royale
-2408,Elena Martín,53,23.45,28.22,Play Station 5,RPG
-2409,Lucía Ramos,16,86.9,7.9,XBOX,RPG
-2410,Lucía Ramos,18,45.23,202.85,pc,RPG
-2411,Lucía Ramos,34,24.47,123.72,xbox,puZZle
-2412,Laura Gil,29,27.42,57.39,steam,puzzle
-2413,Ana García,41,16.19,77.65,Play Station 5,shootER
-2414,Carmen Vega,18,113.84,155.24,steam,MOBA
-2415,Carlos Ruiz,33,66.79,26.19,PS5,AVENTURA
-2416,Ana García,24,48.8,43.64,pc,puzzle
-2417,,25,52.72,94.1,XBOX,Sports
-2418,,39,22.95,97.7,Switch,Sports
-2419,David Ortega,25,4.15,102.23,PS5,AVENTURA
-2420,Ana García,,33.95,143.93,xbox,RPG
-2421,Andrés Molina,24,33.51,10.96,steam,sports
-2421,Andrés Molina,24,33.51,10.96,steam,sports
-2422,María López,31,36.77,204.17,PC ,rpg
-2423,Laura Gil,43,18.98,15.4,PS5,MOBA
-2424,Jorge Díaz,40,16.03,40.83,steam,rpg
-2425,Jorge Díaz,29,45.71,45.68,Switch,Battle Royale
-2426,Miguel Torres,50,40.37,56.01,pc,AVENTURA
-2427,Laura Gil,20,24.76,30.76,Play Station 5,moba
-2428,Miguel Torres,24,42.77,278.82,Switch,RPG
-2429,Luis Fernández,25,95.82,36.69,xbox,Sports
-2430,Carmen Vega,26,41.11,218.18,playstation,RPG
-2431,Carlos Ruiz,37,30.49,87.0,pc,Shooter
-2432,Andrés Molina,33,3.66,12.15,pc,Battle Royale
-2433,,24,32.05,35.74,Steam,rpg
-2434,Carmen Vega,36,68.26,46.66,steam,Shooter
-2435,Pedro Sánchez,23,56.33,58.24,steam,puZZle
-2436,Andrés Molina,44,44.0,141.55,xbox,rpg
-2437,Carmen Vega,26,26.97,125.93,mobile,moba
-2438,Andrés Molina,27,16.53,,mobile,puzzle
-2439,María López,36,78.4,85.77,XBOX,AVENTURA
-2440,Elena Martín,27,84.53,192.4,Steam,moba
-2441,Laura Gil,26,59.93,32.43,Play Station 5,RPG
-2442,Ana García,32,51.49,112.69,XBOX,puZZle
-2443,Ana García,26,47.39,113.14,PS5,Shooter
-2444,Miguel Torres,25,24.11,2.45,steam,rpg
-2445,Carlos Ruiz,26,38.62,103.79,Switch,MOBA
-2446,David Ortega,43,22.83,118.12,movil,rpg
-2447,Luis Fernández,47,67.47,382.88,Play Station 5,Shooter
-2448,Laura Gil,33,43.51,28.11,playstation,shootER
-2449,Carlos Ruiz,24,18.22,,pc,sports
-2450,María López,,41.86,105.26,nintendo switch,AVENTURA
-2451,David Ortega,32,76.77,124.62,Switch,moba
-2452,María López,25,63.38,12.38,XBOX,AVENTURA
-2453,Carlos Ruiz,37,59.41,226.0,xbox,rpg
-2454,Carmen Vega,33,31.37,130.73,pc,AVENTURA
-2455,Ana García,24,3.7,36.43,XBOX,AVENTURA
-2456,Natalia Vargas,20,24.24,59.91,Switch,Shooter
-2457,Natalia Vargas,27,82.45,143.06,movil,puzzle
-2458,David Ortega,17,18.48,83.36,Play Station 5,shootER
-2459,David Ortega,32,14.01,96.58,steam,puZZle
-2460,,,105.81,136.29,xbox,sports
-2461,Laura Gil,28,59.94,196.76,nintendo switch,MOBA
-2462,Lucía Ramos,18,32.09,2.82,xbox,Shooter
-2463,David Ortega,48,22.45,22.07,PS5,rpg
-2464,Pedro Sánchez,29,9.06,33.86,PC ,MOBA
-2465,Luis Fernández,27,33.93,31.42,playstation,puZZle
-2466,David Ortega,36,69.82,323.99,nintendo switch,Battle Royale
-2467,Carmen Vega,,26.23,180.35,XBOX,RPG
-2468,Andrés Molina,42,27.63,79.86,PC ,RPG
-2469,Jorge Díaz,30,8.87,86.11,nintendo switch,Shooter
-2470,Andrés Molina,35,57.66,155.53,XBOX,sports
-2471,Carmen Vega,20,21.08,,steam,rpg
-2472,Andrés Molina,38,89.86,89.14,PS5,Sports
-2473,Andrés Molina,37,38.33,84.27,Play Station 5,sports
-2474,Lucía Ramos,29,24.79,34.21,steam,MOBA
-2475,Sofía Herrera,16,71.96,22.61,mobile,puzzle
-2476,Luis Fernández,37,23.35,62.18,PC ,shootER
-2477,Ana García,24,48.1,163.06,Switch,AVENTURA
-2478,Andrés Molina,24,26.53,73.78,XBOX,AVENTURA
-2479,Miguel Torres,30,29.54,87.03,nintendo switch,Sports
-2480,Sofía Herrera,24,33.09,13.87,steam,sports
-2481,Ana García,28,52.36,268.25,Play Station 5,sports
-2482,Andrés Molina,23,8.52,21.52,Steam,Shooter
-2483,Natalia Vargas,38,19.78,25.28,steam,Shooter
-2484,Natalia Vargas,16,14.59,88.39,nintendo switch,sports
-2485,Laura Gil,35,30.51,223.43,mobile,Sports
-2486,Pedro Sánchez,24,35.72,75.22,playstation,Shooter
-2487,Carlos Ruiz,25,86.6,227.77,Play Station 5,puZZle
-2488,David Ortega,17,47.55,129.81,PC ,Battle Royale
-2489,David Ortega,32,13.7,23.28,steam,AVENTURA
-2490,Carlos Ruiz,49,84.23,185.04,PS5,puZZle
-2491,Carmen Vega,26,5.33,20.42,PC ,puzzle
-2492,Carmen Vega,40,37.75,76.71,PC ,puzzle
-2493,Pedro Sánchez,21,54.02,235.08,PS5,MOBA
-2494,Natalia Vargas,49,57.71,129.27,mobile,Battle Royale
-2495,Sofía Herrera,32,23.21,155.53,PS5,Battle Royale
-2496,Andrés Molina,,55.37,117.95,nintendo switch,MOBA
-2497,Luis Fernández,42,50.29,309.92,playstation,rpg
-2498,Lucía Ramos,19,37.09,199.79,movil,AVENTURA
-2499,,30,,46.33,PS5,Shooter
-2500,Laura Gil,27,57.79,68.27,playstation,AVENTURA
+id_jugador,nombre,edad,horas_semanales,ingreso_mensual_mxn,plataforma,genero_juego,pais,juego_id,nombre_juego,compras_internas,nivel_alcanzado,calificacion,fecha_registro,fecha_ultima_conexion,estado_jugador
+1,Ana García,24,13.7,409.32,PC ,rpg,Chile,G006,MysticLegends,Sí,2,2.4,02/01/2025,20/10/2025,Inactivo
+2,Sofía Herrera,25,66.28,2026.15,mobile,puzzle,Chile,G003,DragonRealm,Sí,57,4.4,05/12/2025,09/03/2026,Inactivo
+3,,24,20.81,1358.0,Steam,rpg,Argentina,G002,ShadowQuest,Sí,48,2.8,02/09/2025,26/12/2025,Inactivo
+4,Ana García,20,,2192.93,xbox,Sports,México,G006,MysticLegends,Sí,86,1.8,12/05/2025,28/03/2026,Activo
+5,María López,42,39.85,1158.67,Steam,Sports,México,G002,ShadowQuest,Sí,47,3.2,10/06/2025,02/01/2026,Inactivo
+6,Jorge Díaz,29,33.23,2970.98,Steam,AVENTURA,Colombia,G003,DragonRealm,Sí,31,3.4,17/07/2025,13/01/2026,Inactivo
+7,Luis Fernández,29,58.23,2102.45,playstation,AVENTURA,Costa Rica,G001,BattleZone,Sí,50,2.7,10/06/2024,25/06/2025,Inactivo
+8,Sofía Herrera,43,24.36,1465.1,Switch,puzzle,España,G006,MysticLegends,No,29,2.6,12/04/2024,05/01/2025,Activo
+9,Elena Martín,28,49.45,1366.4,PC ,RPG,Chile,G005,CyberRacer,Sí,28,4.6,28/03/2025,,Activo
+10,Natalia Vargas,,41.0,182.53,nintendo switch,puZZle,México,G004,PixelRoyale,No,71,,24/01/2026,02/04/2026,Activo
+11,Luis Fernández,38,9.83,744.45,playstation,rpg,Colombia,G005,CyberRacer,Sí,14,1.5,07/06/2025,24/02/2026,Activo
+12,Carmen Vega,36,77.58,815.85,Play Station 5,puZZle,España,G003,DragonRealm,Sí,55,3.4,05/08/2025,,Activo
+13,Lucía Ramos,28,44.61,1936.55,steam,Battle Royale,México,G008,ThunderArena,Sí,37,1.7,05/01/2026,09/03/2026,
+14,Carmen Vega,38,19.99,311.5,XBOX,Sports,Estados Unidos,G007,StarFleet,No,1,2.1,22/09/2024,03/12/2025,Inactivo
+15,Jorge Díaz,24,29.0,2288.12,movil,Sports,Uruguay,G001,BattleZone,No,25,2.7,10/02/2026,14/04/2026,Activo
+16,Carmen Vega,23,69.34,1958.6,nintendo switch,puzzle,México,G007,StarFleet,Sí,53,3.8,30/11/2024,07/01/2026,Activo
+17,Jorge Díaz,,59.09,5471.38,nintendo switch,puZZle,Perú,G003,DragonRealm,No,79,4.1,19/01/2025,24/11/2025,Inactivo
+18,Carmen Vega,34,73.78,2664.38,steam,puZZle,Colombia,G005,CyberRacer,Sí,89,3.3,29/08/2025,02/03/2026,Activo
+19,Jorge Díaz,34,43.76,788.73,xbox,AVENTURA,Chile,G008,ThunderArena,Sí,,2.9,10/11/2025,09/02/2026,Inactivo
+20,Miguel Torres,25,35.06,3583.3,pc,AVENTURA,España,G006,MysticLegends,Sí,57,3.0,20/07/2025,19/03/2026,Inactivo
+21,,29,48.61,210.0,xbox,Shooter,Colombia,G004,PixelRoyale,Sí,3,3.7,15/03/2025,21/11/2025,Inactivo
+22,Luis Fernández,19,46.68,3052.7,playstation,puzzle,Colombia,G004,PixelRoyale,Sí,18,2.9,14/03/2024,18/09/2025,Inactivo
+23,Jorge Díaz,35,90.98,2686.78,nintendo switch,Shooter,Chile,G008,ThunderArena,No,79,3.8,13/06/2024,02/09/2025,Activo
+24,Jorge Díaz,24,,119.0,playstation,sports,México,G005,CyberRacer,Sí,45,2.4,05/06/2025,16/11/2025,Inactivo
+25,Luis Fernández,29,101.24,1229.03,Steam,puZZle,México,G007,StarFleet,Sí,74,5.0,25/01/2025,12/11/2025,Activo
+26,,32,90.72,3476.38,mobile,Shooter,Chile,G006,MysticLegends,No,85,3.7,16/02/2026,30/03/2026,Activo
+27,Luis Fernández,28,11.94,798.53,nintendo switch,puzzle,México,G003,DragonRealm,Sí,8,1.3,21/04/2025,17/12/2025,Inactivo
+28,Lucía Ramos,35,73.34,,Switch,puZZle,Guatemala,G008,ThunderArena,No,87,3.1,12/08/2024,29/08/2025,Inactivo
+29,Lucía Ramos,33,30.67,475.48,XBOX,MOBA,Perú,G006,MysticLegends,Sí,47,3.8,23/11/2025,16/04/2026,Activo
+30,Carmen Vega,24,12.46,1570.45,PS5,Sports,México,G002,ShadowQuest,Sí,1,2.6,16/02/2024,25/01/2025,Inactivo
+31,Jorge Díaz,46,59.78,2078.3,PS5,RPG,Guatemala,G006,MysticLegends,Sí,40,3.0,05/05/2024,20/10/2025,Inactivo
+32,Ana García,23,43.35,,steam,rpg,Colombia,G003,DragonRealm,No,47,2.8,25/08/2025,13/11/2025,Inactivo
+33,Jorge Díaz,26,72.91,3879.4,pc,moba,Colombia,G002,ShadowQuest,Sí,65,2.9,03/09/2025,06/01/2026,Inactivo
+34,Lucía Ramos,31,79.48,4042.67,steam,sports,México,G006,MysticLegends,Sí,35,4.7,08/01/2026,24/02/2026,Activo
+35,Jorge Díaz,20,52.01,1005.9,steam,puZZle,Chile,G001,BattleZone,Sí,48,2.8,15/11/2024,22/11/2025,Inactivo
+36,Andrés Molina,19,38.09,4921.7,Steam,Shooter,Guatemala,G001,BattleZone,Sí,33,3.4,01/12/2024,08/09/2025,Inactivo
+37,Natalia Vargas,39,5.21,1816.67,mobile,moba,México,G002,ShadowQuest,Sí,16,1.4,13/12/2024,02/12/2025,Inactivo
+38,Carmen Vega,36,95.08,2824.32,movil,Sports,Argentina,G006,MysticLegends,No,69,4.1,06/11/2024,24/09/2025,Inactivo
+39,,24,91.9,4792.02,mobile,RPG,Argentina,G003,DragonRealm,Sí,69,5.0,07/01/2025,23/07/2025,Inactivo
+40,Lucía Ramos,25,67.33,6584.03,Switch,Shooter,México,G002,ShadowQuest,Sí,34,4.6,26/01/2026,13/04/2026,Activo
+41,Ana García,22,26.63,480.72,movil,Sports,México,G007,StarFleet,Sí,1,2.3,08/01/2026,05/03/2026,Activo
+42,Miguel Torres,23,18.06,1256.67,Play Station 5,rpg,Estados Unidos,G003,DragonRealm,No,42,2.7,29/12/2025,31/03/2026,Activo
+43,Laura Gil,40,8.84,1212.75,mobile,puzzle,España,G003,DragonRealm,Sí,22,2.7,23/12/2025,11/03/2026,Activo
+44,Miguel Torres,27,14.96,752.67,PS5,AVENTURA,Colombia,G003,DragonRealm,Sí,62,3.3,03/06/2025,03/12/2025,Activo
+45,Elena Martín,16,60.92,10033.45,Switch,rpg,Estados Unidos,G002,ShadowQuest,Sí,81,4.0,12/02/2024,26/01/2025,Inactivo
+46,,24,42.52,2735.25,playstation,RPG,Perú,G002,ShadowQuest,Sí,51,3.0,01/12/2024,10/07/2025,Inactivo
+47,Ana García,44,49.33,3257.97,steam,RPG,México,G006,MysticLegends,Sí,51,3.6,14/01/2025,06/12/2025,Inactivo
+48,Luis Fernández,17,15.48,2370.9,pc,puzzle,Costa Rica,G006,MysticLegends,Sí,15,1.5,10/06/2024,03/01/2026,Inactivo
+49,Luis Fernández,23,43.44,1177.05,steam,moba,Chile,G008,ThunderArena,Sí,43,4.0,24/08/2025,01/04/2026,Activo
+49,Luis Fernández,23,43.44,1177.05,steam,moba,Chile,G008,ThunderArena,Sí,43,4.0,24/08/2025,01/04/2026,Activo
+50,,21,16.16,650.48,xbox,puzzle,México,G003,DragonRealm,Sí,1,1.3,12/02/2024,28/05/2024,Inactivo
+51,Carmen Vega,32,7.38,546.0,PS5,Sports,México,G006,MysticLegends,Sí,5,2.6,29/07/2025,11/11/2025,Inactivo
+52,,41,20.25,344.58,Play Station 5,sports,Argentina,G004,PixelRoyale,Sí,21,2.7,31/10/2025,,Activo
+53,Elena Martín,26,58.38,4953.55,PS5,sports,Uruguay,G003,DragonRealm,Sí,84,3.2,07/12/2024,17/09/2025,Activo
+54,Elena Martín,51,79.01,2884.7,movil,puZZle,Brasil,G001,BattleZone,Sí,63,5.0,21/08/2024,21/08/2025,Inactivo
+55,María López,23,73.71,2032.1,xbox,moba,Bolivia,G008,ThunderArena,Sí,38,4.6,28/12/2024,08/01/2026,Inactivo
+56,Luis Fernández,25,89.17,3498.42,xbox,Shooter,Ecuador,G007,StarFleet,Sí,100,3.9,01/01/2026,10/04/2026,Activo
+57,David Ortega,45,58.11,2551.32,xbox,rpg,Argentina,G008,ThunderArena,Sí,43,4.1,26/02/2026,04/04/2026,Activo
+58,Laura Gil,27,118.2,2208.5,XBOX,puzzle,Colombia,G008,ThunderArena,No,100,5.0,04/12/2024,30/08/2025,Inactivo
+59,Andrés Molina,22,62.02,1242.5,PS5,puZZle,México,G002,ShadowQuest,Sí,74,2.9,27/02/2026,16/03/2026,Activo
+60,María López,28,49.66,1867.6,nintendo switch,RPG,México,G004,PixelRoyale,Sí,54,3.7,29/07/2024,11/07/2025,Inactivo
+61,Sofía Herrera,18,33.65,5979.75,XBOX,Battle Royale,España,G003,DragonRealm,Sí,56,3.8,26/01/2025,06/02/2026,Activo
+62,María López,26,22.39,558.42,PS5,rpg,España,G002,ShadowQuest,Sí,12,1.7,03/09/2024,30/01/2025,Inactivo
+63,,27,27.57,1674.4,Steam,Shooter,España,G001,BattleZone,Sí,43,2.6,23/07/2025,01/04/2026,Activo
+64,Elena Martín,27,31.11,962.15,playstation,AVENTURA,España,G002,ShadowQuest,No,36,2.5,01/10/2024,13/09/2025,Inactivo
+65,Lucía Ramos,29,18.5,306.6,xbox,shootER,Argentina,G008,ThunderArena,Sí,38,2.6,14/08/2024,15/10/2024,Inactivo
+66,Luis Fernández,26,75.74,3651.9,xbox,puzzle,Costa Rica,G001,BattleZone,No,93,,20/05/2024,09/02/2025,Inactivo
+67,Andrés Molina,45,6.13,572.43,xbox,rpg,México,G005,CyberRacer,Sí,32,1.6,01/08/2025,25/01/2026,Inactivo
+68,Lucía Ramos,20,58.65,3575.25,XBOX,MOBA,México,G002,ShadowQuest,Sí,47,4.3,,31/07/2024,Inactivo
+69,Carlos Ruiz,31,43.38,3750.43,nintendo switch,Sports,Costa Rica,G007,StarFleet,No,47,2.3,21/08/2024,26/01/2026,Inactivo
+70,Andrés Molina,24,16.16,1083.42,pc,rpg,México,G007,StarFleet,Sí,,2.2,05/04/2024,20/09/2025,Inactivo
+71,Miguel Torres,44,40.32,186.55,Steam,shootER,México,G005,CyberRacer,Sí,52,3.4,26/03/2025,11/01/2026,Activo
+72,Miguel Torres,25,32.38,729.75,xbox,rpg,Chile,G001,BattleZone,No,5,3.1,10/12/2025,26/03/2026,Inactivo
+73,Pedro Sánchez,35,38.04,1803.72,Play Station 5,moba,Costa Rica,G007,StarFleet,Sí,32,3.2,05/12/2025,19/02/2026,Inactivo
+74,Elena Martín,29,61.7,1098.48,XBOX,moba,México,G001,BattleZone,Sí,79,4.4,17/06/2024,22/09/2025,Inactivo
+75,Jorge Díaz,27,26.06,535.5,pc,sports,México,G006,MysticLegends,Sí,57,2.3,16/11/2024,03/10/2025,Inactivo
+76,David Ortega,39,78.84,343.18,Switch,rpg,Colombia,G008,ThunderArena,Sí,79,5.0,10/01/2024,24/10/2024,Inactivo
+77,Jorge Díaz,40,93.99,2299.32,movil,sports,Estados Unidos,G006,MysticLegends,Sí,53,4.4,11/03/2025,12/01/2026,Inactivo
+78,Elena Martín,19,44.35,1480.85,steam,moba,Guatemala,G005,CyberRacer,Sí,37,4.5,07/04/2024,04/09/2025,Inactivo
+79,Miguel Torres,24,50.27,3491.78,PS5,shootER,Costa Rica,G006,MysticLegends,Sí,40,3.4,12/10/2025,13/01/2026,Inactivo
+80,Luis Fernández,25,53.99,190.05,Switch,MOBA,México,G005,CyberRacer,Sí,43,3.6,23/02/2024,29/01/2025,Inactivo
+81,Ana García,19,58.22,377.48,playstation,rpg,España,G003,DragonRealm,Sí,68,4.3,17/06/2024,15/09/2025,Inactivo
+82,David Ortega,43,14.01,1657.6,PC ,puzzle,Brasil,G004,PixelRoyale,Sí,1,2.3,23/03/2026,13/04/2026,Activo
+83,Natalia Vargas,16,42.49,1434.82,movil,Shooter,Argentina,G007,StarFleet,Sí,38,2.5,26/03/2024,24/05/2025,Inactivo
+84,Lucía Ramos,33,63.13,816.2,steam,RPG,México,G003,DragonRealm,Sí,77,5.0,08/01/2026,02/03/2026,Inactivo
+85,Laura Gil,,11.06,697.55,Steam,puZZle,Argentina,G001,BattleZone,No,,2.9,02/07/2024,22/11/2025,Activo
+86,Elena Martín,44,31.17,130.03,playstation,MOBA,España,G008,ThunderArena,Sí,39,3.6,20/04/2025,22/03/2026,Inactivo
+87,Carmen Vega,15,48.61,2584.05,mobile,MOBA,México,G004,PixelRoyale,No,65,3.0,27/03/2024,22/05/2025,Inactivo
+88,Lucía Ramos,23,18.56,1092.7,steam,RPG,México,G008,ThunderArena,Sí,35,2.9,19/04/2025,29/07/2025,Inactivo
+89,Ana García,41,51.62,422.45,PC ,AVENTURA,México,G007,StarFleet,Sí,51,2.7,17/03/2024,17/08/2024,Inactivo
+90,David Ortega,21,74.53,1358.88,XBOX,Battle Royale,México,G007,StarFleet,Sí,74,5.0,01/04/2026,05/04/2026,Activo
+91,Carmen Vega,44,68.62,407.92,movil,puZZle,México,G004,PixelRoyale,Sí,57,2.5,26/06/2024,01/08/2025,Inactivo
+92,,46,73.16,2189.43,PC ,moba,Ecuador,G004,PixelRoyale,Sí,55,4.2,01/03/2024,13/06/2025,Inactivo
+93,Carlos Ruiz,46,50.08,698.08,mobile,MOBA,México,G001,BattleZone,No,69,1.5,03/02/2024,25/01/2025,Inactivo
+94,Jorge Díaz,37,45.43,4002.43,PC ,Battle Royale,España,G007,StarFleet,No,58,2.6,13/04/2024,25/09/2025,Inactivo
+95,Carmen Vega,25,66.3,5488.18,steam,Battle Royale,México,G004,PixelRoyale,No,65,2.2,07/11/2025,12/01/2026,Inactivo
+96,Elena Martín,,12.45,683.55,playstation,RPG,Chile,G007,StarFleet,Sí,32,1.9,21/04/2025,25/01/2026,Inactivo
+97,Lucía Ramos,30,33.77,173.25,pc,shootER,México,G003,DragonRealm,No,15,3.4,21/03/2025,12/01/2026,Inactivo
+98,Carmen Vega,27,51.87,4732.88,movil,RPG,Uruguay,G002,ShadowQuest,Sí,71,2.2,01/11/2025,18/02/2026,Activo
+99,Miguel Torres,27,15.39,2423.4,PS5,MOBA,Perú,G002,ShadowQuest,Sí,36,2.9,17/01/2025,04/10/2025,Inactivo
+100,David Ortega,31,35.81,232.4,Switch,Battle Royale,México,G008,ThunderArena,Sí,51,4.2,16/06/2024,12/03/2025,Inactivo
+101,,38,38.6,1669.85,mobile,puZZle,Chile,G007,StarFleet,No,25,2.5,17/06/2025,19/11/2025,Inactivo
+102,Elena Martín,32,32.09,575.92,xbox,AVENTURA,Ecuador,G007,StarFleet,Sí,20,1.8,22/09/2024,07/07/2025,Inactivo
+103,Elena Martín,23,25.41,3560.9,Switch,moba,Chile,G004,PixelRoyale,Sí,60,2.2,23/09/2024,28/07/2025,Inactivo
+104,Andrés Molina,43,53.95,975.62,movil,RPG,Argentina,G003,DragonRealm,Sí,66,3.6,13/08/2025,01/01/2026,Inactivo
+105,Sofía Herrera,29,1.7,1969.97,playstation,rpg,México,G001,BattleZone,Sí,1,1.9,04/12/2025,09/02/2026,Activo
+105,Sofía Herrera,29,1.7,1969.97,playstation,rpg,México,G001,BattleZone,Sí,1,1.9,04/12/2025,09/02/2026,Activo
+106,Laura Gil,16,40.57,233.97,nintendo switch,Battle Royale,Chile,G001,BattleZone,Sí,53,3.5,19/12/2025,15/03/2026,Activo
+107,Pedro Sánchez,35,40.84,6494.6,xbox,shootER,Ecuador,G008,ThunderArena,Sí,,2.3,16/11/2025,07/04/2026,Activo
+108,Laura Gil,23,65.81,524.12,steam,RPG,Argentina,G008,ThunderArena,Sí,30,4.5,27/03/2026,06/04/2026,Activo
+109,Carlos Ruiz,32,97.17,54.77,playstation,puzzle,España,G004,PixelRoyale,No,74,4.0,07/04/2024,24/08/2025,Inactivo
+110,David Ortega,51,20.77,1965.42,XBOX,shootER,Estados Unidos,G008,ThunderArena,Sí,9,2.5,19/01/2024,08/03/2025,Inactivo
+111,Andrés Molina,43,54.92,5618.38,Switch,AVENTURA,México,G006,MysticLegends,No,32,3.2,16/02/2024,28/04/2025,Inactivo
+112,Luis Fernández,45,26.49,681.8,Switch,Sports,Costa Rica,G003,DragonRealm,No,58,2.7,22/08/2025,08/01/2026,Inactivo
+113,María López,34,50.3,811.12,xbox,moba,Perú,G004,PixelRoyale,Sí,23,3.1,28/12/2025,14/04/2026,Activo
+114,Carlos Ruiz,31,42.7,1961.22,PC ,AVENTURA,España,G003,DragonRealm,No,36,2.7,27/07/2024,25/10/2024,Inactivo
+115,David Ortega,33,25.47,94.85,Steam,Sports,Brasil,G008,ThunderArena,No,1,2.4,13/07/2025,21/10/2025,Inactivo
+116,Carlos Ruiz,22,52.43,1403.67,PC ,puzzle,Colombia,G005,CyberRacer,Sí,31,3.0,13/08/2024,28/07/2025,Inactivo
+117,Elena Martín,23,50.3,2673.82,pc,Shooter,España,G005,CyberRacer,Sí,38,3.4,13/05/2025,18/02/2026,Inactivo
+118,Carmen Vega,15,7.91,116.55,pc,puZZle,Chile,G001,BattleZone,Sí,12,2.5,25/07/2025,15/02/2026,Inactivo
+119,Elena Martín,,54.38,3138.28,XBOX,Shooter,España,G001,BattleZone,Sí,33,3.8,12/07/2025,08/01/2026,Activo
+120,Lucía Ramos,46,46.72,1632.05,playstation,AVENTURA,México,G001,BattleZone,No,95,2.2,24/10/2024,27/05/2025,Inactivo
+121,Lucía Ramos,20,68.22,898.8,mobile,puzzle,Argentina,G006,MysticLegends,Sí,59,4.3,08/11/2024,26/03/2025,Inactivo
+121,Lucía Ramos,20,68.22,898.8,mobile,puzzle,Argentina,G006,MysticLegends,Sí,59,4.3,08/11/2024,26/03/2025,Inactivo
+122,Laura Gil,24,43.94,1744.23,mobile,MOBA,México,G002,ShadowQuest,Sí,14,3.1,20/09/2025,20/02/2026,Activo
+123,David Ortega,36,63.5,1421.53,PS5,RPG,Perú,G005,CyberRacer,No,58,3.2,09/01/2025,24/01/2026,Inactivo
+124,Sofía Herrera,42,41.33,4974.55,movil,moba,Perú,G008,ThunderArena,Sí,15,3.2,06/09/2024,25/08/2025,Inactivo
+125,Ana García,45,27.0,1330.88,nintendo switch,puzzle,Argentina,G003,DragonRealm,Sí,34,1.8,29/01/2025,16/03/2025,Activo
+126,Andrés Molina,29,40.43,2727.9,xbox,Shooter,España,G001,BattleZone,Sí,1,3.7,24/12/2024,23/11/2025,Inactivo
+127,Jorge Díaz,44,,1500.1,nintendo switch,MOBA,España,G007,StarFleet,Sí,36,4.1,11/02/2025,14/01/2026,Inactivo
+128,María López,30,68.34,948.32,playstation,AVENTURA,España,G001,BattleZone,Sí,74,3.4,03/09/2025,17/02/2026,
+129,Laura Gil,24,8.23,83.3,pc,sports,España,G006,MysticLegends,Sí,5,2.5,17/02/2025,09/08/2025,Inactivo
+130,Carlos Ruiz,47,84.65,2848.12,PC ,shootER,México,G002,ShadowQuest,Sí,72,3.6,26/02/2025,,Inactivo
+131,Lucía Ramos,26,62.68,374.68,PS5,rpg,Estados Unidos,G002,ShadowQuest,No,67,3.1,08/07/2025,16/02/2026,Activo
+132,Andrés Molina,29,28.23,750.75,pc,puZZle,Argentina,G006,MysticLegends,Sí,42,2.7,19/09/2025,03/12/2025,Inactivo
+133,María López,23,86.55,883.05,XBOX,rpg,Bolivia,G006,MysticLegends,Sí,68,3.3,08/12/2025,29/01/2026,Inactivo
+134,Pedro Sánchez,31,104.2,740.6,Play Station 5,Sports,España,G003,DragonRealm,No,57,3.4,18/02/2025,20/05/2025,Inactivo
+135,Pedro Sánchez,27,89.84,422.98,PC ,Battle Royale,Estados Unidos,G002,ShadowQuest,Sí,78,5.0,22/08/2024,04/05/2025,Inactivo
+136,,41,45.94,3117.45,PS5,shootER,Colombia,G002,ShadowQuest,Sí,33,,15/02/2026,21/03/2026,Activo
+137,Jorge Díaz,37,57.17,772.28,nintendo switch,puZZle,Chile,G005,CyberRacer,Sí,62,3.4,19/05/2024,02/08/2025,Inactivo
+138,Ana García,48,9.39,1059.8,pc,rpg,México,G007,StarFleet,Sí,5,2.3,13/01/2024,18/08/2025,Inactivo
+139,Ana García,36,25.01,1512.35,Switch,AVENTURA,Guatemala,G004,PixelRoyale,Sí,29,2.9,19/03/2026,26/04/2026,Activo
+140,María López,20,18.19,2519.83,movil,shootER,Perú,G001,BattleZone,Sí,17,2.7,24/03/2025,08/11/2025,Inactivo
+141,Jorge Díaz,40,17.81,5.78,mobile,RPG,Chile,G007,StarFleet,Sí,27,2.5,23/02/2025,14/06/2025,Inactivo
+142,David Ortega,,50.05,1181.78,Steam,puzzle,Argentina,G002,ShadowQuest,Sí,34,2.7,12/01/2025,11/04/2025,Inactivo
+143,Carlos Ruiz,47,15.28,763.0,XBOX,puZZle,Chile,G002,ShadowQuest,Sí,25,1.9,06/09/2025,24/12/2025,Activo
+144,Carmen Vega,40,32.47,,PC ,MOBA,Colombia,G003,DragonRealm,No,28,3.4,23/01/2024,27/12/2025,Activo
+145,Andrés Molina,17,43.07,1833.12,pc,Sports,Chile,G001,BattleZone,Sí,70,3.3,22/12/2024,31/08/2025,Inactivo
+146,David Ortega,16,85.4,1181.95,nintendo switch,Sports,Argentina,G004,PixelRoyale,Sí,72,3.7,02/02/2026,17/03/2026,Inactivo
+147,María López,23,36.86,1348.55,PS5,Sports,Chile,G005,CyberRacer,Sí,48,3.5,27/03/2025,13/01/2026,Inactivo
+147,María López,23,36.86,1348.55,PS5,Sports,Chile,G005,CyberRacer,Sí,48,3.5,27/03/2025,13/01/2026,Inactivo
+147,María López,23,36.86,1348.55,PS5,Sports,Chile,G005,CyberRacer,Sí,48,3.5,27/03/2025,13/01/2026,Inactivo
+148,Carlos Ruiz,23,66.72,894.6,nintendo switch,puZZle,Panamá,G001,BattleZone,Sí,75,3.2,24/07/2024,21/08/2025,
+149,Pedro Sánchez,44,47.68,2705.68,PC ,AVENTURA,Uruguay,G005,CyberRacer,Sí,88,3.5,02/10/2025,22/04/2026,Activo
+150,Pedro Sánchez,43,76.09,276.68,nintendo switch,moba,Argentina,G003,DragonRealm,Sí,78,4.6,12/11/2024,13/01/2026,Inactivo
+151,Lucía Ramos,44,42.59,6298.6,movil,AVENTURA,México,G003,DragonRealm,Sí,24,2.4,02/09/2025,04/02/2026,Inactivo
+152,Andrés Molina,33,24.59,295.23,Steam,AVENTURA,México,G008,ThunderArena,No,11,2.7,18/02/2025,08/11/2025,Inactivo
+153,Andrés Molina,30,87.56,167.65,playstation,shootER,España,G005,CyberRacer,Sí,64,4.5,07/12/2025,18/01/2026,Inactivo
+154,Carmen Vega,43,61.35,1379.88,Switch,moba,México,G007,StarFleet,Sí,77,3.4,14/02/2024,30/11/2025,Inactivo
+155,María López,18,51.23,137.9,Switch,shootER,Argentina,G008,ThunderArena,Sí,23,3.3,24/07/2025,31/10/2025,Inactivo
+156,Ana García,40,70.54,4492.42,nintendo switch,moba,Uruguay,G002,ShadowQuest,Sí,42,5.0,17/07/2025,17/12/2025,Activo
+157,Luis Fernández,32,14.2,318.85,nintendo switch,shootER,Argentina,G008,ThunderArena,Sí,11,1.5,02/01/2024,25/03/2025,Inactivo
+158,Sofía Herrera,25,65.38,4023.78,PC ,rpg,México,G006,MysticLegends,No,36,3.7,08/06/2024,08/12/2025,Inactivo
+159,Miguel Torres,30,49.82,1495.72,steam,Sports,México,G005,CyberRacer,Sí,61,4.0,31/08/2024,23/11/2025,Inactivo
+160,Ana García,44,44.1,4978.23,steam,AVENTURA,Perú,G008,ThunderArena,Sí,47,2.8,31/08/2025,17/12/2025,Inactivo
+161,Ana García,25,31.31,1016.92,steam,puZZle,Estados Unidos,G004,PixelRoyale,Sí,31,3.5,30/01/2024,08/07/2025,Inactivo
+162,Andrés Molina,33,72.6,6246.1,movil,puZZle,Argentina,G008,ThunderArena,Sí,42,2.9,27/05/2024,29/07/2025,Inactivo
+163,Carmen Vega,25,75.09,895.3,playstation,sports,Argentina,G007,StarFleet,Sí,54,4.3,01/08/2024,15/08/2025,Inactivo
+164,Luis Fernández,34,63.81,3035.9,PS5,shootER,Chile,G001,BattleZone,Sí,70,2.3,01/01/2024,21/06/2025,Inactivo
+165,Luis Fernández,25,64.68,313.6,PC ,AVENTURA,Argentina,G007,StarFleet,Sí,23,3.0,26/06/2024,07/02/2025,Activo
+166,David Ortega,21,71.01,4050.2,xbox,Shooter,Colombia,G008,ThunderArena,Sí,,4.5,18/01/2026,15/03/2026,Inactivo
+167,Andrés Molina,26,88.21,608.3,xbox,Sports,España,G001,BattleZone,No,52,5.0,10/08/2025,20/12/2025,Inactivo
+168,,37,103.86,110.78,movil,MOBA,España,G005,CyberRacer,Sí,81,5.0,26/01/2026,16/03/2026,Activo
+169,Carmen Vega,17,35.1,1273.83,PC ,rpg,Argentina,G008,ThunderArena,Sí,30,2.9,23/12/2025,12/02/2026,Inactivo
+170,Sofía Herrera,48,63.53,1673.17,steam,moba,Colombia,G001,BattleZone,No,63,3.6,12/08/2024,13/04/2025,Inactivo
+171,Laura Gil,47,87.15,3825.33,Switch,shootER,Uruguay,G005,CyberRacer,Sí,58,3.6,10/03/2026,15/04/2026,Activo
+172,David Ortega,28,41.38,789.42,pc,RPG,Colombia,G005,CyberRacer,Sí,60,,08/02/2024,29/12/2024,Activo
+173,Carmen Vega,28,,491.57,PS5,RPG,Brasil,G005,CyberRacer,Sí,1,3.1,30/08/2025,25/12/2025,Inactivo
+174,Carmen Vega,52,14.02,3169.43,nintendo switch,Battle Royale,México,G003,DragonRealm,Sí,1,1.2,17/09/2025,29/01/2026,Inactivo
+175,Luis Fernández,23,25.41,2159.67,playstation,rpg,Perú,G003,DragonRealm,Sí,33,1.2,12/04/2024,17/07/2025,Inactivo
+176,Ana García,20,65.17,3357.2,PC ,Sports,México,G008,ThunderArena,Sí,84,4.3,25/07/2025,07/10/2025,Inactivo
+177,Natalia Vargas,28,97.55,8876.7,nintendo switch,shootER,México,G001,BattleZone,No,84,4.6,28/08/2024,27/08/2025,Inactivo
+178,Carmen Vega,23,42.7,2265.55,XBOX,puZZle,México,G006,MysticLegends,No,43,3.4,19/05/2024,30/05/2025,Inactivo
+179,María López,33,89.71,6493.38,PC ,Shooter,Guatemala,G001,BattleZone,No,58,3.5,28/03/2026,05/04/2026,Activo
+180,Miguel Torres,47,15.58,,XBOX,shootER,Estados Unidos,G007,StarFleet,No,38,,04/10/2025,18/03/2026,Activo
+181,Andrés Molina,38,119.06,2513.88,Steam,sports,México,G008,ThunderArena,Sí,100,5.0,18/02/2026,23/03/2026,Inactivo
+182,Elena Martín,29,57.36,813.23,steam,MOBA,México,G003,DragonRealm,Sí,66,2.8,29/11/2025,11/01/2026,Inactivo
+183,Carlos Ruiz,,75.95,2436.0,playstation,rpg,Estados Unidos,G004,PixelRoyale,Sí,57,3.9,11/04/2025,01/12/2025,Inactivo
+184,Miguel Torres,34,54.89,720.48,xbox,rpg,Colombia,G002,ShadowQuest,No,31,3.8,23/11/2024,04/03/2026,Inactivo
+185,Laura Gil,46,15.55,452.02,Switch,AVENTURA,Colombia,G004,PixelRoyale,Sí,4,2.5,24/11/2025,30/12/2025,Inactivo
+186,Ana García,26,24.86,590.45,playstation,rpg,Estados Unidos,G007,StarFleet,Sí,1,3.3,06/11/2024,27/12/2025,Inactivo
+187,Carlos Ruiz,,81.17,2609.78,playstation,puzzle,Brasil,G008,ThunderArena,Sí,54,3.9,22/10/2025,12/12/2025,Activo
+188,Andrés Molina,28,,1097.08,PC ,MOBA,España,G006,MysticLegends,Sí,33,1.9,04/10/2024,10/10/2025,Inactivo
+189,,26,69.7,2261.18,playstation,puZZle,España,G008,ThunderArena,No,74,3.8,30/01/2024,05/09/2024,Inactivo
+190,Luis Fernández,19,97.89,1295.88,PS5,Battle Royale,México,G005,CyberRacer,No,72,4.8,04/09/2024,04/01/2025,Inactivo
+191,Pedro Sánchez,37,0.88,2184.88,xbox,AVENTURA,Argentina,G006,MysticLegends,Sí,32,2.8,24/07/2025,25/09/2025,Inactivo
+192,Lucía Ramos,28,88.05,7904.75,Play Station 5,puZZle,Colombia,G002,ShadowQuest,Sí,80,3.9,24/07/2024,22/03/2026,Inactivo
+193,Miguel Torres,32,61.45,2473.1,pc,shootER,Chile,G003,DragonRealm,Sí,96,4.1,19/03/2024,24/05/2025,Inactivo
+194,Natalia Vargas,26,48.17,1884.92,steam,MOBA,Perú,G008,ThunderArena,Sí,25,2.9,26/04/2025,31/01/2026,Activo
+195,Andrés Molina,37,28.0,3047.28,Steam,puzzle,España,G002,ShadowQuest,No,29,,29/11/2024,21/10/2025,Inactivo
+196,,17,42.24,4882.32,Play Station 5,AVENTURA,Argentina,G002,ShadowQuest,No,25,2.9,15/02/2025,11/11/2025,Inactivo
+197,Pedro Sánchez,39,30.43,829.5,mobile,sports,Brasil,G008,ThunderArena,Sí,40,2.7,29/06/2025,15/02/2026,Inactivo
+198,,28,18.83,1872.68,steam,MOBA,Chile,G004,PixelRoyale,Sí,32,2.8,20/04/2025,08/04/2026,Activo
+199,Pedro Sánchez,24,97.75,2024.58,mobile,rpg,México,G002,ShadowQuest,Sí,88,5.0,02/04/2024,25/10/2024,Inactivo
+200,Miguel Torres,45,39.72,3149.83,movil,rpg,España,G006,MysticLegends,No,84,3.2,09/11/2025,11/12/2025,Inactivo
+201,Lucía Ramos,26,93.01,1036.52,Play Station 5,Battle Royale,España,G002,ShadowQuest,No,62,3.6,04/01/2026,09/04/2026,Activo
+202,Carlos Ruiz,32,81.27,2917.95,xbox,puZZle,Costa Rica,G003,DragonRealm,No,54,2.9,22/01/2026,23/02/2026,Activo
+203,Elena Martín,42,22.65,582.23,nintendo switch,RPG,México,G007,StarFleet,Sí,32,2.9,27/07/2024,30/11/2025,Inactivo
+204,David Ortega,23,99.14,122.85,pc,Battle Royale,Argentina,G006,MysticLegends,No,69,4.8,03/09/2025,30/10/2025,Inactivo
+205,Andrés Molina,48,97.32,1250.2,XBOX,rpg,México,G007,StarFleet,Sí,71,4.8,14/10/2024,24/01/2026,Activo
+206,Pedro Sánchez,28,22.43,2123.1,XBOX,Shooter,México,G008,ThunderArena,Sí,8,3.4,07/01/2026,07/02/2026,Inactivo
+207,Natalia Vargas,31,45.5,1794.62,pc,moba,México,G002,ShadowQuest,Sí,41,2.2,,14/02/2024,Activo
+208,Miguel Torres,38,11.46,1980.3,movil,Shooter,México,G004,PixelRoyale,Sí,21,1.7,03/05/2024,07/10/2025,Activo
+209,Elena Martín,40,45.31,2370.2,steam,shootER,Colombia,G002,ShadowQuest,Sí,59,3.8,10/05/2024,12/03/2025,Inactivo
+210,Laura Gil,20,34.31,787.67,pc,Shooter,Brasil,G005,CyberRacer,Sí,29,1.7,15/12/2024,07/01/2026,Inactivo
+211,David Ortega,28,27.91,527.27,mobile,puzzle,España,G005,CyberRacer,Sí,61,3.2,11/07/2024,01/03/2025,Inactivo
+212,Carmen Vega,19,20.4,1647.98,Play Station 5,Battle Royale,España,G002,ShadowQuest,Sí,13,1.0,02/09/2025,26/04/2026,Activo
+213,Miguel Torres,34,66.07,,playstation,puZZle,México,G006,MysticLegends,No,79,2.7,02/01/2026,04/02/2026,Inactivo
+214,Lucía Ramos,26,67.8,507.68,XBOX,MOBA,México,G001,BattleZone,No,49,4.1,30/05/2025,04/08/2025,Inactivo
+215,Pedro Sánchez,38,69.6,4968.6,mobile,MOBA,Perú,G008,ThunderArena,Sí,67,3.4,25/07/2024,12/06/2025,Inactivo
+216,Natalia Vargas,24,59.23,4247.77,xbox,puzzle,España,G001,BattleZone,Sí,55,2.4,12/12/2024,19/03/2026,Activo
+217,Lucía Ramos,31,48.17,5280.1,xbox,Sports,Estados Unidos,G008,ThunderArena,Sí,37,3.3,04/11/2024,08/09/2025,Inactivo
+218,Natalia Vargas,20,37.65,5045.08,PC ,moba,España,G006,MysticLegends,Sí,38,1.3,06/01/2024,20/02/2026,Inactivo
+219,Lucía Ramos,40,21.91,172.03,steam,puZZle,Argentina,G007,StarFleet,Sí,24,3.2,13/01/2025,02/09/2025,Inactivo
+220,Lucía Ramos,28,14.78,247.62,nintendo switch,Shooter,México,G006,MysticLegends,Sí,30,2.5,06/11/2024,15/01/2025,Inactivo
+221,Pedro Sánchez,23,104.41,1215.03,xbox,puzzle,Argentina,G008,ThunderArena,Sí,88,4.6,30/09/2025,18/12/2025,Inactivo
+222,Miguel Torres,20,69.8,434.52,xbox,Battle Royale,México,G003,DragonRealm,No,57,4.2,16/08/2025,18/02/2026,Inactivo
+223,Ana García,22,8.29,2501.62,PS5,rpg,México,G001,BattleZone,Sí,52,3.1,03/05/2024,03/02/2025,Inactivo
+224,Carlos Ruiz,25,99.59,150.15,nintendo switch,Shooter,Argentina,G004,PixelRoyale,Sí,94,5.0,09/03/2025,05/11/2025,Inactivo
+225,Lucía Ramos,14,62.35,5082.88,xbox,MOBA,Brasil,G004,PixelRoyale,Sí,71,3.1,24/09/2024,13/10/2025,Inactivo
+226,Andrés Molina,44,17.98,592.72,Switch,shootER,Chile,G006,MysticLegends,No,5,3.1,14/12/2025,21/01/2026,
+227,Carmen Vega,45,32.0,778.05,Switch,Shooter,México,G005,CyberRacer,Sí,16,1.8,29/11/2025,18/01/2026,Inactivo
+228,David Ortega,30,51.69,1547.0,Steam,Battle Royale,España,G007,StarFleet,Sí,39,3.9,26/01/2024,25/11/2024,Activo
+229,Elena Martín,33,9.35,1269.8,pc,Sports,Colombia,G002,ShadowQuest,Sí,22,2.4,16/11/2024,26/10/2025,Inactivo
+230,,28,12.76,1675.1,Switch,puzzle,Estados Unidos,G008,ThunderArena,Sí,,2.1,30/08/2025,21/11/2025,Inactivo
+231,Miguel Torres,22,18.56,1791.3,Switch,puzzle,México,G004,PixelRoyale,Sí,14,2.9,24/07/2024,05/03/2025,Inactivo
+232,Jorge Díaz,25,47.64,1790.25,nintendo switch,AVENTURA,México,G006,MysticLegends,Sí,30,,11/01/2024,03/05/2024,Inactivo
+233,Carmen Vega,49,37.41,1796.2,Steam,MOBA,Argentina,G006,MysticLegends,Sí,56,4.7,20/03/2025,09/06/2025,Activo
+234,Sofía Herrera,25,19.13,195.82,nintendo switch,shootER,México,G002,ShadowQuest,Sí,30,1.5,22/10/2025,20/01/2026,Inactivo
+235,Jorge Díaz,29,71.68,849.27,PS5,AVENTURA,Colombia,G008,ThunderArena,Sí,57,3.1,24/05/2025,03/11/2025,Inactivo
+236,Carlos Ruiz,29,64.55,1484.52,playstation,AVENTURA,Perú,G003,DragonRealm,No,56,,02/11/2024,08/07/2025,Activo
+237,Ana García,30,28.38,1995.53,mobile,Shooter,México,G008,ThunderArena,No,15,3.6,,09/04/2026,Activo
+238,Sofía Herrera,27,84.2,5362.7,xbox,Shooter,México,G002,ShadowQuest,Sí,94,3.9,22/11/2025,14/12/2025,Inactivo
+239,Sofía Herrera,23,99.17,6661.9,XBOX,rpg,Colombia,G005,CyberRacer,Sí,88,,26/05/2024,26/10/2025,Inactivo
+240,Jorge Díaz,31,57.14,4639.07,Switch,rpg,Chile,G002,ShadowQuest,Sí,63,3.3,05/10/2025,13/02/2026,Inactivo
+241,Sofía Herrera,31,21.7,2175.95,Play Station 5,Battle Royale,México,G002,ShadowQuest,Sí,8,2.2,25/03/2024,11/01/2025,Inactivo
+241,Sofía Herrera,31,21.7,2175.95,Play Station 5,Battle Royale,México,G002,ShadowQuest,Sí,8,2.2,25/03/2024,11/01/2025,Inactivo
+242,María López,32,16.01,27.3,xbox,AVENTURA,Argentina,G001,BattleZone,No,31,1.5,03/02/2025,24/09/2025,Inactivo
+243,Luis Fernández,23,25.47,610.05,Play Station 5,RPG,México,G002,ShadowQuest,Sí,23,2.1,14/04/2025,10/12/2025,Inactivo
+244,Sofía Herrera,32,41.08,699.3,Play Station 5,sports,Chile,G004,PixelRoyale,Sí,,2.9,07/05/2024,08/09/2025,Inactivo
+245,Pedro Sánchez,26,46.48,3415.3,PS5,AVENTURA,México,G001,BattleZone,No,15,3.2,14/09/2025,20/01/2026,Inactivo
+246,Luis Fernández,51,14.14,2040.85,playstation,MOBA,Colombia,G004,PixelRoyale,Sí,21,2.1,20/06/2024,28/05/2025,Inactivo
+247,Jorge Díaz,,26.97,358.4,steam,puZZle,Argentina,G003,DragonRealm,No,,3.4,18/02/2025,22/02/2026,Activo
+248,Andrés Molina,42,54.97,2514.57,XBOX,Battle Royale,Uruguay,G006,MysticLegends,Sí,36,2.4,11/04/2025,03/08/2025,Inactivo
+249,Carlos Ruiz,33,53.54,445.72,Switch,Sports,Estados Unidos,G006,MysticLegends,Sí,67,3.6,07/01/2024,,Activo
+250,Lucía Ramos,28,41.63,1254.23,Play Station 5,shootER,Chile,G002,ShadowQuest,No,47,3.5,16/12/2024,22/06/2025,
+251,Ana García,38,5.74,868.88,PS5,puzzle,España,G001,BattleZone,No,1,2.2,15/02/2025,27/01/2026,Inactivo
+252,Miguel Torres,24,24.31,8.93,Switch,shootER,México,G008,ThunderArena,Sí,21,2.4,02/05/2025,02/02/2026,Inactivo
+253,María López,42,115.14,2546.42,mobile,RPG,México,G001,BattleZone,Sí,87,5.0,20/09/2024,08/02/2026,Inactivo
+254,Jorge Díaz,35,71.39,937.65,movil,AVENTURA,México,G002,ShadowQuest,Sí,73,4.2,28/04/2024,17/11/2024,Inactivo
+255,Andrés Molina,41,24.2,599.02,XBOX,rpg,Colombia,G003,DragonRealm,Sí,61,2.7,29/05/2025,29/08/2025,Inactivo
+256,Jorge Díaz,48,21.9,1422.22,Switch,rpg,Panamá,G007,StarFleet,Sí,1,1.0,24/06/2025,30/10/2025,Inactivo
+257,Elena Martín,31,64.76,,mobile,Sports,México,G003,DragonRealm,No,26,3.4,30/12/2024,08/06/2025,Activo
+258,María López,27,8.64,1157.27,Switch,Shooter,España,G008,ThunderArena,Sí,21,2.4,05/06/2025,17/12/2025,Inactivo
+259,Andrés Molina,29,55.74,2914.1,mobile,puzzle,México,G004,PixelRoyale,No,30,3.8,22/07/2025,22/11/2025,Inactivo
+260,Pedro Sánchez,17,,799.4,nintendo switch,shootER,Chile,G006,MysticLegends,Sí,48,2.7,16/01/2026,07/02/2026,Activo
+261,Carlos Ruiz,34,34.89,2069.2,Play Station 5,Battle Royale,Costa Rica,G004,PixelRoyale,Sí,63,3.6,17/10/2025,24/03/2026,Activo
+262,Carlos Ruiz,48,28.26,1021.65,PC ,rpg,España,G007,StarFleet,Sí,39,1.7,16/02/2025,,Activo
+263,Sofía Herrera,24,30.01,1286.78,Steam,MOBA,Chile,G002,ShadowQuest,No,25,2.6,17/01/2026,11/02/2026,Activo
+264,Carmen Vega,48,30.87,1818.42,mobile,sports,Perú,G004,PixelRoyale,No,10,1.4,01/12/2025,02/03/2026,Inactivo
+265,Luis Fernández,26,48.6,,Switch,Sports,España,G005,CyberRacer,No,46,1.7,24/09/2025,,Activo
+266,Elena Martín,22,37.01,1461.25,steam,sports,Estados Unidos,G002,ShadowQuest,No,25,2.3,06/01/2024,20/10/2025,Inactivo
+267,Miguel Torres,17,24.91,875.52,mobile,Shooter,México,G002,ShadowQuest,Sí,1,2.6,23/02/2024,18/02/2025,Inactivo
+268,Jorge Díaz,28,78.11,829.85,mobile,sports,Colombia,G004,PixelRoyale,No,43,3.4,09/02/2024,11/11/2024,Inactivo
+269,Sofía Herrera,25,68.31,2711.45,PC ,puzzle,Perú,G004,PixelRoyale,Sí,66,3.1,18/05/2025,13/10/2025,Inactivo
+270,Elena Martín,39,63.7,4025.7,Switch,AVENTURA,México,G008,ThunderArena,No,75,4.0,18/02/2026,06/04/2026,Activo
+271,Pedro Sánchez,37,30.62,2014.95,mobile,AVENTURA,Perú,G007,StarFleet,Sí,28,2.5,05/06/2025,22/01/2026,Inactivo
+272,Luis Fernández,15,62.12,1264.55,playstation,rpg,España,G001,BattleZone,Sí,54,,21/12/2024,09/03/2026,Inactivo
+273,María López,32,21.13,1429.58,playstation,AVENTURA,Colombia,G007,StarFleet,Sí,8,2.4,05/04/2024,06/05/2025,Inactivo
+274,María López,16,25.44,53.38,mobile,Battle Royale,Colombia,G007,StarFleet,Sí,30,2.7,15/05/2024,22/10/2024,
+275,Carmen Vega,36,52.18,1153.42,pc,sports,España,G007,StarFleet,Sí,23,4.0,02/11/2025,30/03/2026,Inactivo
+276,Jorge Díaz,20,20.27,336.35,playstation,Sports,Estados Unidos,G006,MysticLegends,No,21,3.3,29/12/2025,26/03/2026,Inactivo
+277,María López,36,107.92,1085.17,movil,puzzle,Uruguay,G007,StarFleet,Sí,68,3.9,28/01/2025,27/11/2025,Inactivo
+278,Carlos Ruiz,15,60.76,468.3,mobile,rpg,España,G001,BattleZone,Sí,47,3.6,03/05/2025,07/02/2026,Activo
+279,Andrés Molina,27,96.87,1220.62,steam,sports,México,G007,StarFleet,No,82,5.0,08/08/2025,30/01/2026,Activo
+280,María López,27,6.37,139.83,PC ,moba,Chile,G004,PixelRoyale,Sí,28,2.6,02/09/2024,13/08/2025,Inactivo
+281,Natalia Vargas,45,25.67,2782.85,PS5,Shooter,Perú,G003,DragonRealm,Sí,24,1.7,04/03/2026,07/04/2026,Activo
+282,Pedro Sánchez,34,22.31,2390.68,movil,moba,Argentina,G003,DragonRealm,Sí,3,3.6,03/03/2026,25/03/2026,Inactivo
+283,Jorge Díaz,16,46.59,1538.25,XBOX,MOBA,Panamá,G005,CyberRacer,Sí,35,4.6,14/05/2025,06/02/2026,Inactivo
+284,Elena Martín,33,37.45,1938.3,pc,AVENTURA,España,G008,ThunderArena,Sí,24,3.6,21/04/2024,31/08/2025,Activo
+285,Elena Martín,26,42.45,5749.27,movil,Shooter,Guatemala,G004,PixelRoyale,Sí,37,4.1,12/10/2025,10/12/2025,Inactivo
+286,Sofía Herrera,34,56.76,872.55,mobile,Sports,España,G001,BattleZone,Sí,59,3.1,28/05/2024,10/03/2026,Inactivo
+287,María López,45,32.1,705.07,mobile,AVENTURA,Argentina,G003,DragonRealm,Sí,13,2.9,15/01/2024,09/02/2025,Inactivo
+288,Jorge Díaz,28,38.78,652.57,Switch,puZZle,Chile,G005,CyberRacer,Sí,73,2.4,16/04/2024,29/06/2024,Inactivo
+289,Natalia Vargas,28,66.65,2822.23,mobile,puZZle,España,G006,MysticLegends,Sí,49,3.6,25/03/2026,,Inactivo
+290,,40,59.39,2493.4,Play Station 5,rpg,Uruguay,G007,StarFleet,No,70,4.8,11/04/2024,03/11/2024,Inactivo
+291,Laura Gil,31,12.86,2998.8,PS5,rpg,México,G004,PixelRoyale,Sí,9,2.4,27/02/2026,10/03/2026,
+292,David Ortega,28,68.48,,pc,shootER,Costa Rica,G002,ShadowQuest,No,25,4.4,13/06/2024,06/08/2024,Inactivo
+293,,52,43.97,2110.68,pc,moba,Perú,G005,CyberRacer,Sí,1,1.5,13/09/2024,02/10/2025,Inactivo
+294,Carmen Vega,22,27.85,1362.2,Switch,RPG,Argentina,G001,BattleZone,No,29,3.4,27/06/2025,08/08/2025,Inactivo
+295,Carlos Ruiz,26,74.41,617.75,mobile,Sports,Uruguay,G002,ShadowQuest,Sí,74,3.6,21/07/2024,30/10/2025,Activo
+296,María López,32,6.1,,XBOX,RPG,Estados Unidos,G007,StarFleet,No,10,3.3,16/11/2024,13/02/2025,Activo
+297,Laura Gil,26,12.58,759.33,movil,Battle Royale,México,G005,CyberRacer,Sí,16,1.3,23/06/2024,28/07/2025,Inactivo
+298,David Ortega,27,42.14,2108.22,Steam,puZZle,México,G008,ThunderArena,Sí,52,3.1,17/04/2024,09/10/2025,Inactivo
+299,Miguel Torres,21,65.31,2137.45,XBOX,rpg,España,G008,ThunderArena,Sí,85,3.5,17/03/2025,03/10/2025,Inactivo
+300,Ana García,36,46.53,3784.9,PC ,Sports,España,G002,ShadowQuest,Sí,37,4.6,06/02/2025,05/12/2025,Inactivo

@@ -1,8 +1,8 @@
-,gasto_mensual_usd,gasto_mensual_usd,gasto_mensual_usd,gasto_mensual_usd,gasto_mensual_usd,gasto_mensual_usd,gasto_mensual_usd,horas_semanales,horas_semanales,horas_semanales,horas_semanales,horas_semanales,horas_semanales,horas_semanales
+,horas_semanales,horas_semanales,horas_semanales,horas_semanales,horas_semanales,horas_semanales,horas_semanales,ingreso_mensual_mxn,ingreso_mensual_mxn,ingreso_mensual_mxn,ingreso_mensual_mxn,ingreso_mensual_mxn,ingreso_mensual_mxn,ingreso_mensual_mxn
 genero_juego,aventura,battle_royale,deportes,moba,puzzle,rpg,shooter,aventura,battle_royale,deportes,moba,puzzle,rpg,shooter
 plataforma,,,,,,,,,,,,,,
-consola_microsoft,8.5,0.0,0.0,0.0,0.0,0.0,0.0,18.0,0.0,0.0,0.0,0.0,0.0,0.0
-consola_sony,0.0,0.0,0.0,19.99,0.0,37.0,27.0,0.0,0.0,0.0,22.0,0.0,33.0,16.0
-movil,0.0,0.0,0.0,0.0,1.99,0.0,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0
-nintendo_switch,7.25,0.0,0.0,0.0,0.0,0.0,0.0,15.5,0.0,12.0,0.0,0.0,0.0,0.0
-pc,0.0,3.99,0.0,89.99,0.0,200.0,0.0,0.0,5.5,0.0,42.0,0.0,120.0,0.0
+consola_microsoft,92.74000000000001,232.95,208.70999999999998,451.77,512.99,530.16,505.92,3576.8300000000004,10287.720000000001,8392.83,15121.24,17920.18,18071.02,31842.64
+consola_sony,465.44,267.89,418.49,98.74000000000001,594.18,688.0,314.88,18458.629999999997,8225.529999999999,11553.68,6398.0,20195.45,27746.41,13849.86
+movil,176.7,38.02,580.04,384.94,660.39,528.9,258.6,9956.27,812.71,14678.970000000001,19287.64,22695.04,18695.43,18031.65
+nintendo_switch,206.82,90.4,257.41,332.89,500.06,318.96,670.38,13398.7,3635.7999999999997,7316.315,11400.03,18249.285,20249.95,26359.55
+pc,381.11,397.01,698.15,698.5699999999999,624.84,519.8100000000001,573.96,19168.99,13519.99,24004.9,29702.25,22492.41,19537.86,26063.44
