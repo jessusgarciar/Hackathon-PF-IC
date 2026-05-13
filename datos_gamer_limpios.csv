@@ -1,0 +1,13 @@
+id_jugador,nombre,edad,horas_semanales,gasto_mensual_usd,plataforma,genero_juego,tipo_jugador,riesgo_abandono
+1,Ana García,22,5.5,3.99,pc,battle_royale,Casual,Alto
+3,Carlos Ruiz,30,8.0,15.0,consola_sony,rpg,Casual,Medio
+4,María López,19,18.0,8.5,consola_microsoft,aventura,Frecuente,Medio
+5,Luis Fernández,25,42.0,89.99,pc,moba,Hardcore,Bajo
+6,Sin nombre,28,12.0,0.0,nintendo_switch,deportes,Frecuente,Medio
+7,Pedro Sánchez,35,8.0,15.0,consola_sony,shooter,Casual,Medio
+8,Elena Martín,21,25.0,22.0,consola_sony,rpg,Frecuente,Bajo
+9,Pedro Sánchez,35,8.0,12.0,consola_sony,shooter,Casual,Medio
+10,Sofía Herrera,17,3.0,1.99,movil,puzzle,Casual,Alto
+11,Jorge Díaz,40,120.0,200.0,pc,rpg,Hardcore,Bajo
+12,Natalia Vargas,27,15.5,7.25,nintendo_switch,aventura,Frecuente,Medio
+13,Andrés Molina,31,22.0,19.99,consola_sony,moba,Frecuente,Medio

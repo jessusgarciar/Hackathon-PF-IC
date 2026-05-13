@@ -1,0 +1,14 @@
+id_jugador,nombre,edad,horas_semanales,gasto_mensual_usd,plataforma,genero_juego
+1,Ana García,22,5.5,3.99,PC ,Battle Royale
+1,Ana García,22,5.5,3.99,PC ,Battle Royale
+3,Carlos Ruiz,30,,15.0,playstation,RPG
+4,María López,19,18.0,8.50,XBOX,aventura
+5,Luis Fernández,25,42.0,89.99,steam,MOBA
+6,,28,12.0,0.0,nintendo switch,sports
+7,Pedro Sánchez,35,8.0,,PS5,shooter
+8,Elena Martín,21,25.0,22.0,Play Station 5,RPG
+9,Pedro Sánchez,35,8.0,12.0,ps5,Shooter
+10,Sofía Herrera,17,3.0,1.99,mobile,puzzle
+11,Jorge Díaz,40,120.0,200.0,PC,rpg
+12,Natalia Vargas,27,15.5,7.25,Switch,AVENTURA
+13,Andrés Molina,31,22.0,19.99,,MOBA
