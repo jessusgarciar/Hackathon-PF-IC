@@ -17,15 +17,23 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
+# ==========================================
+# CONFIGURACIÓN Y RUTAS
+# ==========================================
 BASE_DIR = Path(__file__).resolve().parent
 ARCHIVO_LIMPIO = BASE_DIR / "datos_gamer_limpios.csv"
 
-# Peso del gasto vs horas en el score de valor (negocio monetiza más el gasto directo)
+# Peso relativo: PixelQuest prioriza monetización directa frente a tiempo de sesión en el score compuesto.
 PESO_HORAS_EN_SCORE = 0.35
 PESO_GASTO_EN_SCORE = 0.65
 
 
 def cargar_limpio() -> pd.DataFrame:
+    """
+    Propósito (PixelQuest): Materializa el dataset ya gobernado por el ETL como única fuente de verdad analítica.
+
+    Regla de negocio: Solo se consume `datos_gamer_limpios.csv` — ningún cálculo de valor opera sobre filas crudas sin reglas de limpieza.
+    """
     if not ARCHIVO_LIMPIO.is_file():
         raise FileNotFoundError(
             f"No se encontró {ARCHIVO_LIMPIO}. Ejecute primero procesar_datos_gamer.py."
@@ -34,6 +42,11 @@ def cargar_limpio() -> pd.DataFrame:
 
 
 def min_max(s: pd.Series) -> pd.Series:
+    """
+    Propósito (PixelQuest): Pone horas y gasto en escala común para un índice de valor comparable entre jugadores.
+
+    Regla de negocio: Rango cero o degenerado → neutro 0.5 para no dominar el score cuando la muestra no discrimina.
+    """
     r = s.max() - s.min()
     if r == 0 or np.isnan(r):
         return pd.Series(0.5, index=s.index)
@@ -41,6 +54,14 @@ def min_max(s: pd.Series) -> pd.Series:
 
 
 def agregar_metricas_valor(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Propósito (PixelQuest): Enriquece el panel con segmentación de valor, ranking y proxy de afinidad para CRM y ofertas.
+
+    Regla de negocio:
+    - score_valor_jugador = 0.35×horas_norm + 0.65×gasto_norm (mayor peso al ARPU).
+    - segmento_valor en cuartiles sobre el score (Bronce → Platino).
+    - indice_afinidad_genero: gasto/hora como proxy de «dispuesto a pagar por hora de engagement» cuando horas>0.
+    """
     out = df.copy()
     out["horas_norm"] = min_max(out["horas_semanales"])
     out["gasto_norm"] = min_max(out["gasto_mensual_usd"])
@@ -54,7 +75,6 @@ def agregar_metricas_valor(df: pd.DataFrame) -> pd.DataFrame:
         out["score_valor_jugador"], bins=bins, labels=labels, include_lowest=True
     ).astype("string")
     out["rank_valor"] = out["score_valor_jugador"].rank(ascending=False, method="min").astype(int)
-    # Proxy de «calificación» / afinidad sin encuesta: engagement + disposición a pagar
     h = out["horas_semanales"].replace(0, np.nan)
     out["indice_afinidad_genero"] = out["gasto_mensual_usd"] / h
     out["indice_afinidad_genero"] = out["indice_afinidad_genero"].replace(
@@ -64,13 +84,23 @@ def agregar_metricas_valor(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def pct_mas(fraccion: float) -> str:
+    """
+    Propósito (PixelQuest): Formatea diferencias relativas en narrativa ejecutiva para hallazgos y bullets de negocio.
+
+    Regla de negocio: Texto estable («X% más/menos») para informes reproducibles sin depender del locale numérico.
+    """
     if fraccion >= 0:
         return f"{fraccion * 100:.1f}% más"
     return f"{-fraccion * 100:.1f}% menos"
 
 
 def hallazgos_negocio(df: pd.DataFrame) -> list[str]:
-    """Hallazgos accionables (se enumeran al imprimir)."""
+    """
+    Propósito (PixelQuest): Produce frases accionables (priorización de canales, CRM y monetización) a partir del panel limpio.
+
+    Regla de negocio: Orquesta comparaciones condicionales (Hardcore vs Casual, PC vs resto, concentración por plataforma,
+    gap entre segmentos de valor, cuartil superior de gasto) sin asumir causalidad — solo lecturas de la muestra actual.
+    """
     hallazgos: list[str] = []
 
     hc = df["tipo_jugador"] == "Hardcore"
@@ -145,6 +175,11 @@ def hallazgos_negocio(df: pd.DataFrame) -> list[str]:
 
 
 def _interpretacion_correlacion_horas_gasto(r: float) -> str:
+    """
+    Propósito (PixelQuest): Traduce el coeficiente Pearson entre horas y gasto en decisiones de campaña coordinadas.
+
+    Regla de negocio: Umbrales 0.5 / 0.2 segmentan fuerza de asociación; por debajo se recomienda estratificar antes de actuar.
+    """
     if pd.isna(r):
         return "No es posible calcular la correlación con los datos actuales."
     if r >= 0.5:
@@ -165,7 +200,13 @@ def _interpretacion_correlacion_horas_gasto(r: float) -> str:
 
 def consultas_dataframes(df: pd.DataFrame) -> tuple[dict[str, pd.DataFrame], dict[str, float | str]]:
     """
-    Mismas consultas que consultas_estrategicas, como DataFrames para UI (Streamlit, notebooks).
+    Propósito (PixelQuest): Empaqueta las consultas Q1–Q5 y metadatos Q6 para el panel Streamlit y CLI.
+
+    Regla de negocio:
+    - Q1: facturación y ARPU por plataforma.
+    - Q2: engagement por género con score 50/50 horas vs gasto tras min_max.
+    - Q4: riesgo normalizado por fila (%) para comparar perfiles entre plataformas con bases distintas.
+    - Q5: % alto riesgo dentro de cada segmento_valor para priorizar retención en tier alto.
     """
     ing = df.groupby("plataforma", observed=False)["gasto_mensual_usd"].agg(["sum", "mean", "count"])
     ing = ing.rename(columns={"sum": "gasto_total_usd", "mean": "gasto_promedio", "count": "jugadores"})
@@ -219,6 +260,11 @@ def consultas_dataframes(df: pd.DataFrame) -> tuple[dict[str, pd.DataFrame], dic
 
 
 def consultas_estrategicas(df: pd.DataFrame) -> None:
+    """
+    Propósito (PixelQuest): Salida batch en consola para auditoría y demos sin UI.
+
+    Regla de negocio: Mismas definiciones que `consultas_dataframes` — una sola verdad para terminal y dashboard.
+    """
     print("\n" + "=" * 72)
     print("CONSULTAS ESTRATÉGICAS (resultados sobre datos_gamer_limpios)")
     print("=" * 72)
@@ -258,6 +304,11 @@ def consultas_estrategicas(df: pd.DataFrame) -> None:
 
 
 def tabla_olap(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Propósito (PixelQuest): Cubo plataforma × género con suma de gasto y horas para análisis multidimensional y export.
+
+    Regla de negocio: Agregación sum — ingresos y carga de juego total por celda; celdas vacías en la muestra → 0.
+    """
     pivot = pd.pivot_table(
         df,
         values=["gasto_mensual_usd", "horas_semanales"],
@@ -271,17 +322,26 @@ def tabla_olap(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def configurar_estilo() -> None:
+    """
+    Propósito (PixelQuest): Unifica estética de figuras exportadas para informes externos a Streamlit.
+
+    Regla de negocio: Tema fijo (whitegrid + context talk) para comparabilidad visual entre ejecuciones del script.
+    """
     sns.set_theme(style="whitegrid", context="talk")
     plt.rcParams["figure.figsize"] = (10, 5)
     plt.rcParams["axes.titlesize"] = 14
 
 
 def dashboard(df: pd.DataFrame) -> None:
+    """
+    Propósito (PixelQuest): Genera PNG con narrativa de negocio en consola para storytelling offline.
+
+    Regla de negocio: Mismos cruces que el panel (plataforma, género, tipo_jugador) — decisiones alineadas con la app web.
+    """
     configurar_estilo()
     out_dir = BASE_DIR / "salida_analisis_gamer"
     out_dir.mkdir(exist_ok=True)
 
-    # Gráfica 1: Gasto total por plataforma
     fig1, ax1 = plt.subplots()
     ing = df.groupby("plataforma", observed=False)["gasto_mensual_usd"].sum().sort_values(ascending=True)
     ing.plot(kind="barh", ax=ax1, color=sns.color_palette("viridis", n_colors=len(ing)))
@@ -299,7 +359,6 @@ def dashboard(df: pd.DataFrame) -> None:
     )
     print(f"    Archivo: {p1}")
 
-    # Gráfica 2: Heatmap cruce plataforma × género (gasto)
     gasto_pivot = pd.pivot_table(
         df,
         values="gasto_mensual_usd",
@@ -330,7 +389,6 @@ def dashboard(df: pd.DataFrame) -> None:
     )
     print(f"    Archivo: {p2}")
 
-    # Gráfica 3: Gasto por tipo de jugador (caja + puntos)
     fig3, ax3 = plt.subplots()
     orden = ["Casual", "Frecuente", "Hardcore"]
     orden = [x for x in orden if x in df["tipo_jugador"].unique()]
@@ -366,7 +424,14 @@ def main() -> None:
         except (AttributeError, OSError):
             pass
 
+    # ==========================================
+    # CARGA
+    # ==========================================
     df = cargar_limpio()
+
+    # ==========================================
+    # MINERÍA (valor / segmento / rank)
+    # ==========================================
     df = agregar_metricas_valor(df)
 
     print("=== Minería: score de valor y segmento ===")
@@ -388,8 +453,14 @@ def main() -> None:
     for i, h in enumerate(hallazgos_negocio(df)[:8], start=1):
         print(f"{i}. {h}")
 
+    # ==========================================
+    # CONSULTAS
+    # ==========================================
     consultas_estrategicas(df)
 
+    # ==========================================
+    # OLAP
+    # ==========================================
     pivot = tabla_olap(df)
     print("\n" + "=" * 72)
     print("TABLA OLAP (pivot_table): plataforma × género — suma de gasto y horas")
@@ -399,6 +470,9 @@ def main() -> None:
     pivot.to_csv(BASE_DIR / "olap_plataforma_genero.csv")
     print(f"\nPivot exportado: {BASE_DIR / 'olap_plataforma_genero.csv'}")
 
+    # ==========================================
+    # VISUALIZACIÓN (export estático)
+    # ==========================================
     print("\n=== DASHBOARD (gráficas + interpretación) ===")
     dashboard(df)
     print("\nListo.")

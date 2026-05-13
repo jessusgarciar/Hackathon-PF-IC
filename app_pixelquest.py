@@ -1,5 +1,7 @@
 """
-PixelQuest Studios - BI sobre datos de jugadores.
+PixelQuest Studios — Panel de BI (Streamlit) sobre la base limpia y métricas de valor.
+
+Orquesta carga, KPIs, export OLAP y visualización interactiva reutilizando el núcleo analítico compartido.
 """
 
 from __future__ import annotations
@@ -19,6 +21,9 @@ from analisis_inteligencia_gamer import (
     tabla_olap,
 )
 
+# ==========================================
+# CONFIGURACIÓN Y RUTAS
+# ==========================================
 BASE_DIR = Path(__file__).resolve().parent
 ARCHIVO_CRUDO = BASE_DIR / "datos_gamer.csv"
 
@@ -32,6 +37,11 @@ st.set_page_config(
 
 @st.cache_data
 def cargar_crudos() -> pd.DataFrame | None:
+    """
+    Propósito (PixelQuest): Muestra el CSV original en la pestaña de exploración para validar trazabilidad ETL.
+
+    Regla de negocio: Sin archivo crudo, la app sigue operando con el panel limpio — este origen es opcional solo para contraste QA.
+    """
     if not ARCHIVO_CRUDO.is_file():
         return None
     return pd.read_csv(ARCHIVO_CRUDO, encoding="utf-8")
@@ -39,11 +49,21 @@ def cargar_crudos() -> pd.DataFrame | None:
 
 @st.cache_data
 def cargar_analitica() -> pd.DataFrame:
+    """
+    Propósito (PixelQuest): Alimenta todos los tabs con el dataset enriquecido (valor, segmento, rank) coherentes con el CLI.
+
+    Regla de negocio: Misma secuencia que el análisis batch: `cargar_limpio` → `agregar_metricas_valor` (pesos 0.35/0.65).
+    """
     df = cargar_limpio()
     return agregar_metricas_valor(df)
 
 
 def main() -> None:
+    """
+    Propósito (PixelQuest): Experiencia única de consumo para Producto y Marketing — exploración, KPIs, cubo y gráficos.
+
+    Regla de negocio: Las consultas Q1–Q5 y el pivot replican definiciones de `analisis_inteligencia_gamer` sin duplicar lógica.
+    """
     st.markdown(
         """
         <style>
@@ -66,7 +86,14 @@ def main() -> None:
         )
         return
 
+    # ==========================================
+    # CARGA (panel + opcional crudos)
+    # ==========================================
     df_crudos = cargar_crudos()
+
+    # ==========================================
+    # CONSULTAS + OLAP + HALLAZGOS (núcleo compartido)
+    # ==========================================
     tablas, meta = consultas_dataframes(df)
     pivot = tabla_olap(df)
     hallazgos = hallazgos_negocio(df)
@@ -83,6 +110,9 @@ def main() -> None:
         ["1. Datos crudos / limpios", "2. KPIs y consultas", "3. Tabla OLAP", "4. Gráficas interactivas"]
     )
 
+    # ==========================================
+    # UI — Exploración (crudos vs limpios)
+    # ==========================================
     with t1:
         st.subheader("Exploración de datos")
         modo = st.radio(
@@ -119,6 +149,9 @@ def main() -> None:
                 "Incluye segmento de valor, ranking y variables del pipeline de limpieza (`procesar_datos_gamer.py`)."
             )
 
+    # ==========================================
+    # UI — KPIs y consultas
+    # ==========================================
     with t2:
         st.subheader("Indicadores y consultas estratégicas")
         c1, c2, c3, c4 = st.columns(4)
@@ -159,6 +192,9 @@ def main() -> None:
         st.markdown("##### Q6 — Horas y gasto")
         st.write(meta["interpretacion_correlacion"])
 
+    # ==========================================
+    # UI — OLAP
+    # ==========================================
     with t3:
         st.subheader("Cubo OLAP — Plataforma × Género")
         st.caption("Suma de `gasto_mensual_usd` y `horas_semanales` por celda.")
@@ -172,6 +208,9 @@ def main() -> None:
             mime="text/csv",
         )
 
+    # ==========================================
+    # UI — Minería visual (gráficas)
+    # ==========================================
     with t4:
         st.subheader("Visualizaciones interactivas")
         ing = (
