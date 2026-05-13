@@ -144,18 +144,33 @@ def hallazgos_negocio(df: pd.DataFrame) -> list[str]:
     return hallazgos
 
 
-def consultas_estrategicas(df: pd.DataFrame) -> None:
-    print("\n" + "=" * 72)
-    print("CONSULTAS ESTRATÉGICAS (resultados sobre datos_gamer_limpios)")
-    print("=" * 72)
+def _interpretacion_correlacion_horas_gasto(r: float) -> str:
+    if pd.isna(r):
+        return "No es posible calcular la correlación con los datos actuales."
+    if r >= 0.5:
+        return (
+            "Asociación fuerte positiva: campañas que aumenten sesión suelen acompañar ticket; "
+            "coordinar retención y monetización."
+        )
+    if r >= 0.2:
+        return (
+            "Asociación moderada: hay jugadores que «grindean sin pagar» y otros que «pagan sin grind»; "
+            "personalizar ofertas según segmento_valor."
+        )
+    return (
+        "Relación débil en este panel: revisar con más datos o por estratos (plataforma/género) "
+        "antes de inferir causalidad."
+    )
 
-    # Q1: Ingresos por plataforma
+
+def consultas_dataframes(df: pd.DataFrame) -> tuple[dict[str, pd.DataFrame], dict[str, float | str]]:
+    """
+    Mismas consultas que consultas_estrategicas, como DataFrames para UI (Streamlit, notebooks).
+    """
     ing = df.groupby("plataforma", observed=False)["gasto_mensual_usd"].agg(["sum", "mean", "count"])
     ing = ing.rename(columns={"sum": "gasto_total_usd", "mean": "gasto_promedio", "count": "jugadores"})
-    print("\nQ1) ¿Qué plataforma genera mayores ingresos (suma de gasto mensual)?")
-    print(ing.sort_values("gasto_total_usd", ascending=False).to_string())
+    ing = ing.sort_values("gasto_total_usd", ascending=False)
 
-    # Q2: «Calificación» por género — proxy: horas promedio (engagement) + gasto promedio
     gen = (
         df.groupby("genero_juego", observed=False)
         .agg(
@@ -165,30 +180,18 @@ def consultas_estrategicas(df: pd.DataFrame) -> None:
         )
         .sort_values("horas_promedio", ascending=False)
     )
-    gen["score_engagement_genero"] = min_max(gen["horas_promedio"]) * 0.5 + min_max(
-        gen["gasto_promedio"]
-    ) * 0.5
-    print(
-        "\nQ2) ¿Qué género muestra mayor engagement y valor? "
-        "(Proxy sin encuesta: media de horas y gasto; columna score_engagement_genero)"
-    )
-    print(gen.sort_values("score_engagement_genero", ascending=False).to_string())
+    gen = gen.copy()
+    gen["score_engagement_genero"] = min_max(gen["horas_promedio"]) * 0.5 + min_max(gen["gasto_promedio"]) * 0.5
+    gen = gen.sort_values("score_engagement_genero", ascending=False)
 
-    # Q3: Tipo de jugador que más gasta
     tipo = (
         df.groupby("tipo_jugador", observed=False)["gasto_mensual_usd"]
         .agg(promedio="mean", total="sum", n="count")
         .sort_values("promedio", ascending=False)
     )
-    print("\nQ3) ¿Qué tipo de jugador gasta más (promedio y total)?")
-    print(tipo.to_string())
 
-    # Q4: Riesgo de abandono por plataforma
-    riesgo = pd.crosstab(df["plataforma"], df["riesgo_abandono"], normalize="index") * 100
-    print("\nQ4) Distribución de riesgo de abandono por plataforma (% por fila):")
-    print(riesgo.round(1).to_string())
+    riesgo = (pd.crosstab(df["plataforma"], df["riesgo_abandono"], normalize="index") * 100).round(1)
 
-    # Q5: Segmento de valor vs retención
     crm = (
         df.groupby("segmento_valor", observed=False)
         .agg(
@@ -197,31 +200,61 @@ def consultas_estrategicas(df: pd.DataFrame) -> None:
             pct_alto_riesgo=("riesgo_abandono", lambda s: (s == "Alto").mean() * 100),
         )
         .sort_values("gasto_medio", ascending=False)
-    )
-    print("\nQ5) Segmento de valor vs intensidad de riesgo alto (%):")
-    print(crm.round(2).to_string())
+    ).round(2)
 
-    r = df["horas_semanales"].corr(df["gasto_mensual_usd"])
+    r = float(df["horas_semanales"].corr(df["gasto_mensual_usd"]))
+
+    tablas = {
+        "q1_ingresos_plataforma": ing,
+        "q2_genero_engagement": gen,
+        "q3_tipo_jugador_gasto": tipo,
+        "q4_riesgo_por_plataforma_pct": riesgo,
+        "q5_segmento_valor_crm": crm,
+    }
+    meta = {
+        "correlacion_horas_gasto": r,
+        "interpretacion_correlacion": _interpretacion_correlacion_horas_gasto(r),
+    }
+    return tablas, meta
+
+
+def consultas_estrategicas(df: pd.DataFrame) -> None:
+    print("\n" + "=" * 72)
+    print("CONSULTAS ESTRATÉGICAS (resultados sobre datos_gamer_limpios)")
+    print("=" * 72)
+
+    tablas, meta = consultas_dataframes(df)
+    ing = tablas["q1_ingresos_plataforma"]
+    gen = tablas["q2_genero_engagement"]
+    tipo = tablas["q3_tipo_jugador_gasto"]
+    riesgo = tablas["q4_riesgo_por_plataforma_pct"]
+    crm = tablas["q5_segmento_valor_crm"]
+    r = meta["correlacion_horas_gasto"]
+
+    print("\nQ1) ¿Qué plataforma genera mayores ingresos (suma de gasto mensual)?")
+    print(ing.to_string())
+
+    print(
+        "\nQ2) ¿Qué género muestra mayor engagement y valor? "
+        "(Proxy sin encuesta: media de horas y gasto; columna score_engagement_genero)"
+    )
+    print(gen.to_string())
+
+    print("\nQ3) ¿Qué tipo de jugador gasta más (promedio y total)?")
+    print(tipo.to_string())
+
+    print("\nQ4) Distribución de riesgo de abandono por plataforma (% por fila):")
+    print(riesgo.to_string())
+
+    print("\nQ5) Segmento de valor vs intensidad de riesgo alto (%):")
+    print(crm.to_string())
+
     print(
         "\nQ6) ¿Horas de juego y gasto van de la mano? (correlación Pearson en la muestra)"
     )
     print(f"    correlacion(horas_semanales, gasto_mensual_usd) = {r:.3f}")
     if pd.notna(r):
-        if r >= 0.5:
-            print(
-                "    Lectura: asociación fuerte positiva — campañas que aumenten sesión suelen "
-                "acompañar ticket; coordinar retención y monetización."
-            )
-        elif r >= 0.2:
-            print(
-                "    Lectura: asociación moderada — hay jugadores 'grindean sin pagar' y 'pagan sin grind'; "
-                "personalizar ofertas según segmento_valor."
-            )
-        else:
-            print(
-                "    Lectura: relación débil en este panel — revisar con más datos o por estratos "
-                "(plataforma/género) antes de inferir causalidad."
-            )
+        print(f"    Lectura: {meta['interpretacion_correlacion']}")
 
 
 def tabla_olap(df: pd.DataFrame) -> pd.DataFrame:
